@@ -1,0 +1,11 @@
+import{c as a,j as e,L as s}from"./index-DzJONnFX.js";/**
+ * @license lucide-react v0.344.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const t=a("Home",[["path",{d:"m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",key:"y5dka4"}],["polyline",{points:"9 22 9 12 15 12 15 22",key:"e2us08"}]]);/**
+ * @license lucide-react v0.344.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=a("Search",[["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}],["path",{d:"m21 21-4.3-4.3",key:"1qie3q"}]]),r=()=>e.jsx("div",{className:"min-h-screen bg-gray-50 flex items-center justify-center px-4",children:e.jsxs("div",{className:"text-center max-w-2xl",children:[e.jsxs("div",{className:"mb-8",children:[e.jsx("h1",{className:"text-9xl font-bold text-academic-blue mb-4",children:"404"}),e.jsxs("div",{className:"flex items-center justify-center gap-2 mb-4",children:[e.jsx(c,{className:"w-6 h-6 text-gray-400"}),e.jsx("h2",{className:"text-3xl font-semibold text-gray-800",children:"Page Not Found"})]}),e.jsx("p",{className:"text-gray-600 text-lg mb-8",children:"Sorry, we couldn't find the page you're looking for. The page may have been moved or doesn't exist."})]}),e.jsxs("div",{className:"space-y-4",children:[e.jsxs(s,{to:"/",className:"inline-flex items-center gap-2 bg-academic-blue text-white px-8 py-3 rounded-lg hover:bg-blue-800 transition-colors font-medium",children:[e.jsx(t,{className:"w-5 h-5"}),"Back to Home"]}),e.jsxs("div",{className:"pt-8 border-t border-gray-200",children:[e.jsx("p",{className:"text-sm text-gray-500 mb-4",children:"Quick Links:"}),e.jsxs("div",{className:"flex flex-wrap justify-center gap-4",children:[e.jsx(s,{to:"/about",className:"text-academic-blue hover:underline",children:"About Us"}),e.jsx(s,{to:"/faculty",className:"text-academic-blue hover:underline",children:"Faculty"}),e.jsx(s,{to:"/research",className:"text-academic-blue hover:underline",children:"Research"}),e.jsx(s,{to:"/contact",className:"text-academic-blue hover:underline",children:"Contact"})]})]})]})]})});export{r as default};

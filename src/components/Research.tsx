@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight, Microscope, Zap, Cpu, Heart, Wrench, Atom, ExternalLink } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 interface ResearchLab {
   id: number;
@@ -73,109 +72,78 @@ const Research: React.FC = () => {
   const labIcons = [Microscope, Atom, Zap, Cpu, Heart, Wrench];
 
   return (
-    <section id="research" className="py-20 lg:py-32 bg-gradient-to-b from-white to-gray-50/50 relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
-        <motion.div
-          className="absolute top-20 right-20 w-80 h-80 bg-blue-100/20 rounded-full blur-3xl"
-          animate={{ 
-            rotate: [0, 360],
-            scale: [1, 1.2, 1]
-          }}
-          transition={{ duration: 20, repeat: Infinity }}
-        />
-        <motion.div
-          className="absolute bottom-20 left-20 w-96 h-96 bg-purple-100/15 rounded-full blur-3xl"
-          animate={{ 
-            rotate: [360, 0],
-            scale: [1.2, 1, 1.2]
-          }}
-          transition={{ duration: 25, repeat: Infinity }}
-        />
-      </div>
-      
+    <section id="research" className="py-20 lg:py-32 bg-gray-50 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-200/50 text-indigo-700 px-4 py-2 rounded-full text-sm font-semibold mb-4 shadow-sm">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center space-x-2 bg-academic-blue/10 border border-academic-blue/20 text-academic-blue px-4 py-2 rounded-md text-sm font-semibold mb-4">
             <Microscope className="w-4 h-4" />
             <span>Research Excellence</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-indigo-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">
             Research & Laboratories
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
+          <p className="text-xl text-academic-gray/80 max-w-3xl mx-auto mb-6">
             Explore our world-class research facilities and cutting-edge laboratories driving innovation in materials science
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full"></div>
-        </motion.div>
+          <div className="w-24 h-1 bg-academic-blue mx-auto rounded-full"></div>
+        </div>
 
         {/* Research Labs Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {researchLabs.map((lab, index) => {
             const IconComponent = labIcons[index % labIcons.length];
             return (
-              <motion.div
+              <div
                 key={lab.id}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -12, scale: 1.02 }}
-                className="group bg-white/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-xl shadow-gray-200/50 border border-gray-100 hover:shadow-2xl hover:shadow-gray-300/50 transition-all duration-500 cursor-pointer"
+                className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-200 hover:shadow-lg transition-all duration-300"
               >
                 {/* Lab Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={lab.image}
                     alt={lab.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                  <div className="absolute inset-0 bg-black/30"></div>
                   
                   {/* Icon */}
                   <div className="absolute top-4 left-4">
-                    <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center border border-white/30 shadow-lg">
-                      <IconComponent className="w-6 h-6 text-white" />
+                    <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center shadow-sm">
+                      <IconComponent className="w-5 h-5 text-academic-blue" />
                     </div>
                   </div>
 
                   {/* Stats */}
                   <div className="absolute bottom-4 right-4 flex space-x-2">
-                    <div className="bg-white/90 backdrop-blur-md rounded-full px-3 py-1 shadow-lg">
-                      <span className="text-xs font-semibold text-gray-800">{lab.publications} Papers</span>
+                    <div className="bg-white rounded-md px-3 py-1 shadow-sm">
+                      <span className="text-xs font-semibold text-academic-gray">{lab.publications} Papers</span>
                     </div>
-                    <div className="bg-white/90 backdrop-blur-md rounded-full px-3 py-1 shadow-lg">
-                      <span className="text-xs font-semibold text-gray-800">{lab.funding}</span>
+                    <div className="bg-white rounded-md px-3 py-1 shadow-sm">
+                      <span className="text-xs font-semibold text-academic-gray">{lab.funding}</span>
                     </div>
                   </div>
                 </div>
 
                 {/* Lab Content */}
-                <div className="p-8">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4 group-hover:text-indigo-600 transition-colors">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-academic-gray mb-4 hover:text-academic-blue transition-colors">
                     {lab.name}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed mb-6 text-sm">
+                  <p className="text-academic-gray/80 leading-relaxed mb-6 text-sm">
                     {lab.description}
                   </p>
 
                   {/* Focus Areas */}
                   <div className="mb-6">
-                    <h4 className="text-xs font-bold text-gray-800 mb-3 uppercase tracking-wide">
+                    <h4 className="text-xs font-bold text-academic-gray mb-3 uppercase tracking-wide">
                       Focus Areas
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {lab.focus.map((area, idx) => (
                         <span
                           key={idx}
-                          className="px-3 py-1 bg-gradient-to-r from-indigo-50 to-purple-50 text-indigo-700 text-xs rounded-full font-medium border border-indigo-200/50 shadow-sm"
+                          className="px-3 py-1 bg-academic-blue/10 text-academic-blue text-xs rounded-md font-medium"
                         >
                           {area}
                         </span>
@@ -184,86 +152,47 @@ const Research: React.FC = () => {
                   </div>
 
                   {/* Learn More Button */}
-                  <motion.div
-                    className="flex items-center justify-between bg-gradient-to-r from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 px-4 py-3 rounded-2xl transition-all duration-300 group-hover:shadow-md border border-indigo-100/50"
-                    whileHover={{ x: 4 }}
-                  >
-                    <span className="text-sm font-semibold text-indigo-600">Explore Lab</span>
+                  <div className="flex items-center justify-between bg-gray-50 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-300 border border-gray-200">
+                    <span className="text-sm font-semibold text-academic-blue">Explore Lab</span>
                     <div className="flex items-center space-x-2">
-                      <ArrowRight size={16} className="text-indigo-600 group-hover:translate-x-1 transition-transform" />
-                      <ExternalLink size={14} className="text-indigo-400" />
+                      <ArrowRight size={16} className="text-academic-blue" />
+                      <ExternalLink size={14} className="text-academic-gray" />
                     </div>
-                  </motion.div>
+                  </div>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
 
         {/* Research Highlights */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-3xl p-12 md:p-16 overflow-hidden"
-        >
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <motion.div
-              className="absolute top-10 left-10 w-32 h-32 border-2 border-white rounded-full"
-              animate={{ rotate: [0, 360] }}
-              transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            />
-            <motion.div
-              className="absolute bottom-10 right-10 w-48 h-48 border-2 border-white rounded-full"
-              animate={{ rotate: [360, 0] }}
-              transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-            />
-            <motion.div
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-white rounded-full"
-              animate={{ scale: [1, 1.1, 1] }}
-              transition={{ duration: 8, repeat: Infinity }}
-            />
-          </div>
-          
+        <div className="relative bg-academic-blue rounded-lg p-12 md:p-16 overflow-hidden">
           <div className="relative text-center text-white">
-            <motion.h3
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-bold mb-12"
-            >
+            <h3 className="text-3xl md:text-4xl font-bold mb-12">
               Research Impact & Excellence
-            </motion.h3>
+            </h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {[
-                { number: "237+", label: "Publications per Year", delay: 0 },
-                { number: "₹15Cr+", label: "Research Funding", delay: 0.1 },
-                { number: "35+", label: "Industry Partnerships", delay: 0.2 },
-                { number: "12+", label: "Patent Applications", delay: 0.3 }
-              ].map((stat, index) => (
-                <motion.div
+                { number: "237+", label: "Publications per Year" },
+                { number: "₹15Cr+", label: "Research Funding" },
+                { number: "35+", label: "Industry Partnerships" },
+                { number: "12+", label: "Patent Applications" }
+              ].map((stat) => (
+                <div
                   key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: stat.delay }}
-                  viewport={{ once: true }}
-                  whileHover={{ scale: 1.05 }}
-                  className="text-center group cursor-pointer"
+                  className="text-center"
                 >
-                  <div className="text-4xl md:text-5xl font-bold mb-3 group-hover:scale-110 transition-transform">
+                  <div className="text-4xl md:text-5xl font-bold mb-3">
                     {stat.number}
                   </div>
-                  <div className="text-blue-100 font-medium text-lg">
+                  <div className="text-white/80 font-medium text-lg">
                     {stat.label}
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

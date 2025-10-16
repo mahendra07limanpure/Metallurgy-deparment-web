@@ -1,0 +1,211 @@
+{
+  "name": "Dr. B. S. Sundar Daniel",
+  "designation": "Professor and Head of the Department",
+  "email": "sundar.daniel@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "https://sites.google.com/view/mme-iit-roorkee/people/faculty/sundar-daniel",
+  "google_scholar": "https://scholar.google.com/citations?user=wt7mbkkAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/b-s-s-daniel-1b035520/",
+  "research_interests": [
+    "Metal Foam",
+    "Nanomaterials",
+    "Metal Matrix Composites",
+    "Metallic Glasses",
+    "Superplasticity"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "IIT Kanpur",
+      "specialization": "Composite Materials",
+      "year": "1997"
+    },
+    {
+      "degree": "ME (Int), Metallurgy",
+      "institution": "IISc Bangalore",
+      "year": "1992"
+    },
+    {
+      "degree": "BSc, Physics",
+      "institution": "MCC (Autonomous), Madras University",
+      "year": "1988"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Professor",
+      "organization": "Department of Metallurgical & Materials Engineering, IIT Roorkee",
+      "period": "01 Apr 2014 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Department of Metallurgical & Materials Engineering and Centre of Nanotechnology",
+      "period": "01 Jun 2004 - 01 Sep 2009"
+    },
+    {
+      "position": "Professor and Head",
+      "organization": "Department of Mechanical Engineering, KCG College of Technology, Anna University, Chennai",
+      "period": "01 Mar 2003 - 31 May 2004"
+    },
+    {
+      "position": "Visiting Scientist",
+      "organization": "Techniche Facultaet, Christian Albrechts Universitaet, Kiel, Germany",
+      "period": "01 Jul 2001 - 31 Jan 2003"
+    },
+    {
+      "position": "Post-doctoral Fellow",
+      "organization": "Institute for Solid State and Materials Research (IFW), Dresden, Germany",
+      "period": "01 Jan 2000 - 30 Jun 2001"
+    },
+    {
+      "position": "Project Engineer",
+      "organization": "IIT Kanpur",
+      "period": "01 Jan 1998 - 31 Dec 1999"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Insitu Aluminium alloy matrix composites by hybrid processing of melts",
+      "funding_agency": "CSIR",
+      "amount_lakhs": 14.92,
+      "date": "26 Feb 2013"
+    },
+    {
+      "title": "A feasibility study to process Steel Foam",
+      "funding_agency": "Naval Research Board",
+      "amount_lakhs": 24.91,
+      "date": "21 Nov 2013"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Strengthening mechanisms in ultrasonically processed aluminium matrix composite with in-situ Al3Ti by salt addition",
+      "year": 2018,
+      "authors": ["R Gupta", "GP Chaudhari", "BSS Daniel*"],
+      "journal": "Composites Part B-Engineering",
+      "publisher": "Elsevier",
+      "pages": "27–34",
+      "volume": "140"
+    },
+    {
+      "title": "Strengthening Mechanisms in Al3Zr-Reinforced Aluminum Composite Prepared by Ultrasonic Assisted Casting",
+      "year": 2021,
+      "authors": ["R Gupta", "BSS Daniel*"],
+      "journal": "Journal of Materials Engineering and Performance",
+      "publisher": "Springer",
+      "pages": "1–10"
+    },
+    {
+      "title": "Impression creep behaviour of ultrasonically processed in-situ Al3Zr-Al alloy composite in as-cast condition",
+      "year": 2020,
+      "authors": ["R Gupta", "BSS Daniel*"],
+      "journal": "Materials Characterization",
+      "publisher": "Elsevier",
+      "volume": "169",
+      "pages": "110594"
+    },
+    {
+      "title": "Physical Simulation and Processing Map of Aluminum 7068 Alloy",
+      "year": 2019,
+      "authors": ["N Raja", "BSS Daniel"],
+      "journal": "Materials Performance and Characterization",
+      "publisher": "ASTM International",
+      "volume": "8 (5)",
+      "pages": "1050–1061"
+    },
+    {
+      "title": "Impression creep behaviour of ultrasonically processed in-situ Al3Ti reinforced aluminium composite",
+      "year": 2018,
+      "authors": ["R Gupta", "BSS Daniel*"],
+      "journal": "Materials Science and Engineering A",
+      "publisher": "Elsevier",
+      "volume": "733",
+      "pages": "257–266"
+    },
+    {
+      "title": "Synthesis of nanocrystalline Co–Ni alloys by precursor approach and studies on their magnetic properties",
+      "year": 2011,
+      "authors": ["S Panday", "BSS Daniel*", "P Jeevanandam*"],
+      "journal": "Journal of Magnetism and Magnetic Material",
+      "publisher": "Elsevier",
+      "volume": "323",
+      "pages": "2271–2280"
+    },
+    {
+      "title": "Microstructural evolution of as-cast Th–U alloys",
+      "year": 2016,
+      "authors": ["S Das*", "SB Roy", "GP Chaudhari", "BSS Daniel"],
+      "journal": "Progress in Nuclear Energy",
+      "publisher": "Elsevier",
+      "volume": "88",
+      "pages": "285–296"
+    },
+    {
+      "title": "Characterization of microstructural, mechanical and thermophysical properties of Th-52U alloy",
+      "year": 2016,
+      "authors": ["S Das", "S Kaity", "R Kumar", "J Banerjee", "SB Roy", "GP Chaudhari", "BSS Daniel"],
+      "journal": "Journal of Nuclear Materials",
+      "publisher": "Elsevier",
+      "volume": "480",
+      "pages": "223–234"
+    },
+    {
+      "title": "Strain-free graphite nanoparticle synthesis by mechanical milling",
+      "year": 2015,
+      "authors": ["H Panjiar", "RP Gakkhar", "BSS Daniel*"],
+      "journal": "Powder Technology",
+      "publisher": "Elsevier",
+      "volume": "275",
+      "pages": "25–29"
+    }
+  ],
+  "books": [
+    {
+      "title": "MMC, CMC and Microstructural gradients by nitridation of Al alloys",
+      "authors": ["V. Jayaram", "B.S.S. Daniel", "N. Nagendra", "H.R. Muralidhar"],
+      "publication": "Advanced Materials '93",
+      "year": 1994
+    },
+    {
+      "title": "Nanomaterials and Devices: Processing and Applications",
+      "editors": ["S. Ray", "S.K. Nath", "A. Kumar", "R.C. Agarwala", "V. Agarwala", "G.P. Chaudhari", "B.S.S. Daniel"],
+      "publisher": "Trans Tech Inc., Switzerland",
+      "year": 2009
+    },
+    {
+      "title": "Advances in Materials Development: A festschrift honouring Professor Subrata Ray",
+      "editor": "B.S.S. Daniel",
+      "publisher": "Trans Tech Publications, Switzerland",
+      "volume": "Materials Science Forum Vol. 736",
+      "year": 2012
+    },
+    {
+      "title": "Advances in Materials and Processing: Challenges and Opportunities",
+      "editors": ["B.S.S. Daniel", "G.P. Chaudhari"],
+      "publisher": "Trans Tech Publications, Switzerland",
+      "volume": "Advanced Materials Research, Vol. 585",
+      "year": 2012
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "01 Jun 2004 - Present"
+    }
+  ],
+  "teaching_engagements": [
+    {
+      "course": "Structural Metallurgy (MT-104)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Composite Materials (MT-522)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Electron Microscopy (MTN-533)",
+      "semester": "Autumn"
+    }
+  ]
+}
