@@ -1,0 +1,109 @@
+{
+  "name": "Dr. Rajeshwar Reddy Eleti",
+  "designation": "Assistant Professor",
+  "email": "rajeshwar.eleti@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "",
+
+  "research_interests": [
+    "Microstructure of materials",
+    "Mechanical behavior of materials",
+    "High entropy alloys (HEAs)",
+    "Medium entropy alloys (MEAs)",
+    "Plastic deformation mechanisms",
+    "High temperature deformation",
+    "Cryogenic deformation behavior",
+    "Grain boundary sliding",
+    "Dynamic recrystallization",
+    "Texture evolution in alloys",
+    "Transformation induced plasticity (TRIP)",
+    "Solid solution strengthening"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "Kyoto University",
+      "year": "2019"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "Indian Institute of Technology Roorkee",
+      "period": "28 Apr 2022 - Present"
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Cross-kink unpinning controls the medium- to high-temperature strength of body-centered cubic NbTiZr medium-entropy alloys",
+      "authors": "R. R. Eleti et al.",
+      "year": "2022",
+      "journal": "Scripta Materialia",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Plastic deformation of solid-solution strengthened Hf-Nb-Ta-Ti-Zr BCC MEAs/HEAs",
+      "authors": "R. R. Eleti et al.",
+      "year": "2021",
+      "journal": "Scripta Materialia",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Exceptionally high strain-hardening and ductility due to transformation induced plasticity effect in Ti-rich high-entropy alloys",
+      "authors": "R. R. Eleti et al.",
+      "year": "2020",
+      "journal": "Scientific Reports",
+      "publisher": "Nature"
+    },
+    {
+      "title": "Mechanical behavior and thermal activation analysis of HfNbTaTiZr BCC-HEA during tensile deformation at 77K",
+      "authors": "R. R. Eleti et al.",
+      "year": "2020",
+      "journal": "Scripta Materialia",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Unique High-Temperature Deformation Dominated by Grain Boundary Sliding in Heterogeneous Necklace Structure Formed by Dynamic Recrystallization in HfNbTaTiZr BCC Refractory High Entropy Alloy",
+      "authors": "R. R. Eleti et al.",
+      "year": "2020",
+      "journal": "Acta Materialia",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Unique deformation behavior and microstructure evolution in high temperature processing of HfNbTaTiZr refractory high entropy alloy",
+      "authors": "R. R. Eleti et al.",
+      "year": "2019",
+      "journal": "Acta Materialia",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Influence of strain on the formation of cold-rolling and grain growth textures of an equiatomic HfZrTiTaNb refractory high entropy alloy",
+      "authors": "R. R. Eleti et al.",
+      "year": "2018",
+      "journal": "Materials Characterization",
+      "publisher": "Elsevier"
+    },
+    {
+      "title": "Hot deformation behavior of CoCrFeMnNi FCC high entropy alloy",
+      "authors": "R. R. Eleti et al.",
+      "year": "2018",
+      "journal": "Materials Chemistry and Physics",
+      "publisher": "Elsevier"
+    }
+  ],
+
+  "honors_and_awards": [
+    {
+      "title": "Academic Excellence Award",
+      "organization": "Indian Institute of Technology Hyderabad",
+      "year": "2015"
+    }
+  ]
+}

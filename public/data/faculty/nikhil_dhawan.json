@@ -1,0 +1,123 @@
+{
+  "name": "Dr. Nikhil Dhawan",
+  "designation": "Associate Professor",
+  "email": "nikhil.dhawan@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "",
+  "linkedin": "",
+
+  "research_interests": [
+    "Mineral Processing",
+    "Extractive Metallurgy",
+    "Recycling",
+    "Microwave processing",
+    "Rare earth",
+    "Electronic waste recycling (CFL, PCB, Lithium ion battery, Magnets, Solar Panel)"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical Engineering",
+      "institution": "University of Utah, USA",
+      "year": "2013"
+    },
+    {
+      "degree": "B.E. (Hons.)",
+      "field": "Metallurgical Engineering",
+      "institution": "Punjab Engineering College",
+      "year": "2008"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "10 Aug 2020 - Present"
+    },
+    {
+      "position": "Associate Editor",
+      "organization": "Journal of Sustainable Metallurgy (TMS, Springer)",
+      "period": "06 Mar 2023 - Present"
+    },
+    {
+      "position": "Associate Editor",
+      "organization": "Mining, Metallurgy & Exploration (SME, Springer)",
+      "period": "24 Aug 2023 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2015 - 10 Aug 2020"
+    },
+    {
+      "position": "Senior Scientist",
+      "organization": "CSIR-Institute of Minerals & Materials Technology (IMMT)",
+      "period": "01 Apr 2013 - 15 Jan 2015"
+    },
+    {
+      "position": "Research Scholar",
+      "organization": "University of Utah, USA",
+      "period": "01 Jan 2008 - 31 Mar 2013"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Comminution studies of banded iron ores",
+      "funding_agency": "DST",
+      "amount": "13.5 Lakh",
+      "start_date": "01 Jan 2015"
+    },
+    {
+      "title": "Microwave processing of discarded lithium ion batteries",
+      "funding_agency": "MHRD, MOEF, UAY",
+      "amount": "23.4 Lakh",
+      "start_date": "01 Jun 2018"
+    },
+    {
+      "title": "Microwave Carbothermal Reduction of low grade iron ores",
+      "funding_agency": "SERB",
+      "amount": "25 Lakh",
+      "start_date": "01 May 2016"
+    },
+    {
+      "title": "Recycling of printed circuit boards",
+      "funding_agency": "DST Indo-Serbia",
+      "amount": "10 Lakh",
+      "start_date": "01 Feb 2023"
+    },
+    {
+      "title": "Recycling of lithium ion batteries",
+      "funding_agency": "MHRD, MOEF",
+      "amount": "20 Lakh",
+      "start_date": "01 Jan 2018"
+    },
+    {
+      "title": "Investigation of silicate rocks for fertilizers",
+      "funding_agency": "SERB, DST",
+      "amount": "25 Lakh",
+      "start_date": "17 May 2017"
+    },
+    {
+      "title": "Beneficiation of silicate rocks for potash values",
+      "funding_agency": "Ministry of Mines",
+      "amount": "20 Lakh",
+      "start_date": "01 Sep 2016"
+    },
+    {
+      "title": "Electronic waste management model to create a livelihood for rural women",
+      "funding_agency": "Drishtee Foundation",
+      "start_date": "06 Jan 2022"
+    }
+  ],
+
+  "honors_and_awards": [],
+
+  "memberships": [],
+
+  "teaching_engagements": []
+}

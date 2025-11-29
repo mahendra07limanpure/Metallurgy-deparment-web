@@ -74,7 +74,7 @@ const Faculty: React.FC = () => {
             <div key={member.id} className="group bg-white rounded-md overflow-hidden shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
               <Link to={`/faculty/${member.slug}`} className="block">
                 <div className="relative h-64 overflow-hidden">
-                  <img src={member.image} alt={member.name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <img src={member.image} alt={member.name} className="w-400px h-400px object-cover transition-transform duration-300 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
 
                   <div className="absolute top-4 right-4 bg-white/90 rounded-md px-3 py-1 flex items-center space-x-1 shadow-sm">

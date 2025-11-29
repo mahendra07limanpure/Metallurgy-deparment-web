@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Advancing materials science through research and education at IIT Roorkee since 1954.
+          Forging the Future of Sustainable Technologies
         </p>
 
         {/* CTA Buttons */}

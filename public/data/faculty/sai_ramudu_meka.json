@@ -1,0 +1,65 @@
+{
+  "name": "Dr. Sai Ramudu Meka",
+  "designation": "Associate Professor",
+  "email": "s.r.meka@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "https://scholar.google.de/citations?user=eVcemFgAAAAJ&hl=en",
+
+  "research_interests": [
+    "Surface Engineering – Thermochemical surface treatments for steels",
+    "Powder metallurgy",
+    "Second-phase dispersion strengthened metal alloys",
+    "Solid state phase transformations"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "University of Stuttgart, Max Planck Institute for Metals Research, Stuttgart",
+      "year": "2011",
+      "thesis_title": "Nitriding of iron based binary and ternary alloys"
+    },
+    {
+      "degree": "M.Tech",
+      "field": "Materials and Metallurgical Engineering",
+      "institution": "Indian Institute of Technology Kanpur",
+      "year": "2007"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy",
+      "institution": "NITK Surathkal",
+      "year": "2002"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "Indian Institute of Technology Roorkee"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "Indian Institute of Technology Roorkee"
+    }
+  ],
+
+  "honors_and_awards": [
+    "Nominated to head Max Planck Partner Group of Max Planck Institute for Iron Research, Dusseldorf, Germany at IIT Roorkee",
+    "Academic Excellence Award from IIT Kanpur for best performance in M.Tech (2006)",
+    "Recipient of IIT-DAAD Scholarship (2006–2007) for thesis work at Max Planck Institute, Stuttgart",
+    "Max Planck Society scholarship during Ph.D. research",
+    "Runner-up for 2012 James Clerk Maxwell Young Writers Prize - Philosophical Magazine (Vol. 92, 2012, p.1083)",
+    "Co-authored paper received IFHTSE–Tom Bell Young Author Award, European Conference on Heat Treatment & IFHTSE Congress 2014",
+    "Best Poster Award, ISMANAM 2019 – study on isothermal stabilization during controlled gaseous nitriding"
+  ],
+
+  "teaching_engagements": [
+    {
+      "note": "Teaching engagement details were not provided in the source data"
+    }
+  ]
+}

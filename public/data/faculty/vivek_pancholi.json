@@ -1,0 +1,129 @@
+{
+  "name": "Dr. Vivek Pancholi",
+  "designation": "Professor",
+  "email": "vivek.pancholi@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=6bB6OD0AAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/vivek-pancholi-3126b442/?originalSubdomain=in&original_referer=https%3A%2F%2Fwww.google.com%2F",
+  "research_interests": [
+    "Crystallographic texture",
+    "High temperature deformation",
+    "Thermo-mechanical processing",
+    "Superplasticity and Superplastic Forming",
+    "Friction stir processing"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "IIT Bombay",
+      "specialization": "Metallurgical Engineering",
+      "year": "2005"
+    },
+    {
+      "degree": "M.Tech.",
+      "institution": "IIT Delhi",
+      "specialization": "Industrial Tribology & Maintenance Engineering",
+      "year": "1997"
+    },
+    {
+      "degree": "B.E.",
+      "institution": "S.G.S.I.T.S., Indore",
+      "specialization": "Industrial & Production Engineering",
+      "year": "1995"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Professor",
+      "organization": "IIT Roorkee",
+      "period": "10 Aug 2020 - Present"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "04 Apr 2014 - 09 Aug 2020"
+    },
+    {
+      "position": "Institute Research Associate",
+      "organization": "IIT Bombay",
+      "period": "01 Nov 2004 - 01 Jun 2006"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Novel processing to enhance ductility of cast AZ91 Mg alloy",
+      "funding_agency": "ISRO",
+      "amount_lakhs": 25,
+      "date": "20 Sep 2020"
+    },
+    {
+      "title": "Thermo-mechanical characteristics of interstitial-substitutional high entropy CoCrFeMnNi (C, N) alloy",
+      "funding_agency": "SERB-CORE",
+      "amount_lakhs": 27.7,
+      "date": "29 Dec 2020",
+      "co_pi": "S. R. Meka"
+    },
+    {
+      "title": "Optimization of hot workability and control of microstructure in aerospace grade titanium alloys",
+      "funding_agency": "ISRO",
+      "amount_lakhs": 14,
+      "date": "01 Jan 2014"
+    },
+    {
+      "title": "Physical simulation of hot deformation processes (forging and extrusion) in a thermo-mechanical simulator",
+      "funding_agency": "BRNS",
+      "amount_lakhs": 51.94,
+      "date": "01 Jan 2011",
+      "co_pi": "Dr. G. P. Chaudhari"
+    },
+    {
+      "title": "Investigation on effect of pulsed current gas metal arc welding on joint characteristics of scandium alloys",
+      "funding_agency": "CSIR",
+      "amount_lakhs": 19,
+      "date": "01 Jan 2007",
+      "co_pi": "Dr. P. K. Ghosh"
+    },
+    {
+      "title": "Friction Stir Processing of Aluminium and Magnesium alloys and investigation of its Superplastic Formability",
+      "funding_agency": "DST",
+      "amount_lakhs": 12.7,
+      "date": "01 Jan 2007"
+    }
+  ],
+  "honors_and_awards": [
+    {
+      "title": "Outstanding Teacher Award (UG), IIT Roorkee",
+      "year": 2022
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "01 Mar 2018 - Present"
+    }
+  ],
+  "teaching_engagements": [
+    {
+      "course": "Structural Metallurgy (MTN-104)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Phase Transformations (MTN-203)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Mechanical Behaviour of Materials (MTN-205)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Engineering Analysis and Design (MTN-292)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Materials Characterization (MT507)",
+      "semester": "Autumn"
+    }
+  ]
+}

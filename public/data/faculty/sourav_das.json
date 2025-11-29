@@ -1,0 +1,188 @@
+{
+  "name": "Dr. Sourav Das",
+  "designation": "Associate Professor",
+  "email": "sourav.das@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "https://scholar.google.co.in/citations?hl=en&user=PKbKQ5sAAAAJ",
+
+  "research_interests": [
+    "Steel development for automotive, armour and construction applications",
+    "Phase transformation studies using ThermoCalc and DICTRA",
+    "Modelling of phase transformations",
+    "Structure-property correlation of steels",
+    "Mechanical properties of steel (tensile, fatigue, impact)",
+    "Heat treatment of steels",
+    "Joining of ferrous and non-ferrous materials"
+  ],
+
+  "education": [
+    {
+      "degree": "B.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "Jadavpur University",
+      "year": "2002"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "Jadavpur University",
+      "year": "2004"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical Engineering",
+      "institution": "IIT Kharagpur",
+      "year": "2012"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "11 Sep 2015 - 21 Nov 2021"
+    },
+    {
+      "position": "Principal Researcher",
+      "organization": "Tata Steel Europe",
+      "period": "01 Jun 2013 - 10 Sep 2015"
+    },
+    {
+      "position": "Researcher",
+      "organization": "Tata Steel Limited",
+      "period": "01 Aug 2008 - 31 May 2013"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Development of nano-structured ultra high strength steel with good ductility",
+      "funding_agency": "IMPRINT-MHRD",
+      "amount_lakhs": 48.64,
+      "date": "02 Jan 2019",
+      "co_pi": [
+        "Prof. S. B. Singh (IIT Kharagpur)",
+        "Prof. P. C. Chakraborti (Jadavpur University)"
+      ]
+    },
+    {
+      "title": "Stability of retained austenite",
+      "funding_agency": "DST-SERB",
+      "amount_lakhs": 50.0,
+      "date": "01 Jan 2018"
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Simulated stress induced sensitization of HAZ in multipass weld of 304LN austenitic stainless steel",
+      "year": 2021,
+      "authors": ["N. A. Barla", "P. K. Ghosh", "V. Kumar", "N. K. Paraye", "R. Anant", "S. Das"],
+      "journal": "Journal of Manufacturing Processes",
+      "publisher": "Springer",
+      "volume": "62",
+      "pages": "784-796"
+    },
+    {
+      "title": "Simulated stress induced sensitization study for HAZ of 304 LN stainless steel weld using a thermo-mechanical simulator",
+      "year": 2019,
+      "authors": ["N. A. Barla", "P. K. Ghosh", "S. Das", "V. Kumar"],
+      "journal": "Metallurgical and Materials Transactions A",
+      "publisher": "Springer",
+      "pages": "1283-1203"
+    },
+    {
+      "title": "Surface hardening by in-situ grown composite layer on microalloyed steel employing TIG arcing process",
+      "year": 2018,
+      "authors": ["D. Sharma", "P. K. Ghosh", "S. Kumar", "S. Das", "R. K. Anant"],
+      "journal": "Surface and Coatings Technology",
+      "publisher": "Elsevier",
+      "pages": "144-158"
+    },
+    {
+      "title": "Formation of fully pearlitic microstructure in medium carbon steel",
+      "year": 2014,
+      "authors": ["S. Das", "A. Haldar"],
+      "journal": "Philosophical Magazine",
+      "publisher": "Taylor and Francis",
+      "pages": "3281-3294"
+    },
+    {
+      "title": "Ductile ultra high strength hot stamped steel obtained by Q&P treatment",
+      "year": 2018,
+      "authors": ["M. Krugla", "R. Rana", "S. Das"],
+      "journal": "Materials Science and Technology",
+      "publisher": "Taylor & Francis",
+      "pages": "268-281"
+    },
+    {
+      "title": "A Phenomenological Model for Bake Hardening in Minimal Carbon Steels",
+      "year": 2014,
+      "authors": ["S. Das", "O. N. Mohanty", "S. B. Singh"],
+      "journal": "Philosophical Magazine",
+      "publisher": "Taylor & Francis",
+      "pages": "2046-2061"
+    }
+  ],
+
+  "books": [
+    {
+      "title": "High performance ferrous alloys",
+      "year": 2021,
+      "publisher": "Springer-Nature",
+      "authors": ["S. Das", "A. Karmakar", "S. B. Singh"],
+      "contribution": "Microalloyed steel"
+    },
+    {
+      "title": "Encyclopedia of Iron, Steel and Their Alloys",
+      "year": 2016,
+      "publisher": "Taylor & Francis",
+      "authors": ["S. Das", "S. B. Singh", "O. N. Mohanty"]
+    }
+  ],
+
+  "honors_and_awards": [
+    "National Doctoral Fellowship, AICTE (2005)",
+    "Commonwealth Split-Site Doctoral Fellowship, UK (2006)",
+    "Visiting Scholar, University of Cambridge (2006)",
+    "Dr. M. Visvesvaraya Gold Medal, Institute of Engineers (India) (2011)",
+    "Young Engineers of the Year, Institute of Engineers (India) (2013)"
+  ],
+
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "31 Aug 2020 - Present"
+    }
+  ],
+
+  "teaching_engagements": [
+    {
+      "course": "Mechanical Working of Metals (MTN 301)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Advanced and Stainless Steel (MTN 555)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Metallurgy of Joining (MTN 315)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Structural Metallurgy (MTN 501)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Introduction to Materials Science (MTN 106)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Non-Destructive Testing (MTN 505)",
+      "semester": "Autumn"
+    }
+  ]
+}

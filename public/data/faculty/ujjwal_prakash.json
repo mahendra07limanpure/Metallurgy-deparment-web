@@ -1,0 +1,131 @@
+{
+  "name": "Dr. Ujjwal Prakash",
+  "designation": "Professor",
+  "email": "ujjwal.prakash@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "",
+  "linkedin": "",
+  "research_interests": [
+    "Metallurgical Engineering",
+    "Powder metallurgy",
+    "Steels",
+    "High temperature structural materials",
+    "Intermetallics"
+  ],
+  "education": [
+    {
+      "degree": "B. Tech.",
+      "institution": "Banaras Hindu University",
+      "specialization": "Metallurgical Engineering",
+      "year": "1985"
+    },
+    {
+      "degree": "Ph.D.",
+      "institution": "University of Sheffield",
+      "specialization": "Metallurgy",
+      "year": "1990"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Research Associate",
+      "organization": "University of Sheffield, UK",
+      "period": "01 Jan 1988 - 01 Jan 1991"
+    },
+    {
+      "position": "Scientist 'C'",
+      "organization": "Defence Metallurgical Research Laboratory (DMRL), Hyderabad",
+      "period": "01 Jan 1992 - 01 Jan 1997"
+    },
+    {
+      "position": "Humboldt Fellow",
+      "organization": "Max Planck Institute, Duesseldorf, Germany",
+      "period": "01 Jan 1999 - 01 Jan 2000"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2006 - Present"
+    },
+    {
+      "position": "Humboldt Fellow",
+      "organization": "IEHK, RWTH Aachen University, Germany",
+      "period": "01 Jan 2015 - 01 Jan 2015"
+    },
+    {
+      "position": "Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2015 - Present"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Development of low density steels",
+      "funding_agency": "DRDO",
+      "amount_lakhs": 43.77,
+      "date": "01 Jan 2017",
+      "co_pi": "Dr. Devendra Singh"
+    },
+    {
+      "title": "Creep resistant ODS steels through powder forging",
+      "funding_agency": "BRNS",
+      "amount_lakhs": 76.22,
+      "date": "01 Jan 2011",
+      "co_pi": "Dr. V. Dabhade"
+    },
+    {
+      "title": "Development of iron aluminides containing carbon",
+      "funding_agency": "DST",
+      "amount_lakhs": 32.54,
+      "date": "01 Jan 2009"
+    }
+  ],
+  "honors_and_awards": [
+    {
+      "title": "Scholarship from Department of Metallurgy, University of Sheffield",
+      "year": "1988"
+    },
+    {
+      "title": "Overseas Research Students (ORS) Award, UK",
+      "year": "1988"
+    },
+    {
+      "title": "DRDO Technology Award, DMRL Hyderabad",
+      "year": "1997"
+    },
+    {
+      "title": "Humboldt Fellowship, MPIE Dusseldorf",
+      "year": "1999"
+    },
+    {
+      "title": "Best Presentation Award, Annual Technical Meeting, IIM",
+      "year": "2000"
+    },
+    {
+      "title": "Humboldt Revisit, RWTH Aachen University, Germany",
+      "year": "2015"
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "Alexander von Humboldt Foundation, Germany",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Institution of Engineers",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Materials Research Society of India",
+      "period": "31 Aug 2020 - Present"
+    }
+  ],
+
+  "teaching_engagements": []
+}

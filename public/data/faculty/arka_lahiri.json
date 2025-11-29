@@ -1,0 +1,83 @@
+{
+  "name": "Dr. Arka Lahiri",
+  "designation": "Assistant Professor",
+  "email": "arka.lahiri@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.de/citations?user=uyEr60gAAAAJ&hl=en",
+  "linkedin": "",
+
+  "research_interests": [
+    "Phase transformations",
+    "Mechanical behaviour of materials",
+    "Phase-field modeling",
+    "Crystal plasticity",
+    "Kinetic Monte Carlo",
+    "Machine learning in materials",
+    "Deep learning",
+    "Computer vision for materials science"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Engineering",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2018"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Materials Engineering",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2011"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy and Materials Engineering",
+      "institution": "IIEST, Shibpur",
+      "year": "2009"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Postdoctoral Researcher",
+      "organization": "Max-Planck-Institut für Eisenforschung, Düsseldorf",
+      "period": "28 Feb 2018 - 31 Jul 2019"
+    },
+    {
+      "position": "Applications Engineer",
+      "organization": "COMSOL Multiphysics, Bangalore",
+      "period": "31 Jul 2011 - 31 Jul 2012"
+    },
+    {
+      "position": "Institute Research Associate",
+      "organization": "Indian Institute of Science, Bangalore",
+      "period": "01 Aug 2017 - 01 Jan 2018"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Modeling the glide of partial dislocations in the presence of Suzuki segregation",
+      "funding_agency": "Faculty Initiation Grant, IIT Roorkee",
+      "amount": "20 Lakh",
+      "start_date": "30 May 2020"
+    }
+  ],
+
+  "honors_and_awards": [
+    "Indranil Award for Metallurgy (2009)",
+    "BESU Medal – IIEST Shibpur (2009)",
+    "Amol Banerjee Memorial Medal – Institute of Indian Foundrymen (2009)"
+  ],
+
+  "memberships": [],
+
+  "teaching_engagements": [
+    "Modeling, Simulation, and Computer Application (MTN-502) – Spring",
+    "Metallurgical Thermodynamics and Kinetics (MTN-102) – Autumn",
+    "Defects in Crystalline Materials (MTN-559) – Autumn"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Dr. Indranil Lahiri",
+  "designation": "Professor",
+  "email": "indranil.lahiri@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=R3MjHEsAAAAJ&hl=en",
+  "linkedin": "",
+
+  "research_interests": [
+    "Synthesis of nanomaterials",
+    "Carbon nanotubes",
+    "Graphene and thin films",
+    "Electronic applications of nanomaterials",
+    "Field emission systems",
+    "Interface engineering and novel geometries",
+    "Energy related nanomaterials",
+    "Nanomaterials for Li-ion battery electrodes",
+    "Energy harvesters",
+    "Healthcare sensors"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "Florida International University, USA",
+      "year": "2011"
+    },
+    {
+      "degree": "M.Tech",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "IIT Kanpur, India",
+      "year": "2000"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy",
+      "institution": "Bengal Engineering College, Shibpur, India",
+      "year": "1998"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Senior Scientist",
+      "organization": "NFTDC, Hyderabad",
+      "period": "01 May 2005 - 30 Jun 2007"
+    },
+    {
+      "position": "Scientist",
+      "organization": "NFTDC, Hyderabad",
+      "period": "01 May 2000 - 30 Apr 2005"
+    },
+    {
+      "position": "Post Doctoral Researcher",
+      "organization": "Florida International University, USA",
+      "period": "01 Jan 2012 - 31 Aug 2012"
+    },
+    {
+      "position": "Research Assistant Professor",
+      "organization": "University of North Texas, USA",
+      "period": "01 Sep 2012 - 31 Oct 2012"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "20 Dec 2012 - 22 Dec 2018"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Dec 2018 - Present"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Ultra-High Current-Density Field Emission System",
+      "funding_agency": "IIT Roorkee",
+      "grant_amount_lakh": 10,
+      "start_year": "2013"
+    },
+    {
+      "title": "2D and 3D Field Emitters",
+      "funding_agency": "Naval Research Board",
+      "grant_amount_lakh": 24.96,
+      "start_year": "2016"
+    },
+    {
+      "title": "Understanding graphene growth on Cu-Ni substrates through CVD",
+      "funding_agency": "SERB, DST, India",
+      "grant_amount_lakh": 59.09,
+      "start_year": "2017",
+      "co_pi": "Dr. K. S. Suresh"
+    },
+    {
+      "title": "Development of graphene based transparent and conductive coatings for spacecraft",
+      "funding_agency": "ISRO",
+      "grant_amount_lakh": 27.61,
+      "start_year": "2019"
+    }
+  ],
+
+  "honors_and_awards": [
+    {
+      "award": "Graduate Excellence in Materials Science (GEMS) Award",
+      "organization": "American Ceramic Society (ACerS)",
+      "year": 2011
+    },
+    {
+      "award": "TMS Student Best Paper Contest – 2nd Place",
+      "organization": "TMS",
+      "year": 2012
+    },
+    {
+      "award": "Best Doctoral Graduate",
+      "organization": "Florida International University",
+      "year": 2011
+    },
+    {
+      "award": "Best Junior Researcher Award – Second Prize",
+      "organization": "TMS Nanomaterials Symposium",
+      "year": 2011
+    },
+    {
+      "award": "ASM International Student Paper Contest",
+      "organization": "ASM International",
+      "year": 2012
+    }
+  ],
+
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals (IIM)",
+      "since": "31 Aug 2020"
+    },
+    {
+      "organization": "Materials Research Society of India (MRSI)",
+      "since": "31 Aug 2020"
+    }
+  ],
+
+  "teaching_engagements": [
+    {
+      "course_name": "Mechanical Working of Metals",
+      "course_code": "MT-412",
+      "semester": "Spring"
+    },
+    {
+      "course_name": "Technology of Nanostructure Fabrication",
+      "course_code": "NT-512",
+      "semester": "Spring"
+    },
+    {
+      "course_name": "Materials Science",
+      "course_code": "MT-201A",
+      "semester": "Autumn"
+    }
+  ]
+}

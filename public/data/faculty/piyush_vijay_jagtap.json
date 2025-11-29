@@ -1,0 +1,76 @@
+{
+  "name": "Dr. Piyush Vijay Jagtap",
+  "designation": "Assistant Professor",
+  "office_no": "213",
+  "email": "piyushvj@mt.iitr.ac.in",
+  "telephone_no": "",
+  "profile_url": "https://lh3.googleusercontent.com/sitesv/AAzXCkfbqRwBI1E7gjnEfnnhOBbMDN-d7e1pdXpqvFaaFTPeaN3r5BBu4CdUZNrCph43Zc4Uzv9xOH6ujNGesJzQ4mWNXtDdpIIkdmv2ldUo2odk-vJHLJPPsAdNCJOQ2YL_2hY6wqYJ8jMrhX11sOgR1u_qdxBw6S7ckm42DeNWWA3j1F3M_uXkkqAchqar6w_SxJ-N0bTZjpsYLVWRoQEYTx5GAT3EmkoirKKhQ9I=w1280",
+  "linkedin": "https://www.linkedin.com/in/piyush-jagtap-18857536/?original_referer=https%3A%2F%2Fwww.google.com%2F",
+  "google_scholar": "https://scholar.google.com/citations?user=V1RSZ2IAAAAJ&hl=en",
+
+  "research_interests": [
+    "Mechanical behavior of thin films and coatings",
+    "Thin film deposition",
+    "Thin film stress measurements",
+    "Lead-free (Pb-free) solders",
+    "Whisker growth",
+    "Severe plastic deformation",
+    "Micromechanics"
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Metallurgy and Materials Science",
+      "institution": "Visvesvaraya National Institute of Technology",
+      "year": "2010"
+    },
+    {
+      "degree": "M.Sc. and Ph.D.",
+      "field": "Materials Science",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2017"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "09 Aug 2023 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Hyderabad",
+      "period": "26 Jul 2022 - 31 Jul 2023"
+    },
+    {
+      "position": "Postdoctoral Researcher",
+      "organization": "IM2nP, Aix Marseille University, France",
+      "period": "02 Nov 2020 - 15 Jul 2022"
+    },
+    {
+      "position": "Postdoctoral Fellow",
+      "organization": "Brown University, Providence, Rhode Island, USA",
+      "period": "28 Aug 2018 - 31 Oct 2020"
+    }
+  ],
+
+  "honors_and_awards": [
+    "Acta/Scripta Materialia Outstanding Reviewer Award (2023)",
+    "CNRS Postdoctoral Fellowship (2020)",
+    "Fulbright–Nehru Postdoctoral Fellowship (2018)",
+    "Editor’s Choice Paper, Journal of Electronic Materials (2015)"
+  ],
+
+  "memberships": [
+    {
+      "organization": "The Minerals, Metals and Materials Society (TMS)",
+      "period": "10 Feb 2020 - Present"
+    },
+    {
+      "organization": "Indian Structural Integrity Society (InSIS)",
+      "period": "01 May 2022 - Present"
+    }
+  ]
+}

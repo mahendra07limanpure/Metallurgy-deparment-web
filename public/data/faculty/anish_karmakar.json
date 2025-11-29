@@ -1,0 +1,137 @@
+{
+  "name": "Dr. Anish Karmakar",
+  "designation": "Assistant Professor",
+  "email": "anish.karmakar@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.com/citations?user=m-hfCXMAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/dr-anish-karmakar-82839724/?originalSubdomain=in&original_referer=https%3A%2F%2Fwww.google.com%2F",
+
+  "research_interests": [
+    "Advanced Thermomechanical Processing of Steels",
+    "Titanium Alloys",
+    "Damage Evaluation of Metals and Alloys",
+    "Steel Microstructure Design",
+    "Fatigue Behaviour of Titanium Alloys",
+    "Electron Microscopy",
+    "Precipitation Kinetics",
+    "Crystallographic Texture"
+  ],
+
+  "education": [
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy and Materials Engineering",
+      "institution": "Bengal Engineering & Science University, Shibpur",
+      "year": "2009"
+    },
+    {
+      "degree": "M.S.",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "IIT Kharagpur",
+      "year": "2012"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "IIT Kharagpur",
+      "year": "2017"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Graduate Engineer Trainee",
+      "organization": "Vedanta Aluminium Limited, Jharsuguda, Odisha",
+      "period": "07 Aug 2009 - 04 Apr 2010"
+    },
+    {
+      "position": "National Post Doctoral Fellow",
+      "organization": "Indian Institute of Science, Bangalore",
+      "period": "01 Nov 2017 - 19 Apr 2018"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "National Institute of Technology, Warangal",
+      "period": "23 Apr 2018 - 11 Jan 2019"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Indian Institute of Technology, Roorkee",
+      "period": "18 Feb 2019 - Present"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Influence of V and Nb addition on HAZ softening in micro-alloyed steels",
+      "agency": "IIT Roorkee (FIG)",
+      "amount": "20 Lakh",
+      "start_date": "01 Jul 2019"
+    },
+    {
+      "title": "Development of rare earth-added steels for different temperature domains",
+      "agency": "Department of Science and Technology",
+      "amount": "35 Lakh",
+      "start_date": "18 Sep 2018"
+    },
+    {
+      "title": "Role of Cu on mechanical response of quenched and tempered steel",
+      "agency": "SERB",
+      "amount": "38 Lakh",
+      "start_date": "10 Mar 2022",
+      "co_pi": "Dr. Sudipta Patra (IIT BHU)"
+    }
+  ],
+
+  "publications": [
+    "Cold-rolling and inter-critical annealing of low-carbon steel – MSEA (2013)",
+    "Bimodal ferrite-grain structures via rapid annealing – MMTA (2013)",
+    "Ultrafine-grained dual-phase steels – MMTA (2013)",
+    "Microalloying effects on austenite grain growth – MST (2014)",
+    "Hot deformation processing maps for steels – Metals & Materials Int. (2021)",
+    "Low cycle fatigue crack growth in Ni superalloy – IJ Plasticity (2022)"
+  ],
+
+  "books": [
+    {
+      "title": "High Performance Ferrous Materials",
+      "chapter": "Microalloyed Steels",
+      "authors": [
+        "Sourav Das",
+        "Anish Karmakar",
+        "Shiv Brat Singh"
+      ],
+      "publisher": "Springer Nature",
+      "year": "2020"
+    }
+  ],
+
+  "honors_and_awards": [
+    "INSPIRE Faculty Award – DST (2018)",
+    "National Post Doctoral Fellowship – SERB (2017)"
+  ],
+
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals (IIM)",
+      "type": "Life Member",
+      "member_no": "57298"
+    },
+    {
+      "organization": "Association for Iron and Steel Technology (AIST)",
+      "member_no": "185546"
+    }
+  ],
+
+  "teaching_engagements": [
+    "High Temperature Materials (MTN-517) – Autumn",
+    "X Ray Diffraction and Electron Microscopy (MM-401) – Autumn",
+    "Engineering Design and Analysis (MTN-292) – Spring",
+    "XRD & Electron Microscopy Lab (MM-404) – Autumn",
+    "Introduction to Materials (MM-5111) – Autumn",
+    "Electrical and Electronics Materials (MTN-105) – Autumn",
+    "Materials Science (MTN-106) – Spring"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Dr. Sumeet Mishra",
+  "designation": "Assistant Professor",
+  "email": "sumeet.mishra@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=75E4cbcAAAAJ&hl=en",
+  "linkedin": "https://www.linkedin.com/in/sumeet-mishra-34525348/?originalSubdomain=in&original_referer=https%3A%2F%2Fwww.google.com%2F",
+
+  "research_interests": [
+    "Computational plasticity",
+    "Deformation kinetics analysis using transient mechanical tests",
+    "Phenomenological modelling using internal variable models",
+    "Texture modelling using full-field methods",
+    "Self-consistent texture modelling",
+    "Numerical modelling of precipitation kinetics"
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "Indira Gandhi Institute of Technology, Sarang, Odisha",
+      "year": "2012"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "Indian Institute of Technology Kanpur",
+      "year": "2017"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Post-Doctoral Research Associate",
+      "organization": "Indian Institute of Science, Bangalore, India",
+      "period": "Sep 2017 - Aug 2018"
+    },
+    {
+      "position": "Post-Doctoral Research Associate",
+      "organization": "School of Materials, University of Manchester, United Kingdom",
+      "period": "Sep 2018 - Oct 2020"
+    }
+  ],
+
+  "research_projects": [],
+
+  "honors_and_awards": [
+    "2nd Best Poster Award – ICoTMMB Conference, IISc Bangalore (2017)",
+    "Nominee – Mineral Development Awareness Quiz (MDAQ) Programme (2011)"
+  ],
+
+  "memberships": [],
+
+  "teaching_engagements": [
+    "Materials Science (MT-106) – Spring"
+  ]
+}
