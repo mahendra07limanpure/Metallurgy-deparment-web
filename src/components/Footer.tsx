@@ -1,11 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Youtube, GraduationCap, ArrowUp } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Linkedin, GraduationCap } from 'lucide-react';
 
 const Footer: React.FC = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   const quickLinks = [
     { name: "About Department", path: "/about" },
@@ -15,10 +12,8 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Youtube, href: "#", label: "YouTube" }
+    { icon: Twitter, href: "https://x.com/mmeiitr", label: "Twitter" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/metallurgical-and-materials-engineering-department-iit-roorkee/", label: "LinkedIn" }
   ];
 
   return (
@@ -123,18 +118,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
-        {/* Back to Top Button */}
-        <div className="flex justify-center mt-16">
-          <button
-            onClick={scrollToTop}
-            className="flex items-center space-x-2 bg-academic-blue text-white px-6 py-3 rounded-md hover:bg-academic-blue/80 transition-colors focus:outline-none focus:ring-2 focus:ring-academic-blue focus:ring-offset-2"
-            aria-label="Scroll back to top of page"
-          >
-            <ArrowUp size={20} aria-hidden="true" />
-            <span className="font-medium">Back to Top</span>
-          </button>
-        </div>
       </div>
 
       {/* Bottom Footer */}
@@ -142,7 +125,7 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="md:flex md:items-center md:justify-between">
             <div className="text-white/80 font-medium">
-              © 2024 Department of Metallurgical & Materials Engineering, IIT Roorkee. All rights reserved.
+              © 2025 Department of Metallurgical & Materials Engineering, IIT Roorkee. All rights reserved.
             </div>
             <div className="mt-6 md:mt-0">
               <div className="flex space-x-8 text-white/80">

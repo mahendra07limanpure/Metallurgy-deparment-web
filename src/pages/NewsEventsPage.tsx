@@ -127,7 +127,7 @@ const NewsEventsPage = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-academic-blue to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">News & Events</h1>
@@ -142,7 +142,7 @@ const NewsEventsPage = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-12">
-            <Calendar className="w-8 h-8 text-academic-blue" />
+            <Calendar className="w-8 h-8 text-academic-blue-800" />
             <h2 className="text-3xl font-bold text-gray-900">Upcoming Events</h2>
           </div>
 
@@ -150,14 +150,14 @@ const NewsEventsPage = () => {
             {upcomingEvents.map((event) => (
               <div
                 key={event.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border-l-4 border-academic-blue"
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border-l-4 border-academic-blue-600"
               >
                 <div className="p-6">
                   <div className="flex items-start justify-between mb-4">
                     <h3 className="text-xl font-bold text-gray-900 flex-1">
                       {event.title}
                     </h3>
-                    <Calendar className="w-6 h-6 text-academic-blue flex-shrink-0 ml-2" />
+                    <Calendar className="w-6 h-6 text-academic-blue-800 flex-shrink-0 ml-2" />
                   </div>
 
                   <div className="space-y-3 mb-4">
@@ -184,7 +184,7 @@ const NewsEventsPage = () => {
                   {event.registrationLink && (
                     <a
                       href={event.registrationLink}
-                      className="inline-flex items-center gap-2 text-academic-blue hover:text-blue-800 font-medium"
+                      className="inline-flex items-center gap-2 text-academic-blue-800 hover:text-academic-blue-700 font-medium"
                     >
                       Register Now
                       <ExternalLink className="w-4 h-4" />
@@ -201,7 +201,7 @@ const NewsEventsPage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-12">
-            <TrendingUp className="w-8 h-8 text-academic-blue" />
+            <TrendingUp className="w-8 h-8 text-academic-blue-800" />
             <h2 className="text-3xl font-bold text-gray-900">Recent News</h2>
           </div>
 
@@ -243,7 +243,7 @@ const NewsEventsPage = () => {
                   {news.link && (
                     <a
                       href={news.link}
-                      className="inline-flex items-center gap-1 text-academic-blue hover:text-blue-800 font-medium text-sm"
+                      className="inline-flex items-center gap-1 text-academic-blue-800 hover:text-academic-blue-700 font-medium text-sm"
                     >
                       Read More
                       <ExternalLink className="w-3 h-3" />
@@ -257,7 +257,7 @@ const NewsEventsPage = () => {
       </section>
 
       {/* Newsletter Subscription */}
-      <section className="py-16 bg-gradient-to-r from-academic-blue to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Stay Connected</h2>
           <p className="text-xl text-blue-100 mb-8">
@@ -273,7 +273,7 @@ const NewsEventsPage = () => {
             />
             <button
               type="submit"
-              className="bg-academic-gold text-white px-8 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition-colors focus:outline-none focus:ring-2 focus:ring-academic-gold focus:ring-offset-2"
+              className="btn-primary px-8 py-3"
             >
               Subscribe
             </button>

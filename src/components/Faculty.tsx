@@ -61,12 +61,12 @@ const Faculty: React.FC = () => {
     <section id="faculty" className="py-20 lg:py-32 bg-gray-50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center space-x-2 bg-academic-blue/10 text-academic-blue px-4 py-2 rounded-md text-sm font-semibold mb-4">
+          <div className="inline-flex items-center space-x-2 bg-academic-blue/15 text-academic-blue-800 px-4 py-2 rounded-md text-sm font-semibold mb-4">
             <BookOpen className="w-4 h-4" />
             <span>Our Faculty</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">Meet Our Distinguished Faculty</h2>
-          <div className="w-24 h-1 bg-academic-blue mx-auto rounded-full"></div>
+          <div className="section-accent"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -86,14 +86,14 @@ const Faculty: React.FC = () => {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-academic-gray mb-2 group-hover:text-academic-blue transition-colors">{member.name}</h3>
-                  <p className="text-academic-blue font-semibold mb-4">{member.designation}</p>
+                  <h3 className="text-xl font-bold text-academic-gray mb-2 group-hover:text-academic-blue-800 transition-colors">{member.name}</h3>
+                  <p className="text-academic-blue-800 font-semibold mb-4">{member.designation}</p>
 
                   <div className="mb-6">
                     <h4 className="text-sm font-bold text-academic-gray mb-3 uppercase tracking-wide">Research Interests</h4>
                     <div className="flex flex-wrap gap-2">
                       {member.researchInterests.map((interest, idx) => (
-                        <span key={idx} className="px-3 py-1 bg-academic-blue/10 text-academic-blue text-xs rounded-md font-medium">{interest}</span>
+                        <span key={idx} className="badge-primary">{interest}</span>
                       ))}
                     </div>
                   </div>
@@ -104,7 +104,7 @@ const Faculty: React.FC = () => {
                 <a 
                   href={`mailto:${member.email}`} 
                   onClick={(e) => e.stopPropagation()}
-                  className="flex-1 flex items-center justify-center space-x-2 bg-academic-blue text-white font-semibold px-4 py-3 rounded-md hover:bg-academic-blue/90 transition-colors"
+                  className="flex-1 flex items-center justify-center space-x-2 btn-primary"
                 >
                   <Mail size={18} />
                   <span>Contact</span>

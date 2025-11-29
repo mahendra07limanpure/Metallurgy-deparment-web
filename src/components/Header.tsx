@@ -36,7 +36,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+      className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-white/80 backdrop-blur-md shadow-lg border-b border-gray-200'
           : 'bg-white shadow-sm'
         }`}
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-lg lg:text-xl font-bold text-academic-gray">
-                MME Department
+                Metallurgical & Materials Engineering
               </h1>
               <p className="text-sm text-gray-600">IIT Roorkee</p>
             </div>
@@ -73,15 +73,15 @@ const Header: React.FC = () => {
                 key={item.name}
                 to={item.path}
                 className={`relative px-4 py-2 font-medium transition-all duration-200 rounded-md group ${location.pathname === item.path
-                    ? 'text-academic-blue'
-                    : 'text-academic-gray hover:text-academic-blue'
+                    ? 'text-academic-blue-800'
+                    : 'text-academic-gray hover:text-academic-blue-800'
                   }`}
               >
                 {item.name}
 
                 {/* Animated underline */}
                 <span
-                  className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue transition-transform duration-300 origin-left ${location.pathname === item.path
+                  className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue-800 transition-transform duration-300 origin-left ${location.pathname === item.path
                       ? 'scale-x-100'
                       : 'scale-x-0 group-hover:scale-x-100'
                     }`}
@@ -94,7 +94,7 @@ const Header: React.FC = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="lg:hidden p-3 rounded-lg bg-white border border-gray-200 text-academic-gray hover:text-academic-blue transition-colors shadow-sm"
+            className="lg:hidden p-3 rounded-lg bg-white border border-gray-200 text-academic-gray hover:text-academic-blue-800 transition-colors shadow-sm"
 
             aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={isMenuOpen}
@@ -112,8 +112,8 @@ const Header: React.FC = () => {
                   key={item.name}
                   to={item.path}
                   className={`block px-4 py-3 font-medium transition-colors ${location.pathname === item.path
-                      ? 'text-academic-blue bg-academic-blue/10 rounded-md'
-                      : 'text-academic-gray hover:text-academic-blue'
+                      ? 'text-academic-blue-800 bg-academic-blue/15 rounded-md'
+                      : 'text-academic-gray hover:text-academic-blue-800'
                     }`}
                   onClick={() => setIsMenuOpen(false)}
                   aria-current={location.pathname === item.path ? 'page' : undefined}

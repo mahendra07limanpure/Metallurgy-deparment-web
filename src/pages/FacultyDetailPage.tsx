@@ -110,7 +110,7 @@ const FacultyDetailPage: React.FC = () => {
     <div className="pt-20 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Back Button */}
-        <Link to="/faculty" className="inline-flex items-center text-academic-blue hover:text-academic-blue/80 mb-8">
+        <Link to="/faculty" className="inline-flex items-center text-academic-blue-800 hover:text-academic-blue-700 mb-8">
           <ChevronLeft className="w-5 h-5 mr-1" />
           <span className="font-medium">Back to Faculty</span>
         </Link>
@@ -140,12 +140,12 @@ const FacultyDetailPage: React.FC = () => {
             
             <div className="flex-grow">
               <h1 className="text-3xl md:text-4xl font-bold text-academic-gray mb-2">{faculty.name}</h1>
-              <p className="text-xl text-academic-blue font-semibold mb-4">{faculty.designation}</p>
+              <p className="text-xl text-academic-blue-800 font-semibold mb-4">{faculty.designation}</p>
               
               <div className="space-y-2 mb-6">
                 <div className="flex items-center text-gray-600">
-                  <Mail className="w-5 h-5 mr-3 text-academic-blue" />
-                  <a href={`mailto:${faculty.email}`} className="hover:text-academic-blue">{faculty.email}</a>
+                  <Mail className="w-5 h-5 mr-3 text-academic-blue-800" />
+                  <a href={`mailto:${faculty.email}`} className="link-primary">{faculty.email}</a>
                 </div>
                 {faculty.telephone_no && (
                   <div className="flex items-center text-gray-600">
@@ -163,7 +163,7 @@ const FacultyDetailPage: React.FC = () => {
 
               <div className="flex flex-wrap gap-3">
                 {faculty.profile_url && (
-                  <a href={faculty.profile_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-academic-blue text-white px-4 py-2 rounded-md hover:bg-academic-blue/90 text-sm font-medium">
+                  <a href={faculty.profile_url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-academic-blue-800 text-white px-4 py-2 rounded-md hover:bg-academic-blue-700 text-sm font-medium">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Profile Page
                   </a>
@@ -188,12 +188,12 @@ const FacultyDetailPage: React.FC = () => {
         {/* Research Interests */}
         <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
           <h2 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-            <Award className="w-6 h-6 mr-3 text-academic-blue" />
+            <Award className="w-6 h-6 mr-3 text-academic-blue-800" />
             Research Interests
           </h2>
           <div className="flex flex-wrap gap-3">
             {faculty.research_interests.map((interest, idx) => (
-              <span key={idx} className="px-4 py-2 bg-academic-blue/10 text-academic-blue rounded-md font-medium">
+              <span key={idx} className="px-4 py-2 bg-academic-blue/15 text-academic-blue-800 rounded-md font-medium">
                 {interest}
               </span>
             ))}
@@ -203,12 +203,12 @@ const FacultyDetailPage: React.FC = () => {
         {/* Education */}
         <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
           <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-            <GraduationCap className="w-6 h-6 mr-3 text-academic-blue" />
+            <GraduationCap className="w-6 h-6 mr-3 text-academic-blue-800" />
             Education
           </h2>
           <div className="space-y-6">
             {faculty.education.map((edu, idx) => (
-              <div key={idx} className="border-l-4 border-academic-blue pl-6">
+              <div key={idx} className="border-l-4 border-academic-blue-600 pl-6">
                 <h3 className="text-lg font-bold text-academic-gray">{edu.degree}</h3>
                 {edu.specialization && <p className="text-gray-600">{edu.specialization}</p>}
                 <p className="text-gray-600">{edu.institution}</p>
@@ -221,7 +221,7 @@ const FacultyDetailPage: React.FC = () => {
         {/* Professional Background */}
         <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
           <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-            <Briefcase className="w-6 h-6 mr-3 text-academic-blue" />
+            <Briefcase className="w-6 h-6 mr-3 text-academic-blue-800" />
             Professional Background
           </h2>
           <div className="space-y-6">
@@ -239,7 +239,7 @@ const FacultyDetailPage: React.FC = () => {
         {faculty.research_projects && faculty.research_projects.length > 0 && (
           <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
             <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-              <FileText className="w-6 h-6 mr-3 text-academic-blue" />
+              <FileText className="w-6 h-6 mr-3 text-academic-blue-800" />
               Research Projects
             </h2>
             <div className="space-y-6">
@@ -259,7 +259,7 @@ const FacultyDetailPage: React.FC = () => {
         {faculty.publications && faculty.publications.length > 0 && (
           <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
             <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-              <BookOpen className="w-6 h-6 mr-3 text-academic-blue" />
+              <BookOpen className="w-6 h-6 mr-3 text-academic-blue-800" />
               Selected Publications ({faculty.publications.length})
             </h2>
             <div className="space-y-6">
@@ -310,7 +310,7 @@ const FacultyDetailPage: React.FC = () => {
         {faculty.teaching_engagements && faculty.teaching_engagements.length > 0 && (
           <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
             <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-              <GraduationCap className="w-6 h-6 mr-3 text-academic-blue" />
+              <GraduationCap className="w-6 h-6 mr-3 text-academic-blue-800" />
               Teaching Engagements
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -328,7 +328,7 @@ const FacultyDetailPage: React.FC = () => {
         {faculty.memberships && faculty.memberships.length > 0 && (
           <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
             <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-              <Users className="w-6 h-6 mr-3 text-academic-blue" />
+              <Users className="w-6 h-6 mr-3 text-academic-blue-800" />
               Professional Memberships
             </h2>
             <div className="space-y-4">

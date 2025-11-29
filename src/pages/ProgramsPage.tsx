@@ -63,7 +63,7 @@ const ProgramsPage = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-academic-blue to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">Academic Programs</h1>
@@ -86,7 +86,7 @@ const ProgramsPage = () => {
                   className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
                 >
                   <div className="md:flex">
-                    <div className="md:w-1/3 bg-gradient-to-br from-academic-blue to-blue-700 p-8 text-white flex flex-col justify-center items-center">
+                    <div className="md:w-1/3 bg-gradient-to-br from-academic-blue-600 to-academic-blue-800 p-8 text-white flex flex-col justify-center items-center">
                       <Icon className="w-16 h-16 mb-4" />
                       <h2 className="text-4xl font-bold mb-2">{program.degree}</h2>
                       <h3 className="text-xl mb-4">{program.title}</h3>
@@ -98,7 +98,7 @@ const ProgramsPage = () => {
                       <p className="text-gray-700 text-lg mb-6">{program.description}</p>
                       
                       <div className="mb-6">
-                        <h4 className="font-semibold text-academic-blue mb-3 flex items-center gap-2">
+                        <h4 className="font-semibold text-academic-blue-800 mb-3 flex items-center gap-2">
                           <Users className="w-5 h-5" />
                           Program Highlights:
                         </h4>
@@ -144,7 +144,7 @@ const ProgramsPage = () => {
             {researchAreas.map((area, index) => (
               <div
                 key={index}
-                className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:bg-academic-blue hover:text-white transition-colors cursor-pointer"
+                className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-center hover:bg-academic-blue-800 hover:text-white transition-colors cursor-pointer"
               >
                 <p className="font-medium">{area}</p>
               </div>
@@ -154,7 +154,7 @@ const ProgramsPage = () => {
       </section>
 
       {/* Admission CTA */}
-      <section className="py-16 bg-gradient-to-r from-academic-blue to-blue-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Join Us?</h2>
           <p className="text-xl text-blue-100 mb-8">
@@ -165,13 +165,13 @@ const ProgramsPage = () => {
               href="https://www.iitr.ac.in/admissions/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-academic-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="bg-white text-academic-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Apply Now
             </a>
             <a
               href="/contact"
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-academic-blue transition-colors"
+              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-academic-blue-800 transition-colors"
             >
               Contact Admissions
             </a>

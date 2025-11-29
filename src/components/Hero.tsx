@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-academic-blue text-white">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white">
       {/* Content */}
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
         {/* Main Heading */}
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Link
             to="/about"
-            className="inline-flex items-center justify-center bg-white text-academic-blue font-semibold px-8 py-4 rounded-md border border-white hover:bg-transparent hover:text-white transition-colors duration-300"
+            className="inline-flex items-center justify-center bg-white text-academic-blue-800 font-semibold px-8 py-4 rounded-md border border-white hover:bg-transparent hover:text-white transition-colors duration-300"
           >
             <span>Explore Department</span>
             <ArrowRight className="ml-2 w-5 h-5" />
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
 
           <Link
             to="/research"
-            className="inline-flex items-center justify-center bg-transparent text-white font-semibold px-8 py-4 rounded-md border border-white hover:bg-white hover:text-academic-blue transition-colors duration-300"
+            className="inline-flex items-center justify-center bg-transparent text-white font-semibold px-8 py-4 rounded-md border border-white hover:bg-white hover:text-academic-blue-800 transition-colors duration-300"
           >
             <span>Our Research</span>
             <ArrowRight className="ml-2 w-5 h-5" />

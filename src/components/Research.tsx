@@ -76,7 +76,7 @@ const Research: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center space-x-2 bg-academic-blue/10 border border-academic-blue/20 text-academic-blue px-4 py-2 rounded-md text-sm font-semibold mb-4">
+          <div className="inline-flex items-center space-x-2 bg-academic-blue/15 border border-academic-blue/20 text-academic-blue-800 px-4 py-2 rounded-md text-sm font-semibold mb-4">
             <Microscope className="w-4 h-4" />
             <span>Research Excellence</span>
           </div>
@@ -86,7 +86,7 @@ const Research: React.FC = () => {
           <p className="text-xl text-academic-gray/80 max-w-3xl mx-auto mb-6">
             Explore our world-class research facilities and cutting-edge laboratories driving innovation in materials science
           </p>
-          <div className="w-24 h-1 bg-academic-blue mx-auto rounded-full"></div>
+          <div className="section-accent"></div>
         </div>
 
         {/* Research Labs Grid */}
@@ -110,7 +110,7 @@ const Research: React.FC = () => {
                   {/* Icon */}
                   <div className="absolute top-4 left-4">
                     <div className="w-10 h-10 bg-white rounded-md flex items-center justify-center shadow-sm">
-                      <IconComponent className="w-5 h-5 text-academic-blue" />
+                      <IconComponent className="w-5 h-5 text-academic-blue-800" />
                     </div>
                   </div>
 
@@ -127,7 +127,7 @@ const Research: React.FC = () => {
 
                 {/* Lab Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-academic-gray mb-4 hover:text-academic-blue transition-colors">
+                  <h3 className="text-xl font-bold text-academic-gray mb-4 hover:text-academic-blue-800 transition-colors">
                     {lab.name}
                   </h3>
                   <p className="text-academic-gray/80 leading-relaxed mb-6 text-sm">
@@ -143,7 +143,7 @@ const Research: React.FC = () => {
                       {lab.focus.map((area, idx) => (
                         <span
                           key={idx}
-                          className="px-3 py-1 bg-academic-blue/10 text-academic-blue text-xs rounded-md font-medium"
+                          className="badge-primary"
                         >
                           {area}
                         </span>
@@ -153,9 +153,9 @@ const Research: React.FC = () => {
 
                   {/* Learn More Button */}
                   <div className="flex items-center justify-between bg-gray-50 hover:bg-gray-100 px-4 py-3 rounded-md transition-all duration-300 border border-gray-200">
-                    <span className="text-sm font-semibold text-academic-blue">Explore Lab</span>
+                    <span className="text-sm font-semibold text-academic-blue-800">Explore Lab</span>
                     <div className="flex items-center space-x-2">
-                      <ArrowRight size={16} className="text-academic-blue" />
+                      <ArrowRight size={16} className="text-academic-blue-800" />
                       <ExternalLink size={14} className="text-academic-gray" />
                     </div>
                   </div>
@@ -166,7 +166,7 @@ const Research: React.FC = () => {
         </div>
 
         {/* Research Highlights */}
-        <div className="relative bg-academic-blue rounded-lg p-12 md:p-16 overflow-hidden">
+        <div className="relative bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 rounded-lg p-12 md:p-16 overflow-hidden">
           <div className="relative text-center text-white">
             <h3 className="text-3xl md:text-4xl font-bold mb-12">
               Research Impact & Excellence

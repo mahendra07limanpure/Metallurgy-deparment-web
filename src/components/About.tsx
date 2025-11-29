@@ -27,14 +27,14 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center space-x-2 bg-academic-blue/10 text-academic-blue px-4 py-2 rounded-md text-sm font-semibold mb-4">
+          <div className="inline-flex items-center space-x-2 bg-academic-blue/15 text-academic-blue-800 px-4 py-2 rounded-md text-sm font-semibold mb-4">
             <Award className="w-4 h-4" />
             <span>About Our Department</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">
             Leading Excellence in Materials Science
           </h2>
-          <div className="w-24 h-1 bg-academic-blue mx-auto rounded-full"></div>
+          <div className="section-accent"></div>
         </div>
 
         {/* Main Content */}
@@ -43,7 +43,7 @@ const About: React.FC = () => {
           <div className="space-y-8">
             <div className="bg-white rounded-md p-8 shadow-md border border-gray-100">
               <h3 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-                <div className="w-2 h-8 bg-academic-blue rounded-full mr-4"></div>
+                <div className="w-2 h-8 bg-academic-blue-600 rounded-full mr-4"></div>
                 Our Legacy
               </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
@@ -58,7 +58,7 @@ const About: React.FC = () => {
 
             <div className="bg-white rounded-md p-8 shadow-md border border-gray-100">
               <h3 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-                <div className="w-2 h-8 bg-academic-blue rounded-full mr-4"></div>
+                <div className="w-2 h-8 bg-academic-blue-600 rounded-full mr-4"></div>
                 Our Mission
               </h3>
               <p className="text-gray-600 leading-relaxed">
@@ -81,7 +81,7 @@ const About: React.FC = () => {
             {/* Info Card */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-md p-6 shadow-md border border-gray-100">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-academic-blue rounded-md flex items-center justify-center">
+                <div className="w-12 h-12 bg-academic-blue-800 rounded-md flex items-center justify-center">
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -100,7 +100,7 @@ const About: React.FC = () => {
               key={feature.title}
               className="bg-white rounded-md p-8 shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-academic-blue rounded-md flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-academic-blue-800 rounded-md flex items-center justify-center mb-6">
                 <feature.icon className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-academic-gray mb-4">

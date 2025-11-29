@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'academic-blue': '#003366',
+        'academic-blue': {
+          DEFAULT: '#ADD8E6',
+          600: '#5FA8D3',
+          700: '#2D85C1',
+          800: '#1D4E89'
+        },
         'academic-gold': '#B6922E',
         'academic-gray': '#4A4A4A',
       },

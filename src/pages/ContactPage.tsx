@@ -7,7 +7,7 @@ const ContactPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">Contact Us</h1>
-            <div className="w-24 h-1 bg-academic-blue mx-auto rounded-full"></div>
+            <div className="section-accent"></div>
           </div>
 
           <div className="bg-white rounded-md shadow-md border border-gray-100 p-8">
@@ -33,11 +33,11 @@ const ContactPage: React.FC = () => {
               <div>
                 <h3 className="text-xl font-bold text-academic-gray mb-4">Email</h3>
                 <p className="text-gray-600">
-                  <a href="mailto:hod@mt.iitr.ac.in" className="text-academic-blue hover:underline">
+                  <a href="mailto:hod@mt.iitr.ac.in" className="link-primary">
                     hod@mt.iitr.ac.in
                   </a>
                   <br />
-                  <a href="mailto:office@mt.iitr.ac.in" className="text-academic-blue hover:underline">
+                  <a href="mailto:office@mt.iitr.ac.in" className="link-primary">
                     office@mt.iitr.ac.in
                   </a>
                 </p>
