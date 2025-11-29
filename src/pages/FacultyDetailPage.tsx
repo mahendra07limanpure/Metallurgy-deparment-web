@@ -75,6 +75,7 @@ interface FacultyDetail {
 const FacultyDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const [faculty, setFaculty] = useState<FacultyDetail | null>(null);
+  const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -85,6 +86,13 @@ const FacultyDetailPage: React.FC = () => {
         if (!res.ok) throw new Error(`Faculty data not found`);
         const data = (await res.json()) as FacultyDetail;
         setFaculty(data);
+
+        const listRes = await fetch('/data/faculty.json');
+        if (listRes.ok) {
+          const list = (await listRes.json()) as Array<{ slug: string; image?: string }>;
+          const matched = list.find((m) => m.slug === slug);
+          if (matched && matched.image) setImageUrl(matched.image);
+        }
       } catch (err) {
         setError((err as Error).message);
       } finally {
@@ -111,10 +119,22 @@ const FacultyDetailPage: React.FC = () => {
         <div className="bg-white rounded-md shadow-md border border-gray-100 p-8 mb-8">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="flex-shrink-0">
-              <div className="w-40 h-40 bg-academic-blue rounded-md flex items-center justify-center">
-                <span className="text-6xl font-bold text-white">
-                  {faculty.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
-                </span>
+              <div className="w-40 h-40 rounded-md overflow-hidden bg-gray-100">
+                {imageUrl ? (
+                  <img
+                    src={imageUrl}
+                    alt={faculty.name}
+                    className="w-full h-full object-cover object-center"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-academic-blue flex items-center justify-center">
+                    <span className="text-6xl font-bold text-white">
+                      {faculty.name.split(' ').map((n) => n[0]).slice(0, 2).join('')}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
             

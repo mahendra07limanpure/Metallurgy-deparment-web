@@ -1,0 +1,90 @@
+{
+  "name": "Dr. Suhrit Mula",
+  "designation": "Professor",
+  "email": "sumeet.mishra@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.com/citations?user=Md9V95UAAAAJ&hl=en",
+  "linkedin": "linkedin.com/in/suhrit-mula-b0939117/?originalSubdomain=in",
+
+  "research_interests": [
+    "Preparation of bulk nanostructured metals and alloys",
+    "Nanocomposites",
+    "Low stacking fault energy copper based alloys",
+    "High strength steel through thermo-mechanical processing",
+    "Thermomechanical simulation",
+    "Multiaxial forging",
+    "Controlled rolling of IF steels",
+    "Microalloyed steels",
+    "High entropy alloys",
+    "Cast high entropy alloys development",
+    "Thermodynamics of nanostructured materials",
+    "Kinetics of nanostructured materials",
+    "Thermal stability of nanostructured materials",
+    "Iron-based nanostructured alloys",
+    "Aluminium-based nanostructured alloys",
+    "Mechanical alloying",
+    "Spark plasma sintering",
+    "Wear resistance",
+    "Corrosion resistance"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "IIT Kharagpur",
+      "year": "2009"
+    },
+    {
+      "degree": "M.Tech",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "NIT Durgapur",
+      "year": "2004"
+    },
+    {
+      "degree": "B.Tech",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "NIT Durgapur",
+      "year": "1997"
+    },
+    {
+      "degree": "Post Doctoral Research (BOYSCAST-DST)",
+      "field": "Metallurgical Research",
+      "institution": "North Carolina State University (NC State), USA",
+      "year": "2011"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "NIT Rourkela",
+      "period": "01 Jan 2007 - 01 Jan 2012"
+    },
+    {
+      "position": "Visiting Research Scholar",
+      "organization": "NC State University, USA",
+      "period": "01 Jan 2010 - 01 Jan 2011"
+    },
+    {
+      "position": "Research Scholar",
+      "organization": "CMERI Durgapur",
+      "period": "01 Jan 1998 - 01 Jan 2003"
+    },
+    {
+      "position": "Management Trainee",
+      "organization": "India Foils Ltd., Kolkata",
+      "period": "01 Jan 1997 - 01 Jan 1998"
+    }
+  ],
+
+  "research_projects": [],
+
+  "honors_and_awards": [],
+
+  "memberships": [],
+
+  "teaching_engagements": []
+}
