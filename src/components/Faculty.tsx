@@ -58,7 +58,7 @@ const Faculty: React.FC = () => {
   if (!members || members.length === 0) return <div className="py-20 text-center">No faculty found.</div>;
 
   return (
-    <section id="faculty" className="py-20 lg:py-32 bg-gray-50 relative">
+    <section id="faculty" className="py-8 bg-gray-50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-academic-blue/15 text-academic-blue-800 px-4 py-2 rounded-md text-sm font-semibold mb-4">
