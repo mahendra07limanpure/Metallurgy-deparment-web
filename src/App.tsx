@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 
 // Lazy load pages for better performance
 const HomePage = lazy(() => import('./pages/HomePage'));
-const AboutPage = lazy(() => import('./pages/AboutPage'));
 const FacultyPage = lazy(() => import('./pages/FacultyPage'));
 const FacultyDetailPage = lazy(() => import('./pages/FacultyDetailPage'));
 const ResearchPage = lazy(() => import('./pages/ResearchPage'));
@@ -35,7 +34,6 @@ function App() {
           <Suspense fallback={<PageLoader />}>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
               <Route path="/faculty" element={<FacultyPage />} />
               <Route path="/faculty/:slug" element={<FacultyDetailPage />} />
               <Route path="/research" element={<ResearchPage />} />

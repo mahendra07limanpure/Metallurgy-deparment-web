@@ -28,9 +28,6 @@ const NotFoundPage = () => {
           <div className="pt-8 border-t border-gray-200">
             <p className="text-sm text-gray-500 mb-4">Quick Links:</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link to="/about" className="link-primary">
-                About Us
-              </Link>
               <Link to="/faculty" className="link-primary">
                 Faculty
               </Link>

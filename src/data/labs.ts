@@ -322,23 +322,114 @@ export const labs: Lab[] = [
     category: "service",
     description: "Metal forming processes and research.",
     image: ph("Metal Forming Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Sumeet Mishra",
+    profInchargeEmail: "sumeet.mishra@mt.iitr.ac.in",
+    staffIncharge: "Mr. Naveen Rana",
+    staffInchargeEmail: "naveen.mmt@iitr.ac.in",
+    roomNo: "140",
+    equipments: [
+      { name: "Birson Friction Screw Press (100 tons)", usage: "For forging of metals / powders" },
+      { name: "Hydraulic Press (60 Metric Tons)", usage: "For compaction of powders" },
+      { name: "Hydraulic Press (20 Tons) Hand Operated", usage: "For compaction of powders" },
+      { name: "Attritor Mill", usage: "For milling/mechanical alloying of powders" },
+      { name: "Mechanico Ball Mill", usage: "For milling/mechanical alloying of powders" },
+      { name: "Jar Mill", usage: "For mixing of powder blends" },
+      { name: "Hydrogen Generator", usage: "For hydrogen generation / supply" },
+      { name: "Lab Stirrer with Chuck", usage: "For stirring" },
+      { name: "Magnetic Stirrer with Hot Plate", usage: "To provide heating and stirring" },
+      { name: "High pressure Bulldozer Pump", usage: "To provide pressurized water" },
+    ],
   },
   {
     slug: "metallography-laboratory",
     name: "Metallography Laboratory",
     category: "service",
-    description: "Microstructural preparation and analysis.",
+    description: "Metallography lab is dedicated for fundamental material inspection and operation like sample preparation and microstructural examination of materials by optical microscope. This lab is equipped with belt polisher, disc polisher, hot mounting press, DC regulated power supply and optical microscopes.",
     image: ph("Metallography Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Pinku Roy",
+    profInchargeEmail: "pinku.roy@mt.iitr.ac.in",
+    staffIncharge: "Sh. Akashdeep Talwar",
+    staffInchargeEmail: "akashdeep.mmt2018@iitr.ac.in",
+    roomNo: "112",
+    equipments: [
+      { name: "Optical Microscope", usage: "Make: Leica, Model: 5000M, Magnification: 100X to 1000X" },
+      { name: "Automatic Electro-polishing Unit", usage: "Make: Struers, Model: LectroPol-5" },
+      { name: "Automatic Precision High Speed Diamond Saw", usage: "Make: Metco" },
+      { name: "Polishing machine", usage: "Make: METCO" },
+      { name: "Hot Mounting Press", usage: "Make: METCO, Model: BAINMOUNT-P AUTO" },
+      { name: "Abrasive Cutting Machine", usage: "Make: Metco" },
+      { name: "DC regulated power supply", usage: "Make: Aplab, Model: L3205, Usage: Electroetching" },
+    ],
+    gallery: [
+      { src: "/data/Lab/Metallography-Lab/Optical_micro.jpeg", alt: "Optical Microscope", caption: "Optical Microscope" },
+      { src: "/data/Lab/Metallography-Lab/Electro-polishing.jpeg", alt: "Automatic Electro-polishing Unit", caption: "Automatic Electro-polishing Unit" },
+      { src: "/data/Lab/Metallography-Lab/diamond_saw.jpeg", alt: "Automatic Precision High Speed Diamond Saw", caption: "Automatic Precision High Speed Diamond Saw" },
+      { src: "/data/Lab/Metallography-Lab/polishing_machine.jpg", alt: "Polishing machine", caption: "Polishing machine" },
+      { src: "/data/Lab/Metallography-Lab/mounting_press.jpeg", alt: "Hot Mounting Press", caption: "Hot Mounting Press" },
+      { src: "/data/Lab/Metallography-Lab/cutting_machine.jpeg", alt: "Abrasive Cutting Machine", caption: "Abrasive Cutting Machine" },
+      { src: "/data/Lab/Metallography-Lab/power_supply.jpg", alt: "DC regulated power supply", caption: "DC regulated power supply" },
+    ],
   },
   {
     slug: "mineral-dressing-laboratory",
     name: "Mineral Dressing Laboratory",
     category: "service",
     description: "Mineral processing and beneficiation.",
-    image: ph("Mineral Dressing Laboratory"),
-    equipments: [],
+    image: "/data/Lab/Mineral_dressing_lab/Ball_mill.jpg",
+    profIncharge: "Prof. Nikhil Dhawan",
+    profInchargeEmail: "nikhil.dhawan@mt.iitr.ac.in",
+    staffIncharge: "Mr. Anurag Chaudhary",
+    staffInchargeEmail: "anurag.mmt@iitr.ac.in",
+    equipments: [
+      {
+        name: "Ball mill size 18”×18”/Ball mill( A.S. Enterprise, Calcutta)",
+        usage: "A ball mill is a machine with a rotating hollow cylinder partly filled with steel or white cast iron balls which is used as grinding media. Ball Mill grinds a material by rotating a cylinder with hard balls, causing them to fall back into the cylinder and onto the material to be ground. The impact of balls is important for reduction in size of the particles.",
+      },
+      {
+        name: "Lab. Jaw Crusher (A.S Enterprises, Calcutta)",
+        usage: "Crushers used to reduce the size of a solid mix of raw material run of mine ore. A jaw crusher uses compressive force for breaking of particle. This mechanical pressure is achieved by the two jaws of the crusher of which one is fixed while the other reciprocates.",
+      },
+      {
+        name: "Roll Crusher 10ʺ ×6ʺ",
+        usage: "Roll crusher is used for secondary crushing in which the product of primary crusher is the feed. The final size of particles can be varied through adjusting space between the rollers.",
+      },
+      {
+        name: "Centrifugal classifier",
+        usage: "It is extensively used for sizing the aggregates of minerals particles into varying size groups by centrifugal force.",
+      },
+      {
+        name: "Froth flotation cell",
+        usage: "Froth flotation is a highly versatile method for physically separating particles based on differences in their wet ability as froth. The particles with attached air bubbles are then carried to the surface and removed, while the particles that remain completely wetted stay in the liquid phase. Froth flotation can be adapted to a broad range of mineral separations, as it is possible to use chemical treatments to selectively alter mineral surfaces so that they have the necessary properties for the separation.",
+      },
+      {
+        name: "Mechanical sieve shaking machine hanging type",
+        usage: "A sieve analysis used to assess the particle size distribution of a granular material. A sieve analysis can be performed on any type of non-organic or organic granular materials including sands, crushed rock, clays, granite, feldspars, coal, and soil, a wide range of manufactured powders, grain and seeds, down to a minimum size. It is a simple technique of particle sizing; it is probably the most common. Sieve shaker is used for shaking the sieves for determination of particle size and its distribution.",
+      },
+      {
+        name: "Hot Air oven 18ʺ× 18ʺ× 18ʺ",
+        usage: "Hot Air Oven is an electrical device, widely used in laboratories for sterilization. It makes optimal use of dry heat to sanitize. It have thermostat for controlling the temperature and digitally controlled to maintain the temperature and fan to circulate hot air.",
+      },
+      {
+        name: "Wilfley table",
+        usage: "The Wilfley Table is simply a large wooden table, on top of which a series of parallel “riffles” are fixed. These riffles increased in length incrementally from the top of the table down to the bottom. The entire table is set at an angle, and the slime is poured onto it from the top corner. The heavier particles would be held up along the riffles, while the lighter particles would roll over them. The whole table is oscillated back and forth many times a minute, which works the heavier particles down the riffles and towards the opposite end of the table. From there they are removed. The basic principle of Wilfley table is flowing film convention in which minerals are separated on the basis of specific gravity and size differences.",
+      },
+      {
+        name: "Mineral Jig",
+        usage: "A jig is a simple mineral separation device using water and the force of gravity to separate minerals depending on the differences in their specific gravity and size.",
+      },
+      {
+        name: "Disc Type Pelletizer",
+        usage: "This equipment used for converting powdered materials into round and uniform size pellets. Which are subsequently used for reduction studies.",
+      },
+      {
+        name: "Rod Mill",
+        usage: "It is used for grinding the ore using steel rods as grinding media. In this mill the uniform particle size is obtained if a raw material is ground by this mill. It consists a long hollow cylinder and grinding action is performed by tumbling of rods inside the mill.",
+      },
+      {
+        name: "Jar Mill",
+        usage: "This machine is used for uniformly mixing the metal powder (blending) which is subsequently used for preparation of compacts.",
+      },
+    ],
   },
   {
     slug: "nano-mechanics-laboratory",
@@ -346,7 +437,47 @@ export const labs: Lab[] = [
     category: "service",
     description: "Nanomechanics and instrumented testing.",
     image: ph("Nano-Mechanics Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. S.R. Meka",
+    profInchargeEmail: "s.r.meka@mt.iitr.ac.in",
+    staffIncharge: "Sh. Narendra Kumar",
+    staffInchargeEmail: "narendra.mmt@iitr.ac.in",
+    roomNo: "125",
+    equipments: [
+      {
+        name: "Hysitron - TI 950 TriboIndentor",
+        usage: `Hysitron Nano Indentor (TI 950 TriboIndentor) is an instrumented indentation system for analyzing the mechanical behavior of materials with a probing depth of few 10s of nanometers to micrometer range. It offers researchers and scientist the ability to take accurate nanoscale measurements of mechanical properties such as hardness and elastic modulus through indentation. The instrument is equipped with an in-situ contact imaging facility with nanometer level resolution for obtaining 3D profile of the tested surface. Friction, wear resistance and coating adhesive strength can also be evaluated using scratch mode. In addition, nanoDMA and nanoECR testing modes are available for investigating the dynamic mechanical behavior and stress induced electrical behavior of material systems, respectively.
+
+Specifications:
+• Max. force: 10 nN (Z-Axis) / 2 mN (X-Axis)
+• Load Resolution: 1 nN (Z-Axis) / 3000 nN (X-Axis)
+• Load Noise Floor: 100 nN (Z-Axis) / 10000 nN (X-Axis)
+• Maximum Displacement: 5000 nm (Z-Axis) / 15000 nm (X-Axis)
+• Displacement Resolution: 0.04 nm (Z-Axis) / 4 nm (X-Axis)
+• Displacement Noise Floor: 0.2 nm (Z-Axis) / 10 nm (X-Axis)
+• Thermal Drift: < 0.05 nm/sec (both axes)
+
+Available Testing Modes:
+• Quasistatic Nanoindentation – Measures Young’s modulus and hardness via nanoindentation.
+• Scratch testing – Quantifies scratch resistance (lateral force) and friction coefficients as a function of displacement.
+• ScanningWear – Quantifies wear volumes and wear rates using the in-situ imaging capability
+• nanoDMA – Investigates time-dependent properties of materials using a dynamic testing technique, which is designed specifically for soft materials.
+• Modulus Mapping – Produces quantitative maps of the storage and loss stiffness and moduli from a single SPM scan
+• nanoECR – Conductive nanoindentation system capable of providing simultaneous in situ electrical and mechanical measurements for investigating material deformation and stress induced transformation behavior.`,
+      },
+      {
+        name: "Nanovea M1 Hardness and Scratch Tester",
+        usage: `Nanovea M1 is an instrumented indentation system providing hardness and Young’s modulus from indentation data. Micro modules support indentation, scratch and wear testing for thin or thick, soft or hard coatings, films and substrates. Software computes fracture toughness, adhesion, wear resistance and other deformation-related quantities. A 3D non-contact profiler provides high-resolution 3D imaging of indentations, scratches and wear tracks plus surface roughness.
+
+Specifications:
+• Load Resolution (Noise Floor): 0.75 mN
+• Depth Range: 100 μm
+• Depth Resolution (Theoretical): 0.2 nm
+• Depth measured with Z motor encoders: 10 nm resolution
+• Friction Force: 40 N
+• Friction Resolution (Noise Floor): 3 mN
+• Scratch length: 25 mm`,
+      },
+    ],
   },
   {
     slug: "polymer-laboratory",
@@ -354,7 +485,30 @@ export const labs: Lab[] = [
     category: "service",
     description: "Polymer synthesis and characterization.",
     image: ph("Polymer Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Aparna Tripathi",
+    profInchargeEmail: "aparna.tripathi@mt.iitr.ac.in",
+    staffIncharge: "Sh. Vivek Mehta",
+    staffInchargeEmail: "vivek.mhy@iitr.ac.in",
+    roomNo: "Currently In XRD Lab (211)",
+    equipments: [
+      {
+        name: "Differential Scanning Calorimetry (DSC)",
+        usage: "The operating technique is based on the difference in heat flow to a sample and to a reference, is monitored as function of temperature or time, while the sample is subjected to a controlled temperature programme.",
+      },
+      {
+        name: "Simultaneous Thermal Analysis (STA)",
+        usage: "It is used to perform TG and DTA of materials. It enables to measure mass change and thermal effects of a great variety of application materials including thermal stability, decomposition behaviour, composition, phase transitions and melting processes comprehensively and quickly.",
+      },
+      {
+        name: "Dynamic Mechanical Analyzer (DMA)",
+        usage: "The DMA 800 has facility to conduct oscillatory experiments to measure the elasticity of polymer materials by providing dynamic mechanical deformation. Operating principle: A constant load applied to a sample begins to oscillate sinusoidally in a linear viscoelastic region of the sample material.",
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Polymer_lab/DSC.png", alt: "Differential Scanning Calorimetry", caption: "DSC Equipment" },
+      { src: "/data/Lab/Polymer_lab/STA.png", alt: "Simultaneous Thermal Analyzer", caption: "STA Equipment" },
+      { src: "/data/Lab/Polymer_lab/DMA.png", alt: "Dynamic Mechanical Analyzer", caption: "DMA Equipment" },
+    ],
   },
   {
     slug: "sem-laboratory",

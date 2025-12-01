@@ -138,7 +138,7 @@ const LabDetailPage: React.FC = () => {
                           <h3 className="font-semibold text-academic-gray">{name}</h3>
                         </div>
                         {usage && (
-                          <p className="mt-2 text-sm text-academic-gray/80 leading-relaxed">{usage}</p>
+                          <p className="mt-2 text-sm text-academic-gray/80 leading-relaxed whitespace-pre-line">{usage}</p>
                         )}
                       </li>
                     );
