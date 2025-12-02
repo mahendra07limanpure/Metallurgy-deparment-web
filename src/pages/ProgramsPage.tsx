@@ -14,7 +14,7 @@ const ProgramsPage = () => {
         'Industrial training and project work',
         'Placement opportunities in leading industries',
       ],
-      intake: '60 students per year',
+      intake: '80 students per year',
       eligibility: 'JEE Advanced qualified candidates',
     },
     {
@@ -29,7 +29,7 @@ const ProgramsPage = () => {
         'Collaborative projects with industry and national laboratories',
         'Teaching assistantship opportunities',
       ],
-      intake: '40 students per year',
+      intake: '-',
       eligibility: 'GATE qualified candidates with B.Tech/B.E. in relevant discipline',
     },
     {
@@ -149,32 +149,6 @@ const ProgramsPage = () => {
                 <p className="font-medium">{area}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Admission CTA */}
-      <section className="py-16 bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Join Us?</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Applications for the upcoming academic year are now open
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://www.iitr.ac.in/admissions/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-academic-blue-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Apply Now
-            </a>
-            <a
-              href="/contact"
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-academic-blue-800 transition-colors"
-            >
-              Contact Admissions
-            </a>
           </div>
         </div>
       </section>
