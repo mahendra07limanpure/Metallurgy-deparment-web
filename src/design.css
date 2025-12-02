@@ -1,21 +1,23 @@
-/* Shared design system utilities built on Tailwind tokens */
+@layer components {
+  /* Shared design system utilities built on Tailwind tokens */
 
-.btn-primary {
-  @apply inline-flex items-center justify-center bg-academic-blue-800 text-white font-semibold px-4 py-3 rounded-md hover:bg-academic-blue-700 transition-colors;
-}
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-academic-blue-800 text-white font-semibold px-4 py-3 rounded-md hover:bg-academic-blue-700 transition-colors;
+  }
 
-.link-primary {
-  @apply text-academic-blue-800 hover:underline;
-}
+  .link-primary {
+    @apply text-academic-blue-800 hover:underline;
+  }
 
-.section-accent {
-  @apply w-24 h-1 bg-academic-blue-600 mx-auto rounded-full;
-}
+  .section-accent {
+    @apply w-24 h-1 bg-academic-blue-600 mx-auto rounded-full;
+  }
 
-.badge-primary {
-  @apply px-3 py-1 bg-academic-blue/15 text-academic-blue-800 text-xs rounded-md font-medium;
-}
+  .badge-primary {
+    @apply px-3 py-1 bg-academic-blue/15 text-academic-blue-800 text-xs rounded-md font-medium;
+  }
 
-.title-primary {
-  @apply text-4xl md:text-5xl font-bold text-academic-gray;
+  .title-primary {
+    @apply text-4xl md:text-5xl font-bold text-academic-gray;
+  }
 }

@@ -993,48 +993,240 @@ Specifications:
     slug: "electrometallurgy-research-laboratory",
     name: "Electrometallurgy Research Laboratory",
     category: "thematic",
-    description: "Electro-metallurgical processing and research.",
+    description: "Research work focuses on electrochemical systems like electroplating and corrosion. The laboratory conducts comprehensive studies on electrometallurgical processing and related phenomena.",
     image: ph("Electrometallurgy Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. Mukesh Bhardwaj",
+    profInchargeEmail: "mukesh.bhardwaj@mt.iitr.ac.in",
+    staffIncharge: "Sh. Dinesh Kumar",
+    staffInchargeEmail: "dishamme@iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. Mukesh Bhardwaj", email: "mukesh.bhardwaj@mt.iitr.ac.in" },
+      { role: "Staff In-Charge", name: "Sh. Dinesh Kumar", email: "dishamme@iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Gamry Interface 3000",
+        usage: "Make: Gamry; Model: Interface 3000; Electrochemical testing and analysis system",
+      },
+      {
+        name: "Circulating Water Bath",
+        usage: "For temperature control during electrochemical experiments",
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Electrometallurgy_Research_Lab/Gamry_Interface_3000.png", alt: "Gamry Interface 3000", caption: "Gamry Interface 3000 Electrochemical System" },
+      { src: "/data/Lab/Electrometallurgy_Research_Lab/Circulating_water_bath.png", alt: "Circulating Water Bath", caption: "Circulating Water Bath" },
+    ],
   },
   {
     slug: "energy-materials-laboratory",
     name: "Energy Materials Laboratory",
     category: "thematic",
-    description: "Energy storage and conversion materials.",
+    description: "The goal of Energy Materials Laboratory is to promote the advancement of energy storage systems involving Batteries/Electrolytes/Capacitors etc. The laboratory provides an excellent and innovative environment where students can learn techniques involving synthesis and characterization of anode/cathode as well as ceramics/composite materials for energy systems and their respective property measurements.",
     image: ph("Energy Materials Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. Anjan Sil",
+    profInchargeEmail: "anjan.sil@mt.iitr.ac.in",
+    staffIncharge: "Dr. Indranil Lahiri",
+    staffInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. Anjan Sil", email: "anjan.sil@mt.iitr.ac.in" },
+      { role: "Associate Officer In-Charge", name: "Dr. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Battery Testing System",
+        usage: "Make: ARBIN INSTRUMENTS, USA; Model: BT-2000; Max Power/Current: 1KVA/6A; Frequency: 50/60 Hz; Voltage: 220 V; For Electrochemical Analysis",
+      },
+      {
+        name: "Ultramicrotome",
+        usage: "Make: LEICA; Model: EM UC7; For slicing to thin sections of materials for morphological observation",
+      },
+      {
+        name: "LCR Hitester",
+        usage: "Make: HIOKI; Model: 3532-50; Voltage: ±40 V DC Max; For Impedance Analysis",
+      },
+      {
+        name: "Glove box",
+        usage: "Make: MBRAUN; For material synthesis in ultralow O2/moisture environment",
+      },
+      {
+        name: "Electrometer/Multimeter/High Resistance Meter",
+        usage: "Make: KEITHLEY; Model: Integra Series; Input: 250 V peak; Output: 2V, 10 KΩ, 30 V Peak; For Electrical Characterization",
+      },
+      {
+        name: "Ultrapycnometer",
+        usage: "Make: Quantachrome Instruments; Model: 1000 (23-A); For Powder Density Measurement",
+      },
+      {
+        name: "Hot Air Oven",
+        usage: "Make: JEIO Tech; Model: OV-11; For Drying",
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Energy_Materials_Lab/Battery_Testing_System.png", alt: "Battery Testing System", caption: "Battery Testing System BT-2000" },
+      { src: "/data/Lab/Energy_Materials_Lab/Ultramicrotome.png", alt: "Ultramicrotome", caption: "Ultramicrotome EM UC7" },
+      { src: "/data/Lab/Energy_Materials_Lab/LCR_Hitester.png", alt: "LCR Hitester", caption: "LCR Hitester 3532-50" },
+      { src: "/data/Lab/Energy_Materials_Lab/Glove_box.png", alt: "Glove box", caption: "Glove box MBRAUN" },
+      { src: "/data/Lab/Energy_Materials_Lab/Integra_Series.png", alt: "Electrometer/Multimeter", caption: "Electrometer/Multimeter Integra Series" },
+      { src: "/data/Lab/Energy_Materials_Lab/Ultrapycnometer.png", alt: "Ultrapycnometer", caption: "Ultrapycnometer 1000 (23-A)" },
+      { src: "/data/Lab/Energy_Materials_Lab/Hot_Air_Oven.png", alt: "Hot Air Oven", caption: "Hot Air Oven OV-11" },
+    ],
   },
   {
     slug: "erosion-testing-laboratory",
     name: "Erosion Testing Laboratory",
     category: "thematic",
-    description: "Erosion mechanisms and testing.",
+    description: "There is huge loss due to erosive wear of components like turbine blades and underwater components. This laboratory measures erosion behavior of various materials through weight loss measurement at regular intervals. The lab tests coated surfaces, surface modified materials, and heat treated materials.",
     image: ph("Erosion Testing Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. B.V. Manoj Kumar",
+    profInchargeEmail: "manoj.kumar@mt.iitr.ac.in",
+    staffIncharge: "Sh. Narendra Kumar",
+    staffInchargeEmail: "narendra.mmt@iitr.ac.in",
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. B.V. Manoj Kumar", email: "manoj.kumar@mt.iitr.ac.in" },
+      { role: "Service Supervisor", name: "Sh. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Air Jet Erosion Tester",
+        usage: "Model: TR-470; Make: Ducom; Erodent: Alumina (50 µ); Speed of Erodent: 30-50 m/s",
+      },
+      {
+        name: "Slurry Erosion Tester",
+        usage: "Make: Indigeneously made; RPM: 0-2000/min",
+      },
+    ],
+    analyses: [
+      {
+        category: "Materials Tested",
+        items: [
+          "Coated surface",
+          "Surface modified materials",
+          "Heat treated materials",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Erosion_Testing_Lab/Air_Jet_Erosion_Test.png", alt: "Air Jet Erosion Tester", caption: "Air Jet Erosion Tester TR-470" },
+      { src: "/data/Lab/Erosion_Testing_Lab/Slurry_Erosion_Test.png", alt: "Slurry Erosion Tester", caption: "Slurry Erosion Tester" },
+    ],
   },
   {
     slug: "materials-processing-laboratory",
     name: "Materials Processing Laboratory",
     category: "thematic",
-    description: "Processing pathways for advanced materials.",
+    description: "The Materials Processing Laboratory focuses on developing processing pathways for advanced materials using cutting-edge equipment and techniques for friction stir processing, superplastic forming, ultrasonic processing, and precision measurement.",
     image: ph("Materials Processing Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Vivek Pancholi",
+    profInchargeEmail: "vivek.pancholi@mt.iitr.ac.in",
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Vivek Pancholi", email: "vivek.pancholi@mt.iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Friction Stir Processing Equipment",
+        usage: "For friction stir processing of Al and Mg alloys",
+      },
+      {
+        name: "Superplastic Forming Facility",
+        usage: "For superplastic forming by using gas pressure blowing",
+      },
+      {
+        name: "Ultrasonic Processor",
+        usage: "Model: VCX-1500, 1500W; For ultrasonic processing of metals such as Al and Mg during solidification. Can do degassing, homogenization etc. of molten metals.",
+      },
+      {
+        name: "Traveling Microscope in Three Motions",
+        usage: "Instrument for measuring length with resolution of about 0.01 mm. Position of the microscope is read by a vernier. Aims at reference marks with high accuracy for precision measurements.",
+      },
+    ],
   },
   {
     slug: "nano-materials-and-application-laboratory",
     name: "Nano Materials and Application Laboratory",
     category: "thematic",
-    description: "Nanomaterials and applications.",
+    description: "In this lab, we are working on large scale synthesis of nanomaterials such as Graphene (for application in flexible transparent field emitters and transparent conducting electrodes), Carbon Nanotubes (for electronic and electrochemical applications), and Boron Nitride (for application in composites, piezoelectric cells and bioimaging).",
     image: ph("Nano Materials Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. Indranil Lahiri",
+    profInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Controlled Atmosphere High Temperature Tubular Furnace",
+        usage: "Custom made tube type furnace with quartz tube; Three zoned furnace with PID controller for each zone; Controlled atmosphere (argon, hydrogen, ammonia); Maximum temperature: 1100°C; Different heating rate selectors",
+      },
+      {
+        name: "High Voltage Power Supply",
+        usage: "Make: Stanford Research Systems, Inc.; Model: PS350; Output Voltage: 50 to ±5000 V; Maximum Output Current: 5 mA; Stability: 0.01% per hour",
+      },
+      {
+        name: "Arbitrary Function Generator",
+        usage: "Make: Tektronix; Model: AFG3022C; Channel: 2; Sine/Pulse: 25 MHz; Sampling Rate: 250MS/s; Amplitude: 10Vp-p; Interface: USB, LAN, GPIB",
+      },
+      {
+        name: "Mixed Domain Oscilloscope",
+        usage: "Make: Tektronix; Model: MDO3024; Analog Channels: 4; Digital Channels: 16; Analog Width: 200 MHz; Analog Sample Rate: 2.5GS/s; Spectrum Analyzer Frequency Range: 9KHz-200MHz",
+      },
+      {
+        name: "Digital Multimeter",
+        usage: "Make: Keithley; Model: Keithley-2010/E; For precise electrical measurements",
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Nano_Materials_and_Application_Lab/Controlled_Atmosphere_High_Temperature_Tubular_Furnace.png", alt: "Controlled Atmosphere High Temperature Tubular Furnace", caption: "Controlled Atmosphere High Temperature Tubular Furnace" },
+      { src: "/data/Lab/Nano_Materials_and_Application_Lab/PS350.png", alt: "High Voltage Power Supply", caption: "High Voltage Power Supply PS350" },
+      { src: "/data/Lab/Nano_Materials_and_Application_Lab/AFG3022C.png", alt: "Arbitrary Function Generator", caption: "Arbitrary Function Generator AFG3022C" },
+      { src: "/data/Lab/Nano_Materials_and_Application_Lab/MDO3024.png", alt: "Mixed Domain Oscilloscope", caption: "Mixed Domain Oscilloscope MDO3024" },
+      { src: "/data/Lab/Nano_Materials_and_Application_Lab/Digital_Multimeter.png", alt: "Digital Multimeter", caption: "Digital Multimeter Keithley-2010/E" },
+    ],
   },
   {
     slug: "phase-transformation-laboratory",
     name: "Phase Transformation Laboratory",
     category: "thematic",
-    description: "Phase transformations in alloys/materials.",
+    description: "Steel is an evergreen material without saturation in application. This laboratory is devoted to developing iron based alloys, both conventional and unconventional, with a fundamental base of theoretical calculations and experiments. Research focuses on heat treatment in controlled atmosphere, alloy design through CALPHAD calculations, and non-equilibrium synthesis of alloys.",
     image: ph("Phase Transformation Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. Sadhan Ghosh",
+    profInchargeEmail: "sadhan.ghosh@mt.iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. Sadhan Ghosh", email: "sadhan.ghosh@mt.iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Planetary Ball Mill",
+        usage: "Make: Retsch; Model: PM100; For mechanical alloying and non-equilibrium synthesis of alloys",
+      },
+    ],
+    analyses: [
+      {
+        category: "Research Focus",
+        items: [
+          "Heat Treatment in controlled atmosphere, employing Gleeble 3800",
+          "Selection of alloy element by CALPHAD calculation and theoretical investigation",
+          "Non-equilibrium synthesis of alloys",
+        ],
+      },
+      {
+        category: "Current Research Challenges",
+        items: [
+          "Identifying role of ternary element (Si/Al) in bainitic cementite formation for high ductility with large carbon content",
+          "Developing interstitial free (IF) steel for automobile application with minimum alloy addition for low cost",
+          "Synthesizing new grade of iron based alloys by additive manufacturing with laser source and mechanical alloying",
+        ],
+      },
+      {
+        category: "Research Approach",
+        items: [
+          "Non-equilibrium synthesis incorporates phase changes in iron and its alloys",
+          "Generates seemingly infinite variety of microstructures and properties",
+          "International collaboration in alloy development",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Phase_Transformation/Planetary_Ball_mill.png", alt: "Planetary Ball Mill", caption: "Planetary Ball Mill PM100" },
+    ],
   },
 ];
