@@ -514,41 +514,265 @@ Specifications:
     slug: "sem-laboratory",
     name: "SEM Laboratory",
     category: "service",
-    description: "Scanning electron microscopy facility.",
+    description: "Scanning Electron Microscopy (SEM) is used for imaging solid samples like metals, ceramics, fibers, powders, thin films, etc. with EDS and EBSD detectors for elemental composition and texture analysis.",
     image: ph("SEM Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Piyush V Jagtap",
+    profInchargeEmail: "piyushvj@mt.iitr.ac.in",
+    roomNo: "129",
+    equipments: [
+      {
+        name: "Thermionic Emission SEM (EVO 18, Carl Zeiss)",
+        usage: "SEM Make: EVO 18, Carl Zeiss; EDS Detector: Oxford Instruments; EBSD Detector: Oxford Instruments; Installation year: 2012",
+      },
+      {
+        name: "Field Emission SEM (Sigma 300, Carl Zeiss)",
+        usage: "SEM Make: Sigma 300, Carl Zeiss; EDS Detector: Oxford Instruments; EBSD Detector: Oxford Instruments; Installation year: 2023",
+      },
+    ],
+    analyses: [
+      {
+        category: "Imaging",
+        items: [
+          "Secondary Electron (SE) Imaging",
+          "Backscattered Electron (BSE) Imaging",
+          "High Resolution Imaging",
+        ],
+      },
+      {
+        category: "Elemental Analysis",
+        items: [
+          "Energy Dispersive Spectroscopy (EDS) - Spectrum Analysis",
+          "Energy Dispersive Spectroscopy (EDS) - Elemental Mapping",
+        ],
+      },
+      {
+        category: "Crystallographic Analysis",
+        items: [
+          "Electron Backscatter Diffraction (EBSD) - Texture Analysis",
+          "Electron Backscatter Diffraction (EBSD) - Phase Identification",
+          "Electron Backscatter Diffraction (EBSD) - Orientation Mapping",
+        ],
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Piyush V Jagtap", email: "piyushvj@mt.iitr.ac.in" },
+    ],
+    gallery: [
+      { src: "/data/Lab/Sem_lab/thermionic_emission_sem.png", alt: "Thermionic Emission SEM", caption: "Thermionic Emission SEM (EVO 18, Carl Zeiss)" },
+      { src: "/data/Lab/Sem_lab/field_emission_sem.png", alt: "Field Emission SEM", caption: "Field Emission SEM (Sigma 300, Carl Zeiss)" },
+    ],
   },
   {
     slug: "spark-plasma-sintering-laboratory",
     name: "Spark Plasma Sintering Laboratory",
     category: "service",
-    description: "SPS sintering for advanced materials.",
+    description: "Spark Plasma Sintering (SPS) is used for compacting metallic, ceramic or metal-ceramic powders to form pellets. SPS achieves high density at reduced sintering temperature and time without requiring a binder, resulting in materials with better mechanical properties.",
     image: ph("Spark Plasma Sintering Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. B.V. Manoj Kumar",
+    profInchargeEmail: "manoj.kumar@mt.iitr.ac.in",
+    staffIncharge: "D. Prasad, Technical Officer",
+    staffInchargeEmail: "mozhimic@iitr.ac.in",
+    roomNo: "111",
+    equipments: [
+      {
+        name: "Spark Plasma Sintering Machine (Dr. Sinter SPS-625)",
+        usage: "Model: Dr. Sinter SPS-625, Fuji Electronic Industrial Co. Ltd., Japan; Max. Current: 5000A; Max. sintering Temperature: 2000°C; Max. sintering pressure: 100 KN; Vacuum: up to 0.006 Pa. Operating parameters depend on the sample composition and die type/size.",
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. B.V. Manoj Kumar", email: "manoj.kumar@mt.iitr.ac.in" },
+      { role: "Officer In-Charge", name: "D. Prasad, Technical Officer", email: "mozhimic@iitr.ac.in", phone: "+91-01332-284380" },
+    ],
+    analyses: [
+      {
+        category: "Sample Requirements",
+        items: [
+          "Sample must be bone dry by heating in oven at suitable temperature for at least 24 hours",
+          "Powder sample weight: 4-10g (depends on sample density and desired pellet dimensions)",
+        ],
+      },
+      {
+        category: "Charges for Non-IITR Users",
+        items: [
+          "Educational institutes: ₹4,000 + 18% GST per sample",
+          "Govt Research labs: ₹8,000 + 18% GST per sample",
+          "Industry - Testing: ₹10,000 + 18% GST per sample",
+          "Industry - Consultancy: ₹15,000 + 18% GST per sample",
+        ],
+      },
+      {
+        category: "Procedure for Sample Submission",
+        items: [
+          "IITR Users: MMED IITR users submit duly signed form at Officer In-charge office. Non-MMED IITR users forward form through Head, MMED.",
+          "Non-IITR Users: Requisition Form for SPS duly forwarded by Supervisor/Head with NEFT/RTGS/UPI details and GST number to postal address. E-mail ID and mobile number must be clearly written.",
+          "Mode of Payment: Online transfer through NEFT/RTGS/UPI only",
+        ],
+      },
+      {
+        category: "Bank Details",
+        items: [
+          "Name of A/c holder: Dean SRIC, IIT Roorkee",
+          "Name of Bank: Punjab National Bank, IIT Roorkee branch",
+          "Account No.: 4044000100031597",
+          "IFSC Code: PUNB0404400",
+          "MICR Code: 247024103",
+        ],
+      },
+      {
+        category: "Postal Address",
+        items: [
+          "The Head, Dept of Metallurgical & Materials Engg, IIT Roorkee, Roorkee – 247667, Uttarakhand, India",
+          "Tel: 01332 284343, 285606",
+          "Note: Mention 'Samples for SPS (Spark Plasma Sintering)' on the envelope",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Spark_Plasma_Sintering_lab/SPS.png", alt: "Spark Plasma Sintering Machine", caption: "Dr. Sinter SPS-625, Spark Plasma Sintering Machine" },
+    ],
   },
   {
     slug: "thermo-mechanical-simulator-laboratory",
     name: "Thermo-Mechanical Simulator Laboratory",
     category: "service",
-    description: "Thermo-mechanical simulation (Gleeble, etc.).",
+    description: "Very versatile equipment to do physical simulation of actual industrial processes. Samples can be subjected to actual deformation and thermal cycles experienced by material during processing. This helps in understanding the effect of processing conditions on microstructure and related properties, and to develop new processing conditions to optimize microstructure and material properties.",
     image: ph("Thermo-Mechanical Simulator Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Vivek Pancholi",
+    profInchargeEmail: "vivek.pancholi@mt.iitr.ac.in",
+    staffIncharge: "Sh. Naveen Rana",
+    staffInchargeEmail: "naveen.mmt@iitr.ac.in",
+    roomNo: "144",
+    equipments: [
+      {
+        name: "Gleeble 3800",
+        usage: "Specification: Gleeble 3800; Strain rate for compression test: max. 100/s; Maximum heating rate: up to 10,000°C/sec",
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Vivek Pancholi", email: "vivek.pancholi@mt.iitr.ac.in" },
+      { role: "Staff In-Charge", name: "Sh. Naveen Rana", email: "naveen.mmt@iitr.ac.in" },
+    ],
+    analyses: [
+      {
+        category: "Applications",
+        items: [
+          "Compression Test",
+          "Strip Annealing",
+          "Surface Studies",
+          "TTT Curve (Time-Temperature-Transformation)",
+          "Inter-critical Cooling",
+          "Powder Metallurgy",
+          "Compact Testing",
+          "CCT Curves (Continuous Cooling Transformation)",
+          "Cryogenic Works",
+          "Many more applications",
+        ],
+      },
+    ],
   },
   {
     slug: "tribology-laboratory",
     name: "Tribology Laboratory",
     category: "service",
-    description: "Wear, friction, and lubrication studies.",
+    description: "Wear is a surface degradation of operating surface due to relative motion of materials at the surface. Huge loss is incurred on account of wear. This lab studies the behavior of newly developed materials under wear conditions using specialized equipment.",
     image: ph("Tribology Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Anish Karmakar",
+    profInchargeEmail: "anish.karmakar@mt.iitr.ac.in",
+    staffIncharge: "Mr. Narendra Kumar",
+    staffInchargeEmail: "narendra.mmt@iitr.ac.in",
+    roomNo: "137",
+    equipments: [
+      {
+        name: "Ultrasonicator",
+        usage: "Make: Sonics; Model No.: Vibracell; Frequency: 20 Hz",
+      },
+      {
+        name: "Pin on Disc Tester",
+        usage: "Make: Magnum; RPM: 1 to 200 rpm; Applied load: 1-6 kg",
+      },
+      {
+        name: "Profilometer",
+        usage: "Make: Mititoyo; Model Name: SJ 400; Range: <1 to 300 µm; Used for measuring surface roughness",
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Anish Karmakar", email: "anish.karmakar@mt.iitr.ac.in" },
+      { role: "Service Supervisor", name: "Mr. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
+    ],
+    gallery: [
+      { src: "/data/Lab/Tribology/Ultrasonicator.png", alt: "Ultrasonicator", caption: "Ultrasonicator - Sonics Vibracell" },
+      { src: "/data/Lab/Tribology/Pin_on_Disc_Tester.png", alt: "Pin on Disc Tester", caption: "Pin on Disc Tester - Magnum" },
+      { src: "/data/Lab/Tribology/Profilometer.png", alt: "Profilometer", caption: "Profilometer - Mititoyo SJ 400" },
+    ],
   },
   {
     slug: "welding-laboratory",
     name: "Welding Laboratory",
     category: "service",
-    description: "Welding processes and metallurgy.",
+    description: "The Metal Joining Laboratory promotes the advancement of quality welding in the industry and teaches welding techniques at UG, PG and PhD levels. The laboratory provides an excellent educational environment where students learn the latest techniques for SMAW, GMAW, SAW, and GTAW welding processes.",
     image: ph("Welding Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Sourav Das",
+    profInchargeEmail: "sourav.das@mt.iitr.ac.in",
+    staffIncharge: "Sh. Anurag Chaudhary",
+    staffInchargeEmail: "anurag.mmt@iitr.ac.in",
+    equipments: [
+      {
+        name: "ESAB Welding Power Source",
+        usage: "Make: ESAB, Model: Aristo 2000 – LUD 450 UW, Direct current (D.C) welding power source with MEK 44C wire feeder. Capable to operate for SMAW, GTAW, GMAW and P-GMAW in both synergic and non-synergic modes.",
+      },
+      {
+        name: "Lincoln Powerwave 455M/Powerfeed 10M",
+        usage: "Make: Lincoln Electric Co. USA, Inverter based synergic pulse MIG/MAG welding power wave machine with single feeder. Suitable for MIG welding, SMAW, GTAW (Touch Start TIG only), GMAW, P-GMAW and FCAW in both synergic and non-synergic modes.",
+      },
+      {
+        name: "Submerged Arc Welding Machine",
+        usage: "Equipment for submerged arc welding processes.",
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Sourav Das", email: "sourav.das@mt.iitr.ac.in" },
+      { role: "Staff In-Charge", name: "Sh. Anurag Chaudhary", email: "anurag.mmt@iitr.ac.in" },
+    ],
+    analyses: [
+      {
+        category: "On Going Research Projects",
+        items: [
+          "Investigation on effect of pulsed current gas metal arc welding on joint characteristics of scandium inoculated high strength aluminium alloy (CSIR, India)",
+          "Investigation on advanced welding technique to improve properties of dissimilar weld joint of austenitic stainless steel to high strength low alloy steel (DRDO, India)",
+          "To study critical application of pulse current gas tungsten arching process in surface processing of steel for desired properties (CSIR, India)",
+        ],
+      },
+      {
+        category: "On Going Ph.D. Work",
+        items: [
+          "Surface modification of steel by TIG arcing process",
+          "Narrow gap gas metal arc welding of dissimilar weld joint of stainless steel and HSLA steel",
+          "Effect of TIG surfacing on fatigue properties of steel",
+        ],
+      },
+      {
+        category: "Achievements",
+        items: [
+          "Development of a concept to control pulse parameter in GMAW process by considering their summarized influence through a dimensionless hypothetical factor",
+          "Development of newly designed narrow GMAW torch nozzle device with appropriate cooling system for narrow gap P-GMA welding of thick wall stainless steel pipe",
+          "Reduction of shrinkage and stresses in multi-pass and multi-seam narrow groove weld of thick (25mm) HSLA steel plate prepared by P-GMAW process",
+          "Design and development of advanced active cooling system in a narrow gap GMAW torch nozzle for multi-pass single-seam per layer extra narrow gap welding of thick steel plates",
+          "Development of a controlled arc of pulsed current TIG arcing process to develop high wear resistant surface modification of steel",
+        ],
+      },
+      {
+        category: "Patents",
+        items: [
+          "GMAW Torch nozzle device for narrow gap welding, Application No. 1245/DEL/2009 dated 17.06.2009",
+          "Single Seam Multilayer Narrow Gap Pulse Current Gas Metal Arc Welding Technique, Application No. 1023/DEL/2010, dated 29.4.2010",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Welding_Lab/ESAB_Welding_Power_Source.png", alt: "ESAB Welding Power Source", caption: "ESAB Welding Power Source - Aristo 2000 – LUD 450 UW" },
+      { src: "/data/Lab/Welding_Lab/Lincoln_Powerwave.png", alt: "Lincoln Powerwave 455M", caption: "Lincoln Powerwave 455M/Powerfeed 10M" },
+      { src: "/data/Lab/Welding_Lab/Submerged_Arc_Welding.png", alt: "Submerged Arc Welding Machine", caption: "Submerged Arc Welding Machine" },
+    ],
   },
 
   // Thematic Research Laboratories
@@ -556,25 +780,214 @@ Specifications:
     slug: "adhesive-joining-laboratory",
     name: "Adhesive Joining Laboratory",
     category: "thematic",
-    description: "Adhesive bonding and joint performance.",
+    description: "The Adhesive Joining Laboratory promotes the advancement of polymer nanocomposite in the industry and teaches polymer composite and adhesives at UG, PG and Ph.D. levels. The laboratory provides an excellent educational environment where students learn techniques for Epoxy-CNT composite, in-situ grown nanocomposite, PMMA-graphene composite, and inorganic nano particles filled epoxy based adhesives for similar and dissimilar metals joints.",
     image: ph("Adhesive Joining Laboratory"),
-    equipments: [],
+    profIncharge: "Prof. Indranil Lahiri",
+    profInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
+    staffIncharge: "Mr. Dhan Prakash",
+    equipments: [
+      {
+        name: "Ultrasonicator",
+        usage: "Make: Sonics vibra cell; Model: VCX750; Power: 750 watts; Frequency: 20 kHz; Probe: 13 mm diameter titanium alloy",
+      },
+      {
+        name: "Ultra high vacuum pump",
+        usage: "Make: Edwards; Model: E2M 18",
+      },
+      {
+        name: "Vacuum oven",
+        usage: "Make: Matrix Scientific Instruments; Model: MW2; Temperature: up to 300°C",
+      },
+    ],
+    contacts: [
+      { role: "Professor In-Charge", name: "Prof. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
+      { role: "Service Supervisor", name: "Mr. Dhan Prakash" },
+    ],
+    analyses: [
+      {
+        category: "Research Projects",
+        items: [
+          "Optimization of ultrasonic dual mixing for homogeneous distribution of inorganic nano particles in epoxy based adhesive affecting its thermal and mechanical properties (Department of Science and Technology, India, 2012-2015)",
+          "Studies on ambient and elevated temperature properties of joints of metals prepared by adhesive joining using nano-particle filled adhesive (Department of Science and Technology, India, 2007-2010)",
+        ],
+      },
+      {
+        category: "On Going Ph.D. Work",
+        items: [
+          "Structure-Property Relationship of Inorganic Nanoparticle Filled Epoxy Adhesive (Kaushal Kumar) - In Progress",
+          "Epoxy Based Carbon Nanotube Composite with Advance Physical and Mechanical properties (Arun Kumar) - In Progress",
+        ],
+      },
+      {
+        category: "Achievements",
+        items: [
+          "An interesting dual mixing ultrasonic processing technique has been developed which could effectively change the matrix structure of epoxy based polymers, instrumental in considerable improvement in mechanical and physical properties including strength, modulus, toughness, safety and durability",
+          "Process is ready for application on many other polymeric materials for modification of desired properties",
+          "Neat epoxy adhesive with excellent thermal and mechanical properties",
+          "Nano-particulate composite adhesive for advanced automobile application",
+          "Adhesive joint on aluminum substrate for automobile and aerospace applications",
+        ],
+      },
+      {
+        category: "Patents",
+        items: [
+          "A multifunctional technique for dispersion of thoroughly broken agglomerates of inorganic nano particles in viscous fluid, Application No. 1554/Del/2008 dated 27.06.2008",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Adhesive_Joining_Lab/Ultrasonicator.png", alt: "Ultrasonicator", caption: "Ultrasonicator - Sonics VCX750" },
+      { src: "/data/Lab/Adhesive_Joining_Lab/Ultra_high_vacuum_pump.png", alt: "Ultra high vacuum pump", caption: "Ultra High Vacuum Pump - Edwards E2M 18" },
+      { src: "/data/Lab/Adhesive_Joining_Lab/Vacuum_oven.png", alt: "Vacuum oven", caption: "Vacuum Oven - Matrix Scientific Instruments MW2" },
+    ],
   },
   {
     slug: "bio-materials-and-multiscale-mechanics-laboratory",
     name: "Bio-Materials and Multiscale Mechanics Laboratory",
     category: "thematic",
-    description: "Biomaterials and multiscale mechanics.",
+    description: "In this laboratory, we work on developing material systems for tissue engineering. We are working on developing metal based material systems for orthopedic applications and polymer based material systems for neural and skin generation scaffolds both with specific functionalities. We also work on developing polymer/metal/ceramic matrix composites reinforced with nano-phases for structural applications.",
     image: ph("Bio-Materials Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. Debrupa Lahiri",
+    profInchargeEmail: "debrupa.lahiri@mt.iitr.ac.in",
+    staffIncharge: "Sh. Narendra Kumar",
+    staffInchargeEmail: "narendra.mmt@iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. Debrupa Lahiri", email: "debrupa.lahiri@mt.iitr.ac.in" },
+      { role: "Lab In-Charge", name: "Sh. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Ultrasonic Probe Sonicator (PCI Analytics PKS-750F)",
+        usage: "Max. Frequency: 25 KHz; Max. Power: 750W; Probe Dia: 1/2\", Titanium; Max. Crushing capacity: 600 ml; Programmable Time: 0-99 hrs 59 min 59 sec; Used for emulsion preparation, homogenization, enzymatic reactions, nanomaterial dispersion, and particle synthesis",
+      },
+      {
+        name: "Ultrasonic Probe Sonicator (Sonics VCX 750)",
+        usage: "Make: Vibra-Cell - Sonics & Materials, Inc.; Model: VCX 750",
+      },
+      {
+        name: "Contact Angle Goniometer",
+        usage: "Make: KRUSS GmbH Germany; Model: DSA25E; Used for determining contact angle, surface free energy of solids, and surface tension of liquids",
+      },
+      {
+        name: "Vacuum Impregnation System",
+        usage: "Indigenous system for polymer impregnation in porous materials; Vacuum: 1 mbar; Internal pressure: up to 12 bar; Make: Vacuum Systems and Products, Bangalore",
+      },
+      {
+        name: "Planetary Ball Mill",
+        usage: "Make: Retsch Technology GmbH, Germany; Model: PM 100; Used for size reduction, mixing, and mechanical alloying",
+      },
+      {
+        name: "Double Beam UV-Vis Spectrophotometer",
+        usage: "Make: Hitachi; Model: UH-5300; Wavelength range: 200-1000 nm; Spectral band pass: 1 nm; Light source: Xenon flash lamp",
+      },
+      {
+        name: "Controlled Atmosphere Furnace",
+        usage: "Make: Nabertherm GmbH, Germany; Model: R50/500/13; Tmax: 1300°C; Can operate in Argon and Nitrogen atmosphere",
+      },
+      {
+        name: "Hydraulic Cold Press",
+        usage: "Make: K.K. Engineers, Surat; Capacity: 25T; Used for making green compacts of powdered materials",
+      },
+      {
+        name: "Centrifuge",
+        usage: "Make: REMI; Model: C-30BL; Max Speed: 20000 rpm; Max RCF: 35000 g force; Cooling temperature: up to -20°C",
+      },
+      {
+        name: "Electrostatic Sprayer",
+        usage: "Make: Red Line Industries Limited; Model: E2100; Power: 260V AC, 60 Hz; Air Supply Pressure: 10-30 PSI",
+      },
+      {
+        name: "True Density Meter",
+        usage: "Make: SMART INSTRUMENTS CO. PVT. LTD.; Model: SMART PYCNO 32; Used for measuring true density/specific gravity using helium displacement",
+      },
+      {
+        name: "Hot Air Oven",
+        usage: "Operating temperature: 50-250°C; Inside Dimensions: 455x455x455 mm; Digital temperature controller",
+      },
+      {
+        name: "Bio Tribometer Pin/Ball on Disc",
+        usage: "Make: Ducom Material Characterization Systems; Model: 836; Wear track dia: 5-40 mm; Disc rotation: 10-1500 rpm; Normal load: 1-50N; Temperature: 550°C; ASTM and ISO compliant",
+      },
+      {
+        name: "Vacuum Pressure Impregnation Chamber",
+        usage: "Make: Indian High Vacuum Pumps, Bangalore; Vacuum: up to 10-3 mbar; Pressure Vessel: SS-304 material; Standard pressure: 7 bar; Used for resin infusion and impregnation",
+      },
+      {
+        name: "Low Speed Diamond Cutter",
+        usage: "Make: Ducom Material Characterization Systems; Model: 840; Speed Range: 20-300 rpm; Load: 0-300 grams; Max cutting length: 25 mm; Sample size: Dia 3-12 mm",
+      },
+      {
+        name: "Vacuum Oven",
+        usage: "Make: Vacuum Techniques Pvt.Ltd., Bangalore; Internal dimension: 300x300x300 mm; Vacuum: 0.01 mbar; Used for heating, degassing, annealing, and vacuum drying",
+      },
+      {
+        name: "Incubator",
+        usage: "Operational temperature: 5°C to 60°C; Three side heating elements; Air circulating fan; Microprocessor based digital controller",
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Ultrasonic_Probe_Sonicator.png", alt: "Ultrasonic Probe Sonicator", caption: "Ultrasonic Probe Sonicator PKS-750F" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/VCX-750.png", alt: "VCX 750 Sonicator", caption: "VCX 750 Ultrasonic Sonicator" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/DSA25E.png", alt: "Contact Angle Goniometer", caption: "Contact Angle Goniometer DSA25E" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Vacuum_Impregnation_System.png", alt: "Vacuum Impregnation System", caption: "Vacuum Impregnation System" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Planetary_Ball_Mill.png", alt: "Planetary Ball Mill", caption: "Planetary Ball Mill PM 100" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/UH-5300.png", alt: "UV-Vis Spectrophotometer", caption: "Double Beam UV-Vis Spectrophotometer UH-5300" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Controlled_Atmosphere_Furnace.png", alt: "Controlled Atmosphere Furnace", caption: "Controlled Atmosphere Furnace R50/500/13" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Hydraulic_Cold_press:.png", alt: "Hydraulic Cold Press", caption: "Hydraulic Cold Press 25T" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Centrifuge.png", alt: "Centrifuge", caption: "Refrigerated Centrifuge C-30BL" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/E2100.png", alt: "Electrostatic Sprayer", caption: "Electrostatic Sprayer E2100" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/True_Density_Meter.png", alt: "True Density Meter", caption: "True Density Meter SMART PYCNO 32" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Hot_Air_Oven.png", alt: "Hot Air Oven", caption: "Hot Air Oven" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/836.png", alt: "Bio Tribometer", caption: "Bio Tribometer Pin/Ball on Disc 836" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Vacuum_Pressure_Impregnation_Chamber.png", alt: "Vacuum Pressure Impregnation Chamber", caption: "Vacuum Pressure Impregnation Chamber" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/840.png", alt: "Low Speed Diamond Cutter", caption: "Low Speed Diamond Cutter 840" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/Vacuum_oven.png", alt: "Vacuum Oven", caption: "Vacuum Oven" },
+      { src: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/INCUBATOR.png", alt: "Incubator", caption: "Incubator" },
+    ],
   },
   {
     slug: "cellular-and-composite-materials-laboratory",
     name: "Cellular and Composite Materials Laboratory",
     category: "thematic",
-    description: "Cellular structures and composite systems.",
+    description: "The purpose of this laboratory is to provide knowledge regarding various techniques of fabrication of metal matrix composite (MMCs) and metallic foam. MMCs combine the ductility and toughness of metallic matrices with the modulus and strength of ceramic reinforcements. Foams with a cellular structure have many interesting combinations of physical and mechanical properties such as high stiffness with very low specific weight and high gas permeability with high thermal conductivity.",
     image: ph("Composite Materials Laboratory"),
-    equipments: [],
+    profIncharge: "Dr. B. S. S. Daniel",
+    profInchargeEmail: "sundar.daniel@mt.iitr.ac.in",
+    staffIncharge: "Sh. Dinesh Kumar",
+    staffInchargeEmail: "dishamme@iitr.ac.in",
+    contacts: [
+      { role: "Officer In-Charge", name: "Dr. B. S. S. Daniel", email: "sundar.daniel@mt.iitr.ac.in" },
+      { role: "Service Supervisor", name: "Sh. Dinesh Kumar", email: "dishamme@iitr.ac.in" },
+    ],
+    equipments: [
+      {
+        name: "Ultrasonic Processor",
+        usage: "Make: Sonic and Materials; Model: VCX1500; Power: 1500 watts; Frequency: 20 kHz; Probe: 25 mm diameter",
+      },
+      {
+        name: "Electric Furnace",
+        usage: "K-type thermocouple; Spare muffle; Gas flow meter; Argon gas cylinder; Furnace interfaced PC",
+      },
+      {
+        name: "Potentiostat",
+        usage: "For electrochemical analysis and testing",
+      },
+    ],
+    analyses: [
+      {
+        category: "On Going Ph.D. Work",
+        items: [
+          "Al-Al3Ti based in-situ composite by ultrasonication for high temperature application (Rahul Gupta)",
+          "Processing of Steel foam (Himanshu Kala)",
+          "Ultrasonic processing of Al alloy (Neeraj Shrivastava)",
+        ],
+      },
+    ],
+    gallery: [
+      { src: "/data/Lab/Cellular_and_Composite_Materials_Lab/Ultrasonic_Processor.png", alt: "Ultrasonic Processor", caption: "Ultrasonic Processor VCX1500" },
+      { src: "/data/Lab/Cellular_and_Composite_Materials_Lab/Electric_furnace.png", alt: "Electric Furnace", caption: "Electric Furnace" },
+      { src: "/data/Lab/Cellular_and_Composite_Materials_Lab/Potentiostat.png", alt: "Potentiostat", caption: "Potentiostat" },
+    ],
   },
   {
     slug: "electrometallurgy-research-laboratory",
