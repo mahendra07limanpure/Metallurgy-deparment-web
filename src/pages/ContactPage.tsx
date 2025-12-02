@@ -34,11 +34,11 @@ const ContactPage: React.FC = () => {
                 <h3 className="text-xl font-bold text-academic-gray mb-4">Email</h3>
                 <p className="text-gray-600">
                   <a href="mailto:hod@mt.iitr.ac.in" className="link-primary">
-                    hod@mt.iitr.ac.in
+                    head@mt.iitr.ac.in
                   </a>
                   <br />
                   <a href="mailto:office@mt.iitr.ac.in" className="link-primary">
-                    office@mt.iitr.ac.in
+                    metal@iitr.ac.in
                   </a>
                 </p>
               </div>
