@@ -19,9 +19,6 @@ export interface Lab {
   gallery?: { src: string; alt: string; caption: string }[];
 }
 
-const ph = (text: string) =>
-  `https://via.placeholder.com/800x500?text=${encodeURIComponent(text)}`;
-
 export const labs: Lab[] = [
   // Service Laboratories
   {
@@ -29,7 +26,7 @@ export const labs: Lab[] = [
     name: "Ceramic Laboratory",
     category: "service",
     description: "Ceramic processing and characterization facility.",
-    image: ph("Ceramic Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. V.V. Dabhade",
     profInchargeEmail: "vikram.dabhade@mt.iitr.ac.in",
     staffIncharge: "Sh. D. Prasad",
@@ -71,7 +68,7 @@ export const labs: Lab[] = [
     name: "Corrosion Laboratory",
     category: "service",
     description: "Corrosion testing and mitigation studies.",
-    image: ph("Corrosion Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. G.P. Chaudhari",
     profInchargeEmail: "g.chaudhari@mt.iitr.ac.in",
     staffIncharge: "Sh. Dinesh Kumar",
@@ -144,7 +141,7 @@ export const labs: Lab[] = [
     name: "Foundry Laboratory",
     category: "service",
     description: "Casting, molding, and foundry operations.",
-    image: ph("Foundry Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. Sadhan Ghosh",
     profInchargeEmail: "sadhan.ghosh@mt.iitr.ac.in",
     staffIncharge: "Sh. Nitin Kumar",
@@ -167,7 +164,7 @@ export const labs: Lab[] = [
     name: "Heat Treatment Laboratory",
     category: "service",
     description: "Heat treatment and thermal processing.",
-    image: ph("Heat Treatment Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. Varun A Baheti",
     profInchargeEmail: "varun@mt.iitr.ac.in",
     staffIncharge: "Sh. Akashdeep Talwar",
@@ -189,7 +186,7 @@ export const labs: Lab[] = [
     category: "service",
     description:
       "High-resolution transmission electron microscopy facility for diffraction, imaging, spectroscopy and energy-filtered analysis.",
-    image: ph("HR-TEM Laboratory"),
+    image: "/data/Lab/HR-TEM/main.jpeg",
     profIncharge: "Prof. B.S. Sundar Daniel",
     profInchargeEmail: "sundar.daniel@mt.iitr.ac.in",
     staffIncharge: "S. Krishnsamy",
@@ -265,7 +262,7 @@ export const labs: Lab[] = [
     name: "Magnetic Materials Research Laboratory",
     category: "service",
     description: "Magnetic materials synthesis and testing.",
-    image: ph("Magnetic Materials Laboratory"),
+    image: "/data/placeholder.jpg",
     equipments: [],
   },
   {
@@ -273,7 +270,7 @@ export const labs: Lab[] = [
     name: "Materials Characterization (XRD) Laboratory",
     category: "service",
     description: "X-ray diffraction analysis for materials.",
-    image: ph("XRD Laboratory"),
+    image: "/data/Lab/XRD/main.jpg",
     profIncharge: "Prof. Nikhil Dhawan",
     profInchargeEmail: "nikhil.dhawan@mt.iitr.ac.in",
     staffIncharge: "Sh. Dinesh Kumar",
@@ -291,7 +288,7 @@ export const labs: Lab[] = [
     name: "Materials Testing Laboratory",
     category: "service",
     description: "Universal testing and mechanical properties.",
-    image: ph("Materials Testing Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. Gautam Agarwal",
     profInchargeEmail: "gautam.agarwal@mt.iitr.ac.in",
     staffIncharge: "Mr. Narendra Kumar",
@@ -321,7 +318,7 @@ export const labs: Lab[] = [
     name: "Metal Forming Laboratory",
     category: "service",
     description: "Metal forming processes and research.",
-    image: ph("Metal Forming Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. Sumeet Mishra",
     profInchargeEmail: "sumeet.mishra@mt.iitr.ac.in",
     staffIncharge: "Mr. Naveen Rana",
@@ -345,7 +342,7 @@ export const labs: Lab[] = [
     name: "Metallography Laboratory",
     category: "service",
     description: "Metallography lab is dedicated for fundamental material inspection and operation like sample preparation and microstructural examination of materials by optical microscope. This lab is equipped with belt polisher, disc polisher, hot mounting press, DC regulated power supply and optical microscopes.",
-    image: ph("Metallography Laboratory"),
+    image: "/data/Lab/Metallography-Lab/main.jpg",
     profIncharge: "Prof. Pinku Roy",
     profInchargeEmail: "pinku.roy@mt.iitr.ac.in",
     staffIncharge: "Sh. Akashdeep Talwar",
@@ -436,7 +433,7 @@ export const labs: Lab[] = [
     name: "Nano-Mechanics Laboratory",
     category: "service",
     description: "Nanomechanics and instrumented testing.",
-    image: ph("Nano-Mechanics Laboratory"),
+    image: "/data/Lab/Nano-mechanics-lab/main.jpg",
     profIncharge: "Prof. S.R. Meka",
     profInchargeEmail: "s.r.meka@mt.iitr.ac.in",
     staffIncharge: "Sh. Narendra Kumar",
@@ -484,7 +481,7 @@ Specifications:
     name: "Polymer Laboratory",
     category: "service",
     description: "Polymer synthesis and characterization.",
-    image: ph("Polymer Laboratory"),
+    image: "/data/Lab/Polymer_lab/main.jpg",
     profIncharge: "Prof. Aparna Tripathi",
     profInchargeEmail: "aparna.tripathi@mt.iitr.ac.in",
     staffIncharge: "Sh. Vivek Mehta",
@@ -515,9 +512,11 @@ Specifications:
     name: "SEM Laboratory",
     category: "service",
     description: "Scanning Electron Microscopy (SEM) is used for imaging solid samples like metals, ceramics, fibers, powders, thin films, etc. with EDS and EBSD detectors for elemental composition and texture analysis.",
-    image: ph("SEM Laboratory"),
+    image: "/data/Lab/Sem_lab/thermionic_emission_sem.png",
     profIncharge: "Prof. Piyush V Jagtap",
     profInchargeEmail: "piyushvj@mt.iitr.ac.in",
+    staffIncharge: "D. Prasad, Technical Officer",
+    staffInchargeEmail: "mozhimic@iitr.ac.in",
     roomNo: "129",
     equipments: [
       {
@@ -529,34 +528,6 @@ Specifications:
         usage: "SEM Make: Sigma 300, Carl Zeiss; EDS Detector: Oxford Instruments; EBSD Detector: Oxford Instruments; Installation year: 2023",
       },
     ],
-    analyses: [
-      {
-        category: "Imaging",
-        items: [
-          "Secondary Electron (SE) Imaging",
-          "Backscattered Electron (BSE) Imaging",
-          "High Resolution Imaging",
-        ],
-      },
-      {
-        category: "Elemental Analysis",
-        items: [
-          "Energy Dispersive Spectroscopy (EDS) - Spectrum Analysis",
-          "Energy Dispersive Spectroscopy (EDS) - Elemental Mapping",
-        ],
-      },
-      {
-        category: "Crystallographic Analysis",
-        items: [
-          "Electron Backscatter Diffraction (EBSD) - Texture Analysis",
-          "Electron Backscatter Diffraction (EBSD) - Phase Identification",
-          "Electron Backscatter Diffraction (EBSD) - Orientation Mapping",
-        ],
-      },
-    ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Piyush V Jagtap", email: "piyushvj@mt.iitr.ac.in" },
-    ],
     gallery: [
       { src: "/data/Lab/Sem_lab/thermionic_emission_sem.png", alt: "Thermionic Emission SEM", caption: "Thermionic Emission SEM (EVO 18, Carl Zeiss)" },
       { src: "/data/Lab/Sem_lab/field_emission_sem.png", alt: "Field Emission SEM", caption: "Field Emission SEM (Sigma 300, Carl Zeiss)" },
@@ -567,7 +538,7 @@ Specifications:
     name: "Spark Plasma Sintering Laboratory",
     category: "service",
     description: "Spark Plasma Sintering (SPS) is used for compacting metallic, ceramic or metal-ceramic powders to form pellets. SPS achieves high density at reduced sintering temperature and time without requiring a binder, resulting in materials with better mechanical properties.",
-    image: ph("Spark Plasma Sintering Laboratory"),
+    image: "/data/Lab/Spark_Plasma_Sintering_lab/SPS.png",
     profIncharge: "Prof. B.V. Manoj Kumar",
     profInchargeEmail: "manoj.kumar@mt.iitr.ac.in",
     staffIncharge: "D. Prasad, Technical Officer",
@@ -578,10 +549,6 @@ Specifications:
         name: "Spark Plasma Sintering Machine (Dr. Sinter SPS-625)",
         usage: "Model: Dr. Sinter SPS-625, Fuji Electronic Industrial Co. Ltd., Japan; Max. Current: 5000A; Max. sintering Temperature: 2000°C; Max. sintering pressure: 100 KN; Vacuum: up to 0.006 Pa. Operating parameters depend on the sample composition and die type/size.",
       },
-    ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. B.V. Manoj Kumar", email: "manoj.kumar@mt.iitr.ac.in" },
-      { role: "Officer In-Charge", name: "D. Prasad, Technical Officer", email: "mozhimic@iitr.ac.in", phone: "+91-01332-284380" },
     ],
     analyses: [
       {
@@ -636,7 +603,7 @@ Specifications:
     name: "Thermo-Mechanical Simulator Laboratory",
     category: "service",
     description: "Very versatile equipment to do physical simulation of actual industrial processes. Samples can be subjected to actual deformation and thermal cycles experienced by material during processing. This helps in understanding the effect of processing conditions on microstructure and related properties, and to develop new processing conditions to optimize microstructure and material properties.",
-    image: ph("Thermo-Mechanical Simulator Laboratory"),
+    image: "/data/Lab/Thermo-Mechanical-Simulator/TMS.jpg",
     profIncharge: "Prof. Vivek Pancholi",
     profInchargeEmail: "vivek.pancholi@mt.iitr.ac.in",
     staffIncharge: "Sh. Naveen Rana",
@@ -647,10 +614,6 @@ Specifications:
         name: "Gleeble 3800",
         usage: "Specification: Gleeble 3800; Strain rate for compression test: max. 100/s; Maximum heating rate: up to 10,000°C/sec",
       },
-    ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Vivek Pancholi", email: "vivek.pancholi@mt.iitr.ac.in" },
-      { role: "Staff In-Charge", name: "Sh. Naveen Rana", email: "naveen.mmt@iitr.ac.in" },
     ],
     analyses: [
       {
@@ -675,7 +638,7 @@ Specifications:
     name: "Tribology Laboratory",
     category: "service",
     description: "Wear is a surface degradation of operating surface due to relative motion of materials at the surface. Huge loss is incurred on account of wear. This lab studies the behavior of newly developed materials under wear conditions using specialized equipment.",
-    image: ph("Tribology Laboratory"),
+    image: "/data/Lab/Tribology/Pin_on_Disc_Tester.png",
     profIncharge: "Prof. Anish Karmakar",
     profInchargeEmail: "anish.karmakar@mt.iitr.ac.in",
     staffIncharge: "Mr. Narendra Kumar",
@@ -695,10 +658,6 @@ Specifications:
         usage: "Make: Mititoyo; Model Name: SJ 400; Range: <1 to 300 µm; Used for measuring surface roughness",
       },
     ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Anish Karmakar", email: "anish.karmakar@mt.iitr.ac.in" },
-      { role: "Service Supervisor", name: "Mr. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
-    ],
     gallery: [
       { src: "/data/Lab/Tribology/Ultrasonicator.png", alt: "Ultrasonicator", caption: "Ultrasonicator - Sonics Vibracell" },
       { src: "/data/Lab/Tribology/Pin_on_Disc_Tester.png", alt: "Pin on Disc Tester", caption: "Pin on Disc Tester - Magnum" },
@@ -710,7 +669,7 @@ Specifications:
     name: "Welding Laboratory",
     category: "service",
     description: "The Metal Joining Laboratory promotes the advancement of quality welding in the industry and teaches welding techniques at UG, PG and PhD levels. The laboratory provides an excellent educational environment where students learn the latest techniques for SMAW, GMAW, SAW, and GTAW welding processes.",
-    image: ph("Welding Laboratory"),
+    image: "/data/Lab/Welding_Lab/Submerged_Arc_Welding.png",
     profIncharge: "Prof. Sourav Das",
     profInchargeEmail: "sourav.das@mt.iitr.ac.in",
     staffIncharge: "Sh. Anurag Chaudhary",
@@ -728,10 +687,6 @@ Specifications:
         name: "Submerged Arc Welding Machine",
         usage: "Equipment for submerged arc welding processes.",
       },
-    ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Sourav Das", email: "sourav.das@mt.iitr.ac.in" },
-      { role: "Staff In-Charge", name: "Sh. Anurag Chaudhary", email: "anurag.mmt@iitr.ac.in" },
     ],
     analyses: [
       {
@@ -781,7 +736,7 @@ Specifications:
     name: "Adhesive Joining Laboratory",
     category: "thematic",
     description: "The Adhesive Joining Laboratory promotes the advancement of polymer nanocomposite in the industry and teaches polymer composite and adhesives at UG, PG and Ph.D. levels. The laboratory provides an excellent educational environment where students learn techniques for Epoxy-CNT composite, in-situ grown nanocomposite, PMMA-graphene composite, and inorganic nano particles filled epoxy based adhesives for similar and dissimilar metals joints.",
-    image: ph("Adhesive Joining Laboratory"),
+    image: "/data/Lab/Adhesive_Joining_Lab/Ultrasonicator.png",
     profIncharge: "Prof. Indranil Lahiri",
     profInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
     staffIncharge: "Mr. Dhan Prakash",
@@ -798,10 +753,6 @@ Specifications:
         name: "Vacuum oven",
         usage: "Make: Matrix Scientific Instruments; Model: MW2; Temperature: up to 300°C",
       },
-    ],
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
-      { role: "Service Supervisor", name: "Mr. Dhan Prakash" },
     ],
     analyses: [
       {
@@ -846,15 +797,11 @@ Specifications:
     name: "Bio-Materials and Multiscale Mechanics Laboratory",
     category: "thematic",
     description: "In this laboratory, we work on developing material systems for tissue engineering. We are working on developing metal based material systems for orthopedic applications and polymer based material systems for neural and skin generation scaffolds both with specific functionalities. We also work on developing polymer/metal/ceramic matrix composites reinforced with nano-phases for structural applications.",
-    image: ph("Bio-Materials Laboratory"),
+    image: "/data/Lab/Bio-Materials_and_Multiscale_Mechanics_Lab/main.jpg",
     profIncharge: "Dr. Debrupa Lahiri",
     profInchargeEmail: "debrupa.lahiri@mt.iitr.ac.in",
     staffIncharge: "Sh. Narendra Kumar",
     staffInchargeEmail: "narendra.mmt@iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. Debrupa Lahiri", email: "debrupa.lahiri@mt.iitr.ac.in" },
-      { role: "Lab In-Charge", name: "Sh. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Ultrasonic Probe Sonicator (PCI Analytics PKS-750F)",
@@ -950,15 +897,11 @@ Specifications:
     name: "Cellular and Composite Materials Laboratory",
     category: "thematic",
     description: "The purpose of this laboratory is to provide knowledge regarding various techniques of fabrication of metal matrix composite (MMCs) and metallic foam. MMCs combine the ductility and toughness of metallic matrices with the modulus and strength of ceramic reinforcements. Foams with a cellular structure have many interesting combinations of physical and mechanical properties such as high stiffness with very low specific weight and high gas permeability with high thermal conductivity.",
-    image: ph("Composite Materials Laboratory"),
+    image: "/data/Lab/Cellular_and_Composite_Materials_Lab/hero.jpg",
     profIncharge: "Dr. B. S. S. Daniel",
     profInchargeEmail: "sundar.daniel@mt.iitr.ac.in",
     staffIncharge: "Sh. Dinesh Kumar",
     staffInchargeEmail: "dishamme@iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. B. S. S. Daniel", email: "sundar.daniel@mt.iitr.ac.in" },
-      { role: "Service Supervisor", name: "Sh. Dinesh Kumar", email: "dishamme@iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Ultrasonic Processor",
@@ -994,15 +937,11 @@ Specifications:
     name: "Electrometallurgy Research Laboratory",
     category: "thematic",
     description: "Research work focuses on electrochemical systems like electroplating and corrosion. The laboratory conducts comprehensive studies on electrometallurgical processing and related phenomena.",
-    image: ph("Electrometallurgy Laboratory"),
+    image: "/data/Lab/Electrometallurgy_Research_Lab/main.jpg",
     profIncharge: "Dr. Mukesh Bhardwaj",
     profInchargeEmail: "mukesh.bhardwaj@mt.iitr.ac.in",
     staffIncharge: "Sh. Dinesh Kumar",
     staffInchargeEmail: "dishamme@iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. Mukesh Bhardwaj", email: "mukesh.bhardwaj@mt.iitr.ac.in" },
-      { role: "Staff In-Charge", name: "Sh. Dinesh Kumar", email: "dishamme@iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Gamry Interface 3000",
@@ -1023,15 +962,11 @@ Specifications:
     name: "Energy Materials Laboratory",
     category: "thematic",
     description: "The goal of Energy Materials Laboratory is to promote the advancement of energy storage systems involving Batteries/Electrolytes/Capacitors etc. The laboratory provides an excellent and innovative environment where students can learn techniques involving synthesis and characterization of anode/cathode as well as ceramics/composite materials for energy systems and their respective property measurements.",
-    image: ph("Energy Materials Laboratory"),
+    image: "/data/Lab/Energy_Materials_Lab/Battery_Testing_System.png",
     profIncharge: "Dr. Anjan Sil",
     profInchargeEmail: "anjan.sil@mt.iitr.ac.in",
     staffIncharge: "Dr. Indranil Lahiri",
     staffInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. Anjan Sil", email: "anjan.sil@mt.iitr.ac.in" },
-      { role: "Associate Officer In-Charge", name: "Dr. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Battery Testing System",
@@ -1077,15 +1012,11 @@ Specifications:
     name: "Erosion Testing Laboratory",
     category: "thematic",
     description: "There is huge loss due to erosive wear of components like turbine blades and underwater components. This laboratory measures erosion behavior of various materials through weight loss measurement at regular intervals. The lab tests coated surfaces, surface modified materials, and heat treated materials.",
-    image: ph("Erosion Testing Laboratory"),
+    image: "/data/Lab/Erosion_Testing_Lab/main.jpg",
     profIncharge: "Prof. B.V. Manoj Kumar",
     profInchargeEmail: "manoj.kumar@mt.iitr.ac.in",
     staffIncharge: "Sh. Narendra Kumar",
     staffInchargeEmail: "narendra.mmt@iitr.ac.in",
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. B.V. Manoj Kumar", email: "manoj.kumar@mt.iitr.ac.in" },
-      { role: "Service Supervisor", name: "Sh. Narendra Kumar", email: "narendra.mmt@iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Air Jet Erosion Tester",
@@ -1116,12 +1047,9 @@ Specifications:
     name: "Materials Processing Laboratory",
     category: "thematic",
     description: "The Materials Processing Laboratory focuses on developing processing pathways for advanced materials using cutting-edge equipment and techniques for friction stir processing, superplastic forming, ultrasonic processing, and precision measurement.",
-    image: ph("Materials Processing Laboratory"),
+    image: "/data/placeholder.jpg",
     profIncharge: "Prof. Vivek Pancholi",
     profInchargeEmail: "vivek.pancholi@mt.iitr.ac.in",
-    contacts: [
-      { role: "Professor In-Charge", name: "Prof. Vivek Pancholi", email: "vivek.pancholi@mt.iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Friction Stir Processing Equipment",
@@ -1146,12 +1074,9 @@ Specifications:
     name: "Nano Materials and Application Laboratory",
     category: "thematic",
     description: "In this lab, we are working on large scale synthesis of nanomaterials such as Graphene (for application in flexible transparent field emitters and transparent conducting electrodes), Carbon Nanotubes (for electronic and electrochemical applications), and Boron Nitride (for application in composites, piezoelectric cells and bioimaging).",
-    image: ph("Nano Materials Laboratory"),
+    image: "/data/Lab/Nano_Materials_and_Application_Lab/MDO3024.png",
     profIncharge: "Dr. Indranil Lahiri",
     profInchargeEmail: "indranil.lahiri@mt.iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. Indranil Lahiri", email: "indranil.lahiri@mt.iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Controlled Atmosphere High Temperature Tubular Furnace",
@@ -1187,12 +1112,9 @@ Specifications:
     name: "Phase Transformation Laboratory",
     category: "thematic",
     description: "Steel is an evergreen material without saturation in application. This laboratory is devoted to developing iron based alloys, both conventional and unconventional, with a fundamental base of theoretical calculations and experiments. Research focuses on heat treatment in controlled atmosphere, alloy design through CALPHAD calculations, and non-equilibrium synthesis of alloys.",
-    image: ph("Phase Transformation Laboratory"),
+    image: "/data/Lab/Phase_Transformation/Planetary_Ball_mill.png",
     profIncharge: "Dr. Sadhan Ghosh",
     profInchargeEmail: "sadhan.ghosh@mt.iitr.ac.in",
-    contacts: [
-      { role: "Officer In-Charge", name: "Dr. Sadhan Ghosh", email: "sadhan.ghosh@mt.iitr.ac.in" },
-    ],
     equipments: [
       {
         name: "Planetary Ball Mill",
