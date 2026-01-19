@@ -9,7 +9,7 @@ const Header: React.FC = () => {
 
   const navigationItems = [
     { name: 'Home', path: '/' },
-    { name: 'Faculty', path: '/faculty' },
+    { name: 'People', path: '/people' },
     { name: 'Research', path: '/research' },
     { name: 'Programs', path: '/programs' },
     { name: 'News', path: '/news' },

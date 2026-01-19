@@ -34,7 +34,7 @@ function App() {
           <Suspense fallback={<PageLoader />}>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/faculty" element={<FacultyPage />} />
+              <Route path="/people" element={<FacultyPage />} />
               <Route path="/faculty/:slug" element={<FacultyDetailPage />} />
               <Route path="/research" element={<ResearchPage />} />
               <Route path="/labs/:slug" element={<LabDetailPage />} />
