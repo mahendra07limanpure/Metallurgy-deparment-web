@@ -65,7 +65,7 @@ const Faculty: React.FC = () => {
             <BookOpen className="w-4 h-4" />
             <span>Our Faculty</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">Meet Our Distinguished Faculty</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-academic-gray mb-6">Meet Our Faculty</h2>
           <div className="section-accent"></div>
         </div>
 
