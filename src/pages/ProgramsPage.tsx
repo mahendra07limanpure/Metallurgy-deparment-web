@@ -1,8 +1,10 @@
 import { GraduationCap, BookOpen, Users, Award } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ProgramsPage = () => {
   const programs = [
     {
+      slug: 'btech',
       degree: 'B.Tech',
       title: 'Bachelor of Technology',
       duration: '4 Years',
@@ -14,10 +16,9 @@ const ProgramsPage = () => {
         'Industrial training and project work',
         'Placement opportunities in leading industries',
       ],
-      intake: '80 students per year',
-      eligibility: 'JEE Advanced qualified candidates',
     },
     {
+      slug: 'mtech',
       degree: 'M.Tech',
       title: 'Master of Technology',
       duration: '2 Years',
@@ -29,10 +30,9 @@ const ProgramsPage = () => {
         'Collaborative projects with industry and national laboratories',
         'Teaching assistantship opportunities',
       ],
-      intake: '-',
-      eligibility: 'GATE qualified candidates with B.Tech/B.E. in relevant discipline',
     },
     {
+      slug: 'phd',
       degree: 'Ph.D.',
       title: 'Doctor of Philosophy',
       duration: '3-5 Years',
@@ -44,8 +44,6 @@ const ProgramsPage = () => {
         'Financial support through fellowships',
         'International collaborations and publications',
       ],
-      intake: 'Rolling admissions',
-      eligibility: 'M.Tech/M.E./M.Sc. with valid GATE score or equivalent',
     },
   ];
 
@@ -112,15 +110,13 @@ const ProgramsPage = () => {
                         </ul>
                       </div>
 
-                      <div className="grid md:grid-cols-2 gap-4 pt-4 border-t border-gray-200">
-                        <div>
-                          <p className="text-sm font-semibold text-gray-700">Intake</p>
-                          <p className="text-gray-600">{program.intake}</p>
-                        </div>
-                        <div>
-                          <p className="text-sm font-semibold text-gray-700">Eligibility</p>
-                          <p className="text-gray-600">{program.eligibility}</p>
-                        </div>
+                      <div className="pt-6 border-t border-gray-200">
+                        <Link
+                          to={`/programs/${program.slug}`}
+                          className="inline-flex items-center justify-center rounded-md bg-academic-blue-800 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-academic-blue-700 transition-colors"
+                        >
+                          View Program Structure & Syllabus
+                        </Link>
                       </div>
                     </div>
                   </div>

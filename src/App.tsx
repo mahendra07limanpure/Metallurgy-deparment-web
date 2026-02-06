@@ -10,6 +10,7 @@ const FacultyDetailPage = lazy(() => import('./pages/FacultyDetailPage'));
 const ResearchPage = lazy(() => import('./pages/ResearchPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const ProgramsPage = lazy(() => import('./pages/ProgramsPage'));
+const ProgramDetailPage = lazy(() => import('./pages/ProgramDetailPage'));
 const NewsEventsPage = lazy(() => import('./pages/NewsEventsPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const LabDetailPage = lazy(() => import('./pages/LabDetailPage'));
@@ -39,6 +40,7 @@ function App() {
               <Route path="/research" element={<ResearchPage />} />
               <Route path="/labs/:slug" element={<LabDetailPage />} />
               <Route path="/programs" element={<ProgramsPage />} />
+              <Route path="/programs/:slug" element={<ProgramDetailPage />} />
               <Route path="/news" element={<NewsEventsPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="*" element={<NotFoundPage />} />
