@@ -72,7 +72,7 @@ const Faculty: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {members.map((member) => (
             <div key={member.id} className="group bg-white rounded-md overflow-hidden shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
-              <Link to={`/faculty/${member.slug}`} className="block">
+              <Link to={`/people/${member.slug}`} className="block">
                 <div className="relative w-full aspect-[1] bg-gray-100 overflow-hidden">
                   <img
                     src={member.image}
