@@ -1,23 +1,28 @@
 @layer components {
-  /* Shared design system utilities built on Tailwind tokens */
-
   .btn-primary {
-    @apply inline-flex items-center justify-center bg-academic-blue-800 text-white font-semibold px-4 py-3 rounded-md hover:bg-academic-blue-700 transition-colors;
+    background-color: var(--academic-blue-800);
+    color: white;
+
+    @apply inline-flex items-center justify-center
+      font-semibold
+      px-4 py-3
+      rounded-md
+      transition-colors;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--academic-blue-700);
   }
 
   .link-primary {
-    @apply text-academic-blue-800 hover:underline;
+    color: var(--academic-blue-800);
   }
 
   .section-accent {
-    @apply w-24 h-1 bg-academic-blue-600 mx-auto rounded-full;
-  }
-
-  .badge-primary {
-    @apply px-3 py-1 bg-academic-blue/15 text-academic-blue-800 text-xs rounded-md font-medium;
-  }
-
-  .title-primary {
-    @apply text-4xl md:text-5xl font-bold text-academic-gray;
+    background-color: var(--academic-blue-600);
+    width: 6rem;
+    height: 0.25rem;
+    margin-inline: auto;
+    border-radius: 9999px;
   }
 }

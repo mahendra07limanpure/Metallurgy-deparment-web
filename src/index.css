@@ -1,9 +1,28 @@
-@import './design.css';
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center
+      font-semibold
+      px-4 py-3
+      rounded-md
+      transition-colors
+      bg-academic-blue-800
+      text-white
+      hover:bg-academic-blue-700;
+  }
+
+  .link-primary {
+    @apply text-academic-blue-800;
+  }
+
+  .section-accent {
+    @apply bg-academic-blue-600 
+      w-24 
+      h-1 
+      mx-auto 
+      rounded-full;
+  }
 }
