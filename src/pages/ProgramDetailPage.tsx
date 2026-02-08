@@ -1,6 +1,6 @@
 import { useState, memo } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { BookOpen, ClipboardList, GraduationCap, ChevronLeft, ChevronDown, ChevronRight, Users } from 'lucide-react';
+import { BookOpen, ChevronLeft, ChevronDown, ChevronRight, Users } from 'lucide-react';
 import { programDetails } from '../data/programsData';
 
 interface CourseSyllabus {
@@ -78,30 +78,32 @@ const CourseCard = memo(({ course, idx }: { course: Course; idx: number }) => (
     )}
 
     {course.syllabus && course.syllabus.topics.length > 0 && (
-      <div className="bg-indigo-50 p-3 rounded border-l-2 border-indigo-500">
-        <h6 className="text-xs font-semibold text-indigo-900 mb-1 flex items-center">
+      <details className="bg-indigo-50 p-3 rounded border-l-2 border-indigo-500">
+        <summary className="text-xs font-semibold text-indigo-900 flex items-center cursor-pointer">
           <BookOpen className="w-3 h-3 mr-1" />
-          Syllabus Topics
-        </h6>
-        <ul className="text-xs text-gray-700 space-y-1">
-          {course.syllabus.topics.map((topic, i) => (
-            <li key={i} className="flex items-start gap-1">
-              <span className="text-indigo-600 mt-0.5">•</span>
-              <span>{topic}</span>
-            </li>
-          ))}
-        </ul>
-        {course.syllabus.pdf && (
-          <a 
-            href={course.syllabus.pdf} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-block mt-2 text-xs bg-indigo-600 text-white px-2 py-1 rounded hover:bg-indigo-700 transition"
-          >
-            📄 Download Syllabus PDF
-          </a>
-        )}
-      </div>
+          View Syllabus
+        </summary>
+        <div className="mt-2">
+          <ul className="text-xs text-gray-700 space-y-1">
+            {course.syllabus.topics.map((topic, i) => (
+              <li key={i} className="flex items-start gap-1">
+                <span className="text-indigo-600 mt-0.5">•</span>
+                <span>{topic}</span>
+              </li>
+            ))}
+          </ul>
+          {course.syllabus.pdf && (
+            <a
+              href={course.syllabus.pdf}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-2 text-xs bg-indigo-600 text-white px-2 py-1 rounded hover:bg-indigo-700 transition"
+            >
+              📄 Download Syllabus PDF
+            </a>
+          )}
+        </div>
+      </details>
     )}
   </div>
 ));
@@ -117,7 +119,17 @@ const CourseStructureView = memo(({ courseStructure }: { courseStructure: YearSt
       {courseStructure.map((yearData) => (
         <div key={yearData.year} className="border border-gray-200 rounded-lg overflow-hidden">
           <button
-            onClick={() => setExpandedYear(expandedYear === yearData.year ? null : yearData.year)}
+            type="button"
+            onClick={() => {
+              if (expandedYear === yearData.year) {
+                setExpandedYear(null);
+                setExpandedSemester(null);
+                return;
+              }
+              setExpandedYear(yearData.year);
+              const firstSemester = yearData.semesters[0];
+              setExpandedSemester(firstSemester ? `${yearData.year}-${firstSemester.season}` : null);
+            }}
             className="w-full bg-gradient-to-r from-academic-blue-600 to-academic-blue-700 text-white p-4 flex items-center justify-between hover:from-academic-blue-700 hover:to-academic-blue-800 transition"
           >
             <h3 className="text-lg font-bold">Year {yearData.year}</h3>
@@ -137,6 +149,7 @@ const CourseStructureView = memo(({ courseStructure }: { courseStructure: YearSt
                 return (
                   <div key={semesterId} className="bg-white border border-gray-200 rounded-lg overflow-hidden">
                     <button
+                      type="button"
                       onClick={() => setExpandedSemester(isExpanded ? null : semesterId)}
                       className="w-full bg-gray-100 p-4 flex items-center justify-between hover:bg-gray-200 transition text-left"
                     >
@@ -205,62 +218,25 @@ const ProgramDetailPage = () => {
       </section>
 
       <section className="py-14">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-              <GraduationCap className="w-6 h-6 mr-3 text-academic-blue-800" />
-              Program Structure
-            </h2>
-            <ul className="space-y-3">
-              {program.structure.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2">
-                  <span className="text-academic-gold mt-1">•</span>
-                  <span className="text-gray-700">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+              <div>
+                <h2 className="text-2xl font-bold text-academic-gray flex items-center">
+                  <BookOpen className="w-6 h-6 mr-3 text-academic-blue-800" />
+                  Detailed Course Structure
+                </h2>
+                <p className="text-gray-600 mt-2">Explore year-wise and semester-wise courses with credits and contact hours.</p>
+              </div>
+            </div>
 
-          {program.courseStructure && (
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-2xl font-bold text-academic-gray mb-6 flex items-center">
-                <BookOpen className="w-6 h-6 mr-3 text-academic-blue-800" />
-                Detailed Course Structure
-              </h2>
+            {program.courseStructure ? (
               <CourseStructureView courseStructure={program.courseStructure} />
-            </div>
-          )}
-
-          <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-              <BookOpen className="w-6 h-6 mr-3 text-academic-blue-800" />
-              Core Courses
-            </h2>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {program.courses.map((course, idx) => (
-                <div key={idx} className="rounded-md border border-gray-200 p-3 text-gray-700">
-                  {course}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-md p-8">
-            <h2 className="text-2xl font-bold text-academic-gray mb-4 flex items-center">
-              <ClipboardList className="w-6 h-6 mr-3 text-academic-blue-800" />
-              Syllabus & Curriculum
-            </h2>
-            <ul className="space-y-3">
-              {program.syllabus.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2">
-                  <span className="text-academic-gold mt-1">•</span>
-                  <span className="text-gray-700">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-sm text-gray-500 mt-4">
-              For official documents and detailed semester-wise syllabus, please refer to the department academic office.
-            </p>
+            ) : (
+              <div className="text-center py-10 bg-gray-50 border border-gray-200 rounded-lg">
+                <p className="text-gray-600">Detailed course structure will be updated soon.</p>
+              </div>
+            )}
           </div>
         </div>
       </section>

@@ -50,14 +50,24 @@ const btechCourseStructure: YearStructure[] = [
         totalCredits: 23,
         courses: [
           {
-            code: 'HSL-101',
+            code: 'HSI-101',
             title: 'Soft Skills',
             credits: 3,
             type: 'HSSC',
             lectureHours: 2,
             tutorialHours: 0,
             labHours: 2,
-            description: 'Communication, presentation, and interpersonal skills'
+            description: 'Communication, presentation, and interpersonal skills',
+            syllabus: {
+              topics: [
+                'Introduction: Relevance, significance and classification of Soft Skills',
+                'Communication Skills: Process, non-verbal communication, barriers to communication & cross-cultural; organs of speech: manners and articulation of sounds, emotional intelligence, decision making, negotiation and persuasion',
+                'Oral Presentation: Countering stage fright, structure & style of presentation; group discussion: listening, leadership and summing up; interview skills: preparation and performance',
+                'Mechanics of Writing: Report writing; technical and scientific style of writing, etiquettes of business writing',
+                'Media and the Social Context: Social networks, gender sensitization',
+                'Know the Literature: Select literary pieces',
+              ],
+            }
           },
           {
             code: 'MAI-101',
@@ -67,7 +77,15 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 1,
             labHours: 0,
-            description: 'Calculus, differential equations, and linear algebra'
+            description: 'Calculus, differential equations, and linear algebra',
+            syllabus: {
+              topics: [
+                'Matrix Algebra: Elementary operations and their use in getting the rank, inverse of a matrix and solution of linear simultaneous equations; orthogonal, symmetric, skew-symmetric, Hermitian, skew-Hermitian, normal and unitary matrices and their elementary properties; eigenvalues and eigenvectors of a matrix, Cayley-Hamilton theorem, diagonalization of a matrix',
+                'Differential Calculus: Limit, continuity and differentiability of functions of two variables, Euler’s theorem for homogeneous equations, tangent plane and normal; change of variables, chain rule, Jacobians, Taylor’s theorem for two variables, error approximations; extrema of functions of two or more variables, Lagrange’s method of undetermined multipliers',
+                'Integral Calculus: Review of curve tracing and quadric surfaces; double and triple integrals; change of order of integration; change of variables; Gamma and Beta functions; Dirichlet’s integral; applications of multiple integrals such as surface area, volumes, centre of gravity and moment of inertia',
+                'Vector Calculus: Differentiation of vectors, gradient, divergence, curl and their physical meaning; identities involving gradient, divergence and curl; line and surface integrals; Green’s, Gauss and Stoke’s theorem and their applications',
+              ],
+            }
           },
           {
             code: 'PHI-101',
@@ -77,7 +95,13 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 1,
             labHours: 2,
-            description: 'Mechanics, waves, and heat transfer'
+            description: 'Mechanics, waves, and heat transfer',
+            syllabus: {
+              topics: [
+                'Electromagnetic Theory: Vector algebra and vector calculus, electrostatics and related Maxwell equations in differential form, magnetostatics and related Maxwell equations in differential form, boundary conditions, time-dependent fields and Maxwell’s equations, wave equation, EM waves in free space and lossless dielectric, reflection and transmission at the interface (normal incidence)',
+                'Quantum Physics: Black body radiation, Planck’s radiation law, Compton effect, Frank-Hertz experiment, Davisson–Germer experiment, wave-particle duality, basic postulates of Quantum mechanics, Schrödinger wave equation, 1D problems (1-D box, linear harmonic oscillator, potential step, potential barrier)',
+              ],
+            }
           },
           {
             code: 'MTC-101',
@@ -97,7 +121,17 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 2,
             tutorialHours: 2,
             labHours: 0,
-            description: 'Hands-on learning and mentorship'
+            description: 'Hands-on learning and mentorship',
+            syllabus: {
+              topics: [
+                'Entrepreneurship: Concept, functions, need, myths, the Indian scenario, types of entrepreneurs, competencies and characteristics, intrapreneur, business plan: purpose and elements, execution of business plan, incubation and sources of funding for startups, case studies on successful and unsuccessful startups',
+                'Idea generation, feasibility study and opportunity assessment, introduction to Minimum Viable Product, product market fit, important accounting and financial terms related to startups, pricing strategy, start up pivot, understanding of B2B, B2C',
+                'Introduction to intellectual property, copyright and related rights, trademarks, geographical indications, industrial design, patents, unfair competition; IP development – the WIPO development agenda, technology transfer, introduction to standard essential patents (SEPs)',
+                'Understanding the needs of self and body, understanding values in a human-human relationship, understanding the harmony in nature, understanding existence as co-existence, ability to identify the scope and characteristics of people-friendly and eco-friendly production systems, technologies and management models, the responsibility of engineers',
+                'Introduction to Bureau of Indian Standards (BIS): Objectives, roles and functions of BIS; bureau of Indian Standards Act: roles and functions of BIS; purpose of standardization, marking and certification of articles and processes, importance of standards to industry, policy makers, trade, sustainability and innovation',
+                'Case discussion through expert lectures',
+              ],
+            }
           },
           {
             code: 'MIE-101',
