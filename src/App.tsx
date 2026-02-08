@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 const HomePage = lazy(() => import('./pages/HomePage'));
 const FacultyPage = lazy(() => import('./pages/FacultyPage'));
 const FacultyDetailPage = lazy(() => import('./pages/FacultyDetailPage'));
+const StudentsPage = lazy(() => import('./pages/StudentsPage.tsx'));
+const StudentDetailPage = lazy(() => import('./pages/StudentDetailPage.tsx'));
 const ResearchPage = lazy(() => import('./pages/ResearchPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const ProgramsPage = lazy(() => import('./pages/ProgramsPage'));
@@ -35,8 +37,11 @@ function App() {
           <Suspense fallback={<PageLoader />}>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/people" element={<FacultyPage />} />
-              <Route path="/faculty/:slug" element={<FacultyDetailPage />} />
+              <Route path="/people" element={<Navigate to="/people/faculty" replace />} />
+              <Route path="/people/faculty" element={<FacultyPage />} />
+              <Route path="/people/faculty/:slug" element={<FacultyDetailPage />} />
+              <Route path="/people/students" element={<StudentsPage />} />
+              <Route path="/people/student/:slug" element={<StudentDetailPage />} />
               <Route path="/research" element={<ResearchPage />} />
               <Route path="/labs/:slug" element={<LabDetailPage />} />
               <Route path="/programs" element={<ProgramsPage />} />

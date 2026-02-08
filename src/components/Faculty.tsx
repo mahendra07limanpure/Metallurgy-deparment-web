@@ -11,7 +11,7 @@ interface FacultyMember {
   image: string;
   email: string;
   researchInterests: string[];
-  rating: number;
+  rating?: number;
   profile_url?: string;
 }
 
@@ -72,7 +72,7 @@ const Faculty: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {members.map((member) => (
             <div key={member.id} className="group bg-white rounded-md overflow-hidden shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
-              <Link to={`/people/${member.slug}`} className="block">
+              <Link to={`/people/faculty/${member.slug}`} className="block">
                 <div className="relative w-full aspect-[1] bg-gray-100 overflow-hidden">
                   <img
                     src={member.image}
@@ -110,7 +110,7 @@ const Faculty: React.FC = () => {
                   <span>Contact</span>
                 </a>
                 <Link 
-                  to={`/faculty/${member.slug}`}
+                  to={`/people/faculty/${member.slug}`}
                   className="flex-1 flex items-center justify-center space-x-2 bg-gray-100 text-academic-gray font-semibold px-4 py-3 rounded-md hover:bg-gray-200 transition-colors"
                 >
                   <ExternalLink size={18} />

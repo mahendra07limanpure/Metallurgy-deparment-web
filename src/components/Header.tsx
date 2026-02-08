@@ -1,20 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
+
+type NavItem = { name: string; path: string };
+type NavItemWithChildren = { name: string; path: string; children: NavItem[] };
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [peopleOpen, setPeopleOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
-  const navigationItems = [
+  const navigationItems: (NavItem | NavItemWithChildren)[] = [
     { name: 'Home', path: '/' },
-    { name: 'People', path: '/people' },
+    {
+      name: 'People',
+      path: '/people/faculty',
+      children: [
+        { name: 'Faculty', path: '/people/faculty' },
+        { name: 'Students', path: '/people/students' },
+      ],
+    },
     { name: 'Research', path: '/research' },
     { name: 'Programs', path: '/programs' },
     { name: 'News', path: '/news' },
     { name: 'Contact', path: '/contact' },
   ];
+
+  const isPeopleActive = location.pathname.startsWith('/people');
+  const isNavItem = (item: NavItem | NavItemWithChildren): item is NavItem => !('children' in item && item.children);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +40,7 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     setIsMenuOpen(false);
+    setPeopleOpen(false);
     window.scrollTo(0, 0);
   }, [location]);
 
@@ -67,27 +82,65 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-1" aria-label="Main navigation">
-            {navigationItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`relative px-4 py-2 font-medium transition-all duration-200 rounded-md group ${location.pathname === item.path
-                    ? 'text-academic-blue-800'
-                    : 'text-academic-gray hover:text-academic-blue-800'
-                  }`}
-              >
-                {item.name}
-
-                {/* Animated underline */}
-                <span
-                  className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue-800 transition-transform duration-300 origin-left ${location.pathname === item.path
-                      ? 'scale-x-100'
-                      : 'scale-x-0 group-hover:scale-x-100'
+            {navigationItems.map((item) =>
+              isNavItem(item) ? (
+                <Link
+                  key={item.name}
+                  to={item.path}
+                  className={`relative px-4 py-2 font-medium transition-all duration-200 rounded-md group ${location.pathname === item.path
+                      ? 'text-academic-blue-800'
+                      : 'text-academic-gray hover:text-academic-blue-800'
                     }`}
-                ></span>
-              </Link>
-
-            ))}
+                >
+                  {item.name}
+                  <span
+                    className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue-800 transition-transform duration-300 origin-left ${location.pathname === item.path
+                        ? 'scale-x-100'
+                        : 'scale-x-0 group-hover:scale-x-100'
+                      }`}
+                  ></span>
+                </Link>
+              ) : (
+                <div
+                  key={item.name}
+                  className="relative"
+                  onMouseEnter={() => setPeopleOpen(true)}
+                  onMouseLeave={() => setPeopleOpen(false)}
+                >
+                  <button
+                    type="button"
+                    className={`flex items-center gap-1 px-4 py-2 font-medium transition-all duration-200 rounded-md ${isPeopleActive
+                        ? 'text-academic-blue-800'
+                        : 'text-academic-gray hover:text-academic-blue-800'
+                      }`}
+                    aria-expanded={peopleOpen}
+                    aria-haspopup="true"
+                  >
+                    {item.name}
+                    <ChevronDown className={`w-4 h-4 transition-transform ${peopleOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  <span
+                    className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue-800 transition-transform duration-300 origin-left ${isPeopleActive ? 'scale-x-100' : 'scale-x-0'}`}
+                  ></span>
+                  {peopleOpen && (
+                    <div className="absolute top-full left-0 mt-1 py-1 w-44 bg-white rounded-md shadow-lg border border-gray-200 z-50">
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.path}
+                          to={child.path}
+                          className={`block px-4 py-2 text-sm font-medium ${location.pathname === child.path
+                              ? 'text-academic-blue-800 bg-academic-blue/15'
+                              : 'text-academic-gray hover:bg-gray-100 hover:text-academic-blue-800'
+                            }`}
+                        >
+                          {child.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )
+            )}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -106,20 +159,50 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <div className="lg:hidden" role="dialog" aria-label="Mobile menu">
             <nav className="px-4 py-6 bg-white border-t mt-2" aria-label="Mobile navigation">
-              {navigationItems.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.path}
-                  className={`block px-4 py-3 font-medium transition-colors ${location.pathname === item.path
-                      ? 'text-academic-blue-800 bg-academic-blue/15 rounded-md'
-                      : 'text-academic-gray hover:text-academic-blue-800'
-                    }`}
-                  onClick={() => setIsMenuOpen(false)}
-                  aria-current={location.pathname === item.path ? 'page' : undefined}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navigationItems.map((item) =>
+                isNavItem(item) ? (
+                  <Link
+                    key={item.name}
+                    to={item.path}
+                    className={`block px-4 py-3 font-medium transition-colors ${location.pathname === item.path
+                        ? 'text-academic-blue-800 bg-academic-blue/15 rounded-md'
+                        : 'text-academic-gray hover:text-academic-blue-800'
+                      }`}
+                    onClick={() => setIsMenuOpen(false)}
+                    aria-current={location.pathname === item.path ? 'page' : undefined}
+                  >
+                    {item.name}
+                  </Link>
+                ) : (
+                  <div key={item.name}>
+                    <button
+                      type="button"
+                      onClick={() => setPeopleOpen(!peopleOpen)}
+                      className={`flex items-center justify-between w-full px-4 py-3 font-medium transition-colors ${isPeopleActive
+                          ? 'text-academic-blue-800 bg-academic-blue/15 rounded-md'
+                          : 'text-academic-gray hover:text-academic-blue-800'
+                        }`}
+                    >
+                      {item.name}
+                      <ChevronDown className={`w-4 h-4 transition-transform ${peopleOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                    {peopleOpen &&
+                      item.children.map((child) => (
+                        <Link
+                          key={child.path}
+                          to={child.path}
+                          className={`block pl-8 pr-4 py-2 text-sm font-medium ${location.pathname === child.path
+                              ? 'text-academic-blue-800 bg-academic-blue/10 rounded-md'
+                              : 'text-academic-gray hover:text-academic-blue-800'
+                            }`}
+                          onClick={() => { setIsMenuOpen(false); setPeopleOpen(false); }}
+                        >
+                          {child.name}
+                        </Link>
+                      ))}
+                  </div>
+                )
+              )}
             </nav>
           </div>
         )}

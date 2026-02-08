@@ -5,7 +5,8 @@ import { Mail, Phone, MapPin, Twitter, Linkedin, GraduationCap } from 'lucide-re
 const Footer: React.FC = () => {
 
   const quickLinks = [
-    { name: "Faculty Members", path: "/faculty" },
+    { name: "Faculty", path: "/people/faculty" },
+    { name: "Students", path: "/people/students" },
     { name: "Research Areas", path: "/research" },
     { name: "Contact Us", path: "/contact" }
   ];

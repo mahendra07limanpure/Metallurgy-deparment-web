@@ -80,6 +80,7 @@ const FacultyDetailPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!slug) return;
     const loadFacultyDetail = async () => {
       try {
         const res = await fetch(`/data/faculty/${slug}.json`);
@@ -102,6 +103,7 @@ const FacultyDetailPage: React.FC = () => {
     loadFacultyDetail();
   }, [slug]);
 
+  if (!slug) return <div className="pt-20 py-20 text-center text-red-600">Invalid faculty.</div>;
   if (loading) return <div className="pt-20 py-20 text-center">Loading faculty profile...</div>;
   if (error) return <div className="pt-20 py-20 text-center text-red-600">Error: {error}</div>;
   if (!faculty) return <div className="pt-20 py-20 text-center">Faculty not found.</div>;
@@ -110,7 +112,7 @@ const FacultyDetailPage: React.FC = () => {
     <div className="pt-20 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Back Button */}
-        <Link to="/faculty" className="inline-flex items-center text-academic-blue-800 hover:text-academic-blue-700 mb-8">
+        <Link to="/people/faculty" className="inline-flex items-center text-academic-blue-800 hover:text-academic-blue-700 mb-8">
           <ChevronLeft className="w-5 h-5 mr-1" />
           <span className="font-medium">Back to Faculty</span>
         </Link>
