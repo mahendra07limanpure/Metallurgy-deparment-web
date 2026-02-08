@@ -67,7 +67,7 @@ const StudentDetailPage: React.FC = () => {
               <div className="w-40 h-40 rounded-md overflow-hidden bg-gray-100">
                 {displayImage ? (
                   <img
-                    src={displayImage}
+                    src={displayImage.startsWith('/') ? encodeURI(displayImage) : displayImage}
                     alt={student.name}
                     className="w-full h-full object-cover object-center"
                     loading="lazy"

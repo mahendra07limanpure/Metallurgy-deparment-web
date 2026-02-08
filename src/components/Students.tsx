@@ -76,7 +76,7 @@ const Students: React.FC = () => {
               <Link to={`/people/student/${member.slug}`} className="block">
                 <div className="relative w-full aspect-[1] bg-gray-100 overflow-hidden">
                   <img
-                    src={member.image}
+                    src={member.image.startsWith('/') ? encodeURI(member.image) : member.image}
                     alt={member.name}
                     className="w-full h-full object-contain object-center transition-transform duration-300 group-hover:scale-[1.02]"
                     loading="lazy"

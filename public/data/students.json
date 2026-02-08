@@ -1,57 +1,790 @@
 [
-  {"id":1,"name":"Azad","slug":"azad","email":"azad@mt.iitr.ac.in","enrollment_number":"24921013","supervisor_name":"Dr. Supriyo Ghosh","thesis_title":"Phase field modelling","research_keywords":["Phase field modelling"],"image":"https://drive.google.com/uc?export=view&id=1-HUNXUHuUy7hngl2XRwURqQp-5kuIbMe"},
-  {"id":2,"name":"Shardendu Shukla","slug":"shardendu_shukla","email":"shardendu_s@mt.iitr.ac.in","enrollment_number":"22921015","supervisor_name":"Dr. Sourav Das","thesis_title":"Hydrogen embrittlement of pipeline x70 steel","research_keywords":["Hydrogen embrittlement","Pipeline steel"],"image":"https://drive.google.com/uc?export=view&id=13kfdC_IMBBLmLpU1TVYQpd-qwx6CAVj7"},
-  {"id":3,"name":"Sandeep Yadav","slug":"sandeep_yadav","email":"sandeep_y@mt.iitr.ac.in","enrollment_number":"19921014","supervisor_name":"Dr. Sadhan Ghosh","thesis_title":"Effect of heat treatment on mechanical properties in interstitial-free steel","research_keywords":["Heat treatment","Mechanical properties","Interstitial-free steel"],"image":"https://drive.google.com/uc?export=view&id=1SnSACsE_9A4GNJSU_TRrRIuyIYjblVsb"},
-  {"id":4,"name":"Nitamkumar Tayade","slug":"nitamkumar_tayade","email":"ngtayade@mt.iitr.ac.in","enrollment_number":"18921021","supervisor_name":"Prof. Anjan Sil","thesis_title":"Polymer Compsoite","research_keywords":["Polymer","Composite"],"image":"https://drive.google.com/uc?export=view&id=1M7DZldeBBEA6Ljk3BvEki2x7jGzQcnuf"},
-  {"id":5,"name":"Vineet Kumar Singh","slug":"vineet_kumar_singh","email":"vineet_ks@mt.iitr.ac.in","enrollment_number":"24921019","supervisor_name":"Dr. Aparna Tripathi","thesis_title":"Precipitation hardening, Deformation of Aluminium alloys","research_keywords":["Precipitation hardening","Aluminium alloys","Deformation"],"image":"https://drive.google.com/uc?export=view&id=1mKacqo_-WgbLPvdXWmJO4doY2z6hKB5y"},
-  {"id":6,"name":"Shubham Saxena","slug":"shubham_saxena","email":"shubham_s@mt.iitr.ac.in","enrollment_number":"24921017","supervisor_name":"Prof. K.S. Suresh","thesis_title":"Additive Manufacturing of Titanium Alloys","research_keywords":["Additive Manufacturing","Titanium Alloys"],"image":"https://drive.google.com/uc?export=view&id=1RjBnHB3LOj25kZMfkZMvmxV8gSKBtbyE"},
-  {"id":7,"name":"Apurba Mahato","slug":"apurba_mahato","email":"apurba_m1@mt.iitr.ac.in","enrollment_number":"22921020","supervisor_name":"Prof. Suhrit Mula","thesis_title":"Compositional engineering of cast high entropy alloys: Thermomechanical simulation and mechanical properties","research_keywords":["High entropy alloys","Thermomechanical simulation"],"image":"https://drive.google.com/uc?export=view&id=1A-FTp95jxOLeCgBdU_FGTp6DqAatFLOK"},
-  {"id":8,"name":"Noman Bader","slug":"noman_bader","email":"noman_b@mt.iitr.ac.in","enrollment_number":"24921020","supervisor_name":"Prof. G.P. Chaudhary","thesis_title":"Anodized Conversions Coatings For Aerospace Applications","research_keywords":["Anodized coatings","Aerospace"],"image":"https://drive.google.com/uc?export=view&id=1c5tNcsxD6V7xjrcIaHqvxsQjYWL0pGzo"},
-  {"id":9,"name":"Charu Mehta","slug":"charu_mehta","email":"charu_m@mt.iitr.ac.in","enrollment_number":"24921003","supervisor_name":"Prof. Indranil Lahiri","thesis_title":"Nano-materials based sensors","research_keywords":["Nano-materials","Sensors"],"image":"https://drive.google.com/uc?export=view&id=1aGXq4yjDtVG1doVdfJeezXS8iO-HEA1Q"},
-  {"id":10,"name":"Anoop Gupta","slug":"anoop_gupta","email":"anoop_g@mt.iitr.ac.in","enrollment_number":"22921002","supervisor_name":"Prof. B. V. Manoj Kumar","thesis_title":"Layered Structure Material Reinforced Copper Composites for Electrical Sliding Contact Applications","research_keywords":["Copper composites","Electrical contacts"],"image":"https://drive.google.com/uc?export=view&id=1BkN4oMMHH_pJzPMEiltE4jYhorerSq5M"},
-  {"id":11,"name":"Kshitij Kumar Sharma","slug":"kshitij_kumar_sharma","email":"kshitij_ks@mt.iitr.ac.in","enrollment_number":"22921021","supervisor_name":"Dr. Abhishek Tewari, Dr. Pinku Roy","thesis_title":"Exploration of metal oxide for thermoelectric application","research_keywords":["Thermoelectric","Metal oxide","Sintering","Oxide semiconductor"],"image":"https://drive.google.com/uc?export=view&id=150mAzWooBk3cs8TsV9o7QWsNw7RckZWM"},
-  {"id":12,"name":"Subodh Rana","slug":"subodh_rana","email":"srana@mt.iitr.ac.in","enrollment_number":"18921019","supervisor_name":"Sai Ramudu Meka","thesis_title":"Boronizing of high entropy alloys","research_keywords":["Boronizing","High entropy alloys"],"image":"https://drive.google.com/uc?export=view&id=1Nyc-loOYaHI8j_UBBdhDTjgAbRtfbGI3"},
-  {"id":13,"name":"Shubham Sharma","slug":"shubham_sharma","email":"shubham.mt@sric.iitr.ac.in","enrollment_number":"20921020","supervisor_name":"Prof. Vivek Pancholi","thesis_title":"Thermo-Mechanical behavior of interstitial CoCrFeMnNi-C High entropy alloys","research_keywords":["High entropy alloys","Thermo-mechanical"],"image":"https://drive.google.com/uc?export=view&id=1K_7YD-XJDTO4DKoBa9znvd3gv4-sg5DI"},
-  {"id":14,"name":"Shruti K.J Sanskrita","slug":"shruti_sanskrita","email":"shruti_s@mt.iitr.ac.in","enrollment_number":"21921012","supervisor_name":"Prof. Vivek Pancholi","thesis_title":"Composite metal foam, hollow metal sphere synthesis, fluidized bed coating","research_keywords":["Metal foam","Fluidized bed coating"],"image":"https://drive.google.com/uc?export=view&id=1yThtFvEmdUV6whBUKTioPxz4eb18zjF3"},
-  {"id":15,"name":"Sawan Kumar","slug":"sawan_kumar","email":"sawan.sk21@gmail.com","enrollment_number":"21921011","supervisor_name":"Dr. Arka Lahiri","thesis_title":"Phase-field Modeling of Field Assisted Sintering Process","research_keywords":["Phase-field","Sintering"],"image":"https://drive.google.com/uc?export=view&id=1eKtaEoWn6tbZu8ZFm151Qd3r-JLNpeRO"},
-  {"id":16,"name":"Avinash Tripathi","slug":"avinash_tripathi","email":"avinash_t@mt.iitr.ac.in","enrollment_number":"22921005","supervisor_name":"Prof. Debrupa Lahiri","thesis_title":"Biomaterial, 3D printing, Tissue engineering, Nano material, Scaffolds","research_keywords":["Biomaterial","3D printing","Tissue engineering","Scaffolds"],"image":"https://drive.google.com/uc?export=view&id=1Mw7rFD9C-5GEYfiQzUWX9-afVTWwQ153"},
-  {"id":17,"name":"Pranjul Chandra Bhatt","slug":"pranjul_bhatt","email":"pranjul_b@mt.iitr.ac.in","enrollment_number":"21921010","supervisor_name":"Dr. Abhishek Tewari","thesis_title":"Atomistic Modeling of Defects and Their Passivation For Stable Halide Perovskite","research_keywords":["Halide perovskite","Atomistic modeling"],"image":"https://drive.google.com/uc?export=view&id=1QQ9mhQqui0cKiFS--Ih0FX9BpOdnIhlH"},
-  {"id":18,"name":"Himanshu Pal","slug":"himanshu_pal","email":"himanshu.mt@sric.iitr.ac.in","enrollment_number":"21921014","supervisor_name":"Prof. Vikram Dabhade","thesis_title":"Oxide dispersion strengthened (ODS) steels, High temperature materials, powder metallurgy, Mechanical alloying","research_keywords":["ODS steels","Powder metallurgy","Mechanical alloying"],"image":"https://drive.google.com/uc?export=view&id=1rMZ2pj7gSc-1H3579RwBsmZ1h5Hzfd8m"},
-  {"id":19,"name":"Sajid Husain","slug":"sajid_husain","email":"sajid_h@mt.iitr.ac.in","enrollment_number":"23921004","supervisor_name":"Dr. Sourav Das","thesis_title":"Surface Modification Through TIG Arcing","research_keywords":["Surface modification","TIG arcing"],"image":"https://drive.google.com/uc?export=view&id=1ykaumMG2o0ifKHtpZwwVV2x_GnCiD_iU"},
-  {"id":20,"name":"Basitti Hitesh","slug":"basitti_hitesh","email":"bhitesh@mt.iitr.ac.in","enrollment_number":"19921002","supervisor_name":"Prof. Anjan Sil","thesis_title":"Investigation on NASICON type solid electrolytes for all-solid-state sodium ion batteries","research_keywords":["NASICON","Solid electrolytes","Sodium ion batteries"],"image":"https://drive.google.com/uc?export=view&id=1gC0R_Fe80xePxIFCnik9ekYJOiVnhocD"},
-  {"id":21,"name":"Bhanu Pratap Singh","slug":"bhanu_pratap_singh","email":"bhanup_singh@mt.iitr.ac.in","enrollment_number":"22921006","supervisor_name":"Dr. Sumeet Mishra","thesis_title":"Experimental and theoretical investigation of work hardening, formability, and damage evolution of high nitrogen steels","research_keywords":["Work hardening","High nitrogen steels","Formability"],"image":"https://drive.google.com/uc?export=view&id=1cbZ_w-dhviax5DleoOR7xWuKek0N9Zaw"},
-  {"id":22,"name":"Shivam Trivedi","slug":"shivam_trivedi","email":"shivam_t@mt.iitr.ac.in","enrollment_number":"22921016","supervisor_name":"Dr. Gautam Agarwal","thesis_title":"Wire Arc Additive Manufacturing of Al alloys","research_keywords":["Wire arc additive manufacturing","Aluminium alloys"],"image":"https://drive.google.com/uc?export=view&id=1j3_cI3tpcXw9_rxv-pU8c6N-xhUH2B0C"},
-  {"id":23,"name":"Ganesh Shanker Bhandari","slug":"ganesh_bhandari","email":"gs_bhandari@mt.iitr.ac.in","enrollment_number":"21921022","supervisor_name":"Dr. Nikhil Dhawan","thesis_title":"Recycling of discarded Lithium-ion batteries for recovery of metallic values","research_keywords":["Lithium-ion batteries","Recycling"],"image":"https://drive.google.com/uc?export=view&id=1MLHM1UY3ssqfqA57CdXe1_JDm8O6UbNS"},
-  {"id":24,"name":"Gaurvi Mallan","slug":"gaurvi_mallan","email":"gaurvi_m@mt.iitr.ac.in","enrollment_number":"24921004","supervisor_name":"Piyush Vijay Jagtap","thesis_title":"Thermo-mechanical behavior of Cu thin films","research_keywords":["Thin films","Copper","Thermo-mechanical"],"image":"https://drive.google.com/uc?export=view&id=1tSlpTg1DAPc6Lc_m8Z0cOvinVX7jnJWA"},
-  {"id":25,"name":"Md Sharique Ansari","slug":"sharique_ansari","email":"sharique_a@mt.iitr.ac.in","enrollment_number":"20921010","supervisor_name":"Prof. Gautam Agarwal","thesis_title":"Additive manufacturing of Co-based superalloy","research_keywords":["Additive manufacturing","Superalloy"],"image":"https://drive.google.com/uc?export=view&id=11vjYCcRp1PccX0v4CScQwPOcbtQj0YHZ"},
-  {"id":26,"name":"Shubhangini Yadav","slug":"shubhangini_yadav","email":"shubhangini_y@mt.iitr.ac.in","enrollment_number":"20921016","supervisor_name":"Prof. Varun A. Baheti","thesis_title":"Diffusion in solids; Phase Diagrams; Growth Kinetics; Microstructure; Properties","research_keywords":["Diffusion","Phase diagrams","Microstructure"],"image":"https://drive.google.com/uc?export=view&id=13XwxVk7fQxIUJWWuYnBCAntyCMx_cSIv"},
-  {"id":27,"name":"Lokesh Kumar Singh","slug":"lokesh_kumar_singh","email":"lokesh_ks@mt.iitr.ac.in","enrollment_number":"23921008","supervisor_name":"Dr. Rajeshwar Reddy Eleti","thesis_title":"Design and development of high strength β-titanium alloys using electronic parameters","research_keywords":["Titanium alloys","β-titanium"],"image":"https://drive.google.com/uc?export=view&id=1FX69QsR4orI09jQSxhicZ4uthbFjJOKT"},
-  {"id":28,"name":"Ponnapu Reddy Subba Reddy","slug":"ponnapu_reddy","email":"ponnapu_r@mt.iitr.ac.in","enrollment_number":"20921013","supervisor_name":"Dr. Sourav Das","thesis_title":"Fatigue properties of novel ultra-high-strength continuously cooled carbide-free bainitic steel","research_keywords":["Bainitic steel","Fatigue"],"image":"https://drive.google.com/uc?export=view&id=1b3IM01Pb8RHxXtaaOJM90MVF2T3ZGKKK"},
-  {"id":29,"name":"Krishnakant Phand","slug":"krishnakant_phand","email":"krishnakant_p@mt.iitr.ac.in","enrollment_number":"21921007","supervisor_name":"Prof. Sai Ramudu Meka","thesis_title":"Development of Nitride Dispersion Strengthened Stainless Steels","research_keywords":["Nitride dispersion","Stainless steel"],"image":"https://drive.google.com/uc?export=view&id=1YTJJuQcOFhMfxiuAYAg5GqRe4BgEHZqm"},
-  {"id":30,"name":"Neduri Jagadeesh","slug":"neduri_jagadeesh","email":"neduri_j@mt.iitr.ac.in","enrollment_number":"21921009","supervisor_name":"Prof. Sai Ramudu Meka","thesis_title":"Effect of plastic deformation and nitriding on the electrochemical characteristics of austenitic stainless steel","research_keywords":["Nitriding","Austenitic stainless steel","Electrochemical"],"image":"https://drive.google.com/uc?export=view&id=1Ft9gTbFP-xfdrgRXn8qrSojvWWjfMFFH"},
-  {"id":31,"name":"Shruti Dhiman","slug":"shruti_dhiman","email":"shruti_d@mt.iitr.ac.in","enrollment_number":"24921007","supervisor_name":"Prof. Nikhil Dhawan","thesis_title":"Recycling of E-Waste","research_keywords":["E-Waste","Recycling"],"image":"https://drive.google.com/uc?export=view&id=14fO4iB3K_brGJebIY4Qh8Um_qiRE_u_e"},
-  {"id":32,"name":"Purnima Bharti","slug":"purnima_bharti","email":"purnima_b@mt.iitr.ac.in","enrollment_number":"20921014","supervisor_name":"Prof. Sumeet Mishra","thesis_title":"Microstructure sensitive strength modeling and precipitate engineering in an Al-Cu-Li alloy","research_keywords":["Al-Cu-Li","Precipitate engineering","Microstructure"],"image":"https://drive.google.com/uc?export=view&id=1eRfy2IhyA3b5LNR0YO9hSlB-9NjPnAbA"},
-  {"id":33,"name":"Shalini Bhardwaj","slug":"shalini_bhardwaj","email":"shalini_b@mt.iitr.ac.in","enrollment_number":"23921006","supervisor_name":"Prof. B.S.S Daniel","thesis_title":"Aluminium Recycling","research_keywords":["Aluminium","Recycling"],"image":"https://drive.google.com/uc?export=view&id=1Mh906mu1qMpP6MBhku55V5nS6HXaPd2R"},
-  {"id":34,"name":"Shubham Tiwari","slug":"shubham_tiwari","email":"shubham_t@mt.iitr.ac.in","enrollment_number":"24921018","supervisor_name":"Dr. Abhishek Tewari","thesis_title":"Materials Informatics and Atomistic Modelling","research_keywords":["Materials informatics","Atomistic modelling"],"image":"https://drive.google.com/uc?export=view&id=1qLyBVDn6gBUkkSchk2pZN5EuXbnsHDn0"},
-  {"id":35,"name":"Siddharth Yadav","slug":"siddharth_yadav","email":"s_yadav@mt.iitr.ac.in","enrollment_number":"21921020","supervisor_name":"Dr. Rajeshwar Reddy Eleti","thesis_title":"d-orbital energy level governs the physics of solid-solution strengthening mechanism","research_keywords":["Solid-solution strengthening","d-orbital"],"image":"https://drive.google.com/uc?export=view&id=1NqkRtaFVixBaafdlTnRX9HBvxJxn_07F"},
-  {"id":36,"name":"Vipin Kumar","slug":"vipin_kumar","email":"vipin_k@mt.iitr.ac.in","enrollment_number":"24921010","supervisor_name":"Dr. Gautam Agarwal","thesis_title":"Fabrication of hypereutectic Al-Si alloy using LPBF","research_keywords":["LPBF","Al-Si alloy","Hypereutectic"],"image":"https://drive.google.com/uc?export=view&id=1Q_a2DNG9aCqzXPE9TUmas-uP7TNO1GDA"},
-  {"id":37,"name":"Vasudev","slug":"vasudev","email":"vasudev@mt.iitr.ac.in","enrollment_number":"24921009","supervisor_name":"Prof. Ujjwal Prakash","thesis_title":"Superalloy","research_keywords":["Superalloy"],"image":"https://drive.google.com/uc?export=view&id=159T8Xe9HL_75u4jVOxaJJe_SipxLSPl1"},
-  {"id":38,"name":"Nishant Choudhary","slug":"nishant_choudhary","email":"n_choudhary1@mt.iitr.ac.in","enrollment_number":"21921018","supervisor_name":"Prof. Arka Lahiri","thesis_title":"Phase Field Modelling, Solidification, Fluid flow Problem, Lattice Boltzmann Method","research_keywords":["Phase field","Solidification","Lattice Boltzmann"],"image":"https://drive.google.com/uc?export=view&id=1RNaPzHCvg6zP6AgwRrHWdJ7lUm10dkTU"},
-  {"id":39,"name":"Siddhi Surbhi","slug":"siddhi_surbhi","email":"siddhi_s@mt.iitr.ac.in","enrollment_number":"22921017","supervisor_name":"Dr. Sourav Das","thesis_title":"Surface modification of AISI 4340 steel using TIG arcing","research_keywords":["Surface modification","TIG arcing","AISI 4340"],"image":"https://drive.google.com/uc?export=view&id=14kwIGwKOIBxa6eNrqQsHsGF6Y6wzqaHL"},
-  {"id":40,"name":"Navya Yadav","slug":"navya_yadav","email":"n_yadav@mt.iitr.ac.in","enrollment_number":"20921007","supervisor_name":"Abhishek Tewari","thesis_title":"Deciphering the role of dopants in nanostructuring of zinc oxide via atomistic modeling","research_keywords":["Zinc oxide","Atomistic modeling","Nanostructuring"],"image":"https://drive.google.com/uc?export=view&id=1bQVpx8dBKIBbxkM_t4m9XFPFQTB0gwRv"},
-  {"id":41,"name":"Indeevar Singh","slug":"indeevar_singh","email":"indeevar_s@mt.iitr.ac.in","enrollment_number":"19921010","supervisor_name":"Dr. Vikram Dabhade","thesis_title":"Microstructural Analysis and Mechanical Properties of Liquid Phase Sintered Tungsten Heavy Alloys with Mo and Nb Additions","research_keywords":["Tungsten heavy alloys","Liquid phase sintering"],"image":"https://drive.google.com/uc?export=view&id=1ntqFbDbhMizFr_04TJplpOrv4bzMyN0k"},
-  {"id":42,"name":"Sandeep Kumar","slug":"sandeep_kumar","email":"sandeep_k@mt.iitr.ac.in","enrollment_number":"23921009","supervisor_name":"Supriyo Ghosh","thesis_title":"Phase-Field Modeling and Simulation of Spinodal Decomposition in Multi-component Mixtures","research_keywords":["Phase-field","Spinodal decomposition"],"image":"https://drive.google.com/uc?export=view&id=1-OBBVoiGBjanxmhPp9gQ-kO6GTp1BFs0"},
-  {"id":43,"name":"Saurabh Tiwari","slug":"saurabh_tiwari","email":"saurabh_t@mt.iitr.ac.in","enrollment_number":"22921022","supervisor_name":"Supriyo Ghosh","thesis_title":"Phase field modelling, AI/ML, fatigue and failure, waste water treatment","research_keywords":["Phase field","AI/ML","Fatigue"],"image":"https://drive.google.com/uc?export=view&id=1RvKs6b2YaCp4Gcg4Z5d6Cf9-vbLF4cgO"},
-  {"id":44,"name":"Arpita Singh","slug":"arpita_singh","email":"arpita_s@mt.iitr.ac.in","enrollment_number":"24921002","supervisor_name":"Prof. B.S.S. Daniel","thesis_title":"Recycling of Steel","research_keywords":["Steel","Recycling"],"image":"https://drive.google.com/uc?export=view&id=1tx9qVI6MfzJdeK4ZIakf5OykIiNm_sgK"},
-  {"id":45,"name":"Karthi K","slug":"karthi_k","email":"karthi_k@mt.iitr.ac.in","enrollment_number":"24921006","supervisor_name":"Rajeshwar Reddy Eleti","thesis_title":"High entropy alloy for hydrogen embrittlement","research_keywords":["High entropy alloy","Hydrogen embrittlement"],"image":"https://drive.google.com/uc?export=view&id=1UQ-UNHGz-lj-MPe7fjag2ILVm6tYMPr2"},
-  {"id":46,"name":"Abinash Pradhan","slug":"abinash_pradhan","email":"a_pradhan@mt.iitr.ac.in","enrollment_number":"21921015","supervisor_name":"Prof. Ujjwal Prakash","thesis_title":"Development of 16-Cr ODS Steel through hot powder forging","research_keywords":["ODS steel","Powder forging"],"image":"https://drive.google.com/uc?export=view&id=1aezMn5X3S0oG9oHQJOANXj2OpNz1bLA7"},
-  {"id":47,"name":"Sachin Balbande","slug":"sachin_balbande","email":"sachin_b@mt.iitr.ac.in","enrollment_number":"19921012","supervisor_name":"Dr. Sourav Das","thesis_title":"Surface modification of low carbon AISI 8620 steel through tungsten inert gas arcing process","research_keywords":["Surface modification","TIG arcing","AISI 8620"],"image":"https://drive.google.com/uc?export=view&id=12zZrEhMC4z1rdPagu2EyXatQuNgOA8FI"},
-  {"id":48,"name":"Harsha Rajput","slug":"harsha_rajput","email":"harsha_r@mt.iitr.ac.in","enrollment_number":"21921006","supervisor_name":"Prof. Anjan Sil","thesis_title":"Synthesis and characterization of solid-state electrolytes for Li-ion battery cells: some issues on interface","research_keywords":["Solid-state electrolytes","Li-ion battery"],"image":"https://drive.google.com/uc?export=view&id=145xkK5ib9OiUoQlMVL3zrDkOZMG17gd4"},
-  {"id":49,"name":"Murugesh Kumar R","slug":"murugesh_kumar","email":"murugesh_kr@mt.iitr.ac.in","enrollment_number":"20921011","supervisor_name":"Sadhan Ghosh","thesis_title":"Effect of strain on martensite crystallography, texture and mechanical properties in Nb-V microalloyed steel","research_keywords":["Martensite","Microalloyed steel","Texture"],"image":"https://drive.google.com/uc?export=view&id=1g_EqX7xOfNuCM2Mf-1ddzmUfMHVe40tq"},
-  {"id":50,"name":"Kishore Sakthivel","slug":"kishore_sakthivel","email":"skishorevelan@mt.iitr.ac.in","enrollment_number":"18921016","supervisor_name":"Dr. Sourav Das","thesis_title":"Tempering and tensile behavior of carbide free bainitic steels an in-situ and ex-situ study","research_keywords":["Bainitic steel","Tempering"],"image":"https://drive.google.com/uc?export=view&id=1Wsz-fJVeMpFmNyH1dXst_GGdOBQZ-xNu"},
-  {"id":51,"name":"Anil Kumar","slug":"anil_kumar","email":"anil_k@mt.iitr.ac.in","enrollment_number":"22921001","supervisor_name":"Dr. Nikhil Dhawan","thesis_title":"Reduction of Low-grade Iron Ores for Iron Recovery","research_keywords":["Iron ore","Reduction"],"image":"https://drive.google.com/uc?export=view&id=1hNL57p7zbHBUqMXifzzoYq1GL4UYIxb1"},
-  {"id":52,"name":"Nitish Kumar","slug":"nitish_kumar","email":"nitish_k2@mt.iitr.ac.in","enrollment_number":"25921001","supervisor_name":"Sumeet Mishra","thesis_title":"Improvement of ballistic response of Al-Mg-Si alloys by tailoring the heat treatment schedules","research_keywords":["Al-Mg-Si","Ballistic","Heat treatment"],"image":"https://drive.google.com/uc?export=view&id=1x5UVGu5hsiI9bI3YyWbf2yahDsBr180l"},
-  {"id":53,"name":"Sanjay Kumar Sharma","slug":"sanjay_kumar_sharma","email":"sanjay_ks@mt.iitr.ac.in","enrollment_number":"24921015","supervisor_name":"Prof. Sadhan Ghosh","thesis_title":"Medium Mn steel & dynamic strain ageing","research_keywords":["Medium Mn steel","Dynamic strain ageing"],"image":"https://drive.google.com/uc?export=view&id=1VRDCfS5kf9aQ3c-ylmfrAmWPl5Ny6bia"},
-  {"id":54,"name":"Arun Pratap Singh Chauhan","slug":"arun_pratap_singh_chauhan","email":"arun_psc@mt.iitr.ac.in","enrollment_number":"24921012","supervisor_name":"Prof. Suhrit Mula","thesis_title":"Dissimilar Welding","research_keywords":["Dissimilar welding"],"image":"https://drive.google.com/uc?export=view&id=1m6wX-JH8fqwL1Q5Na22dGY8xa0d3WOjC"},
-  {"id":55,"name":"Prateek Chaubey","slug":"prateek_chaubey","email":"prateek_c1@mt.iitr.ac.in","enrollment_number":"25921003","supervisor_name":"Dr. Indranil Lahiri & Dr. Debrupa Lahiri","thesis_title":"Carbon Nanostructure reinforced polymeric fibers for strategic applications","research_keywords":["Carbon nanostructure","Polymeric fibers"],"image":"https://drive.google.com/uc?export=view&id=1ZzvlbyseOa2u9NfZ2P96Kbzruq_swrsb"}
+  {
+    "id": 1,
+    "name": "Azad",
+    "slug": "azad",
+    "email": "azad@mt.iitr.ac.in",
+    "enrollment_number": "24921013",
+    "supervisor_name": "Dr. Supriyo Ghosh",
+    "thesis_title": "Phase field modelling",
+    "research_keywords": [
+      "Phase field modelling"
+    ],
+    "image": "/data/students/images/IMG20251224155151 - AZAD 24921013.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shardendu Shukla",
+    "slug": "shardendu_shukla",
+    "email": "shardendu_s@mt.iitr.ac.in",
+    "enrollment_number": "22921015",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Hydrogen embrittlement of pipeline x70 steel",
+    "research_keywords": [
+      "Hydrogen embrittlement",
+      "Pipeline steel"
+    ],
+    "image": "/data/students/images/IMG_20260108_144038 - SHARDENDU SHUKLA (SHARAD).jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sandeep Yadav",
+    "slug": "sandeep_yadav",
+    "email": "sandeep_y@mt.iitr.ac.in",
+    "enrollment_number": "19921014",
+    "supervisor_name": "Dr. Sadhan Ghosh",
+    "thesis_title": "Effect of heat treatment on mechanical properties in interstitial-free steel",
+    "research_keywords": [
+      "Heat treatment",
+      "Mechanical properties",
+      "Interstitial-free steel"
+    ],
+    "image": "/data/students/images/Passport Photo - Sandeep Yadav.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Nitamkumar Tayade",
+    "slug": "nitamkumar_tayade",
+    "email": "ngtayade@mt.iitr.ac.in",
+    "enrollment_number": "18921021",
+    "supervisor_name": "Prof. Anjan Sil",
+    "thesis_title": "Polymer Compsoite",
+    "research_keywords": [
+      "Polymer",
+      "Composite"
+    ],
+    "image": "/data/students/images/Pi7_Passport_Photo (1)1 - TAYADE NITAMKUMARGAUTAM.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vineet Kumar Singh",
+    "slug": "vineet_kumar_singh",
+    "email": "vineet_ks@mt.iitr.ac.in",
+    "enrollment_number": "24921019",
+    "supervisor_name": "Dr. Aparna Tripathi",
+    "thesis_title": "Precipitation hardening, Deformation of Aluminium alloys",
+    "research_keywords": [
+      "Precipitation hardening",
+      "Aluminium alloys",
+      "Deformation"
+    ],
+    "image": "/data/students/images/11 (1) - VINEET KUMAR SINGH 24921019.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Shubham Saxena",
+    "slug": "shubham_saxena",
+    "email": "shubham_s@mt.iitr.ac.in",
+    "enrollment_number": "24921017",
+    "supervisor_name": "Prof. K.S. Suresh",
+    "thesis_title": "Additive Manufacturing of Titanium Alloys",
+    "research_keywords": [
+      "Additive Manufacturing",
+      "Titanium Alloys"
+    ],
+    "image": "/data/students/images/20200627_074539 - SHUBHAM SAXENA 24921017.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Apurba Mahato",
+    "slug": "apurba_mahato",
+    "email": "apurba_m1@mt.iitr.ac.in",
+    "enrollment_number": "22921020",
+    "supervisor_name": "Prof. Suhrit Mula",
+    "thesis_title": "Compositional engineering of cast high entropy alloys: Thermomechanical simulation and mechanical properties",
+    "research_keywords": [
+      "High entropy alloys",
+      "Thermomechanical simulation"
+    ],
+    "image": "/data/students/images/Apurba_22921020 - APURBA MAHATO 22921020.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Noman Bader",
+    "slug": "noman_bader",
+    "email": "noman_b@mt.iitr.ac.in",
+    "enrollment_number": "24921020",
+    "supervisor_name": "Prof. G.P. Chaudhary",
+    "thesis_title": "Anodized Conversions Coatings For Aerospace Applications",
+    "research_keywords": [
+      "Anodized coatings",
+      "Aerospace"
+    ],
+    "image": "/data/students/images/Noman_photo (1) - NOMAN BADER 24921020.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Charu Mehta",
+    "slug": "charu_mehta",
+    "email": "charu_m@mt.iitr.ac.in",
+    "enrollment_number": "24921003",
+    "supervisor_name": "Prof. Indranil Lahiri",
+    "thesis_title": "Nano-materials based sensors",
+    "research_keywords": [
+      "Nano-materials",
+      "Sensors"
+    ],
+    "image": "/data/students/images/IMG_7565 - CHARU MEHTA 24921003.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Anoop Gupta",
+    "slug": "anoop_gupta",
+    "email": "anoop_g@mt.iitr.ac.in",
+    "enrollment_number": "22921002",
+    "supervisor_name": "Prof. B. V. Manoj Kumar",
+    "thesis_title": "Layered Structure Material Reinforced Copper Composites for Electrical Sliding Contact Applications",
+    "research_keywords": [
+      "Copper composites",
+      "Electrical contacts"
+    ],
+    "image": "/data/students/images/Anooppassport - ANOOP GUPTA 22921002.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Kshitij Kumar Sharma",
+    "slug": "kshitij_kumar_sharma",
+    "email": "kshitij_ks@mt.iitr.ac.in",
+    "enrollment_number": "22921021",
+    "supervisor_name": "Dr. Abhishek Tewari, Dr. Pinku Roy",
+    "thesis_title": "Exploration of metal oxide for thermoelectric application",
+    "research_keywords": [
+      "Thermoelectric",
+      "Metal oxide",
+      "Sintering",
+      "Oxide semiconductor"
+    ],
+    "image": "/data/students/images/PXL_20260103_125754304 - Kshitij Kumar Sharma.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Subodh Rana",
+    "slug": "subodh_rana",
+    "email": "srana@mt.iitr.ac.in",
+    "enrollment_number": "18921019",
+    "supervisor_name": "Sai Ramudu Meka",
+    "thesis_title": "Boronizing of high entropy alloys",
+    "research_keywords": [
+      "Boronizing",
+      "High entropy alloys"
+    ],
+    "image": "/data/students/images/Subodh_Rana_6286097-removebg-previewforhr - SUBODH RANA.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Shubham Sharma",
+    "slug": "shubham_sharma",
+    "email": "shubham.mt@sric.iitr.ac.in",
+    "enrollment_number": "20921020",
+    "supervisor_name": "Prof. Vivek Pancholi",
+    "thesis_title": "Thermo-Mechanical behavior of interstitial CoCrFeMnNi-C High entropy alloys",
+    "research_keywords": [
+      "High entropy alloys",
+      "Thermo-mechanical"
+    ],
+    "image": "/data/students/images/shubham.mt@sric.iitr.ac.in. - Shubham Sharma.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Shruti K.J Sanskrita",
+    "slug": "shruti_sanskrita",
+    "email": "shruti_s@mt.iitr.ac.in",
+    "enrollment_number": "21921012",
+    "supervisor_name": "Prof. Vivek Pancholi",
+    "thesis_title": "Composite metal foam, hollow metal sphere synthesis, fluidized bed coating",
+    "research_keywords": [
+      "Metal foam",
+      "Fluidized bed coating"
+    ],
+    "image": "/data/students/images/photo - SHRUTI KIRTI JYOTI SANSKRITA.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sawan Kumar",
+    "slug": "sawan_kumar",
+    "email": "sawan.sk21@gmail.com",
+    "enrollment_number": "21921011",
+    "supervisor_name": "Dr. Arka Lahiri",
+    "thesis_title": "Phase-field Modeling of Field Assisted Sintering Process",
+    "research_keywords": [
+      "Phase-field",
+      "Sintering"
+    ],
+    "image": "/data/students/images/Capture - Sawan Bharti.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Avinash Tripathi",
+    "slug": "avinash_tripathi",
+    "email": "avinash_t@mt.iitr.ac.in",
+    "enrollment_number": "22921005",
+    "supervisor_name": "Prof. Debrupa Lahiri",
+    "thesis_title": "Biomaterial, 3D printing, Tissue engineering, Nano material, Scaffolds",
+    "research_keywords": [
+      "Biomaterial",
+      "3D printing",
+      "Tissue engineering",
+      "Scaffolds"
+    ],
+    "image": "/data/students/images/IMG20250722141427 - AVINASH TRIPATHI 22921005.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Pranjul Chandra Bhatt",
+    "slug": "pranjul_bhatt",
+    "email": "pranjul_b@mt.iitr.ac.in",
+    "enrollment_number": "21921010",
+    "supervisor_name": "Dr. Abhishek Tewari",
+    "thesis_title": "Atomistic Modeling of Defects and Their Passivation For Stable Halide Perovskite",
+    "research_keywords": [
+      "Halide perovskite",
+      "Atomistic modeling"
+    ],
+    "image": "/data/students/images/Picture - Pranjul Chandra Bhatt.png"
+  },
+  {
+    "id": 18,
+    "name": "Himanshu Pal",
+    "slug": "himanshu_pal",
+    "email": "himanshu.mt@sric.iitr.ac.in",
+    "enrollment_number": "21921014",
+    "supervisor_name": "Prof. Vikram Dabhade",
+    "thesis_title": "Oxide dispersion strengthened (ODS) steels, High temperature materials, powder metallurgy, Mechanical alloying",
+    "research_keywords": [
+      "ODS steels",
+      "Powder metallurgy",
+      "Mechanical alloying"
+    ],
+    "image": "/data/students/images/HIMANSHU PAL_21921014 new - Himanshu Pal.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Sajid Husain",
+    "slug": "sajid_husain",
+    "email": "sajid_h@mt.iitr.ac.in",
+    "enrollment_number": "23921004",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Surface Modification Through TIG Arcing",
+    "research_keywords": [
+      "Surface modification",
+      "TIG arcing"
+    ],
+    "image": "/data/students/images/IMG_20220226_175120-removebg-preview (1) - Sajid Husain 23921004.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Basitti Hitesh",
+    "slug": "basitti_hitesh",
+    "email": "bhitesh@mt.iitr.ac.in",
+    "enrollment_number": "19921002",
+    "supervisor_name": "Prof. Anjan Sil",
+    "thesis_title": "Investigation on NASICON type solid electrolytes for all-solid-state sodium ion batteries",
+    "research_keywords": [
+      "NASICON",
+      "Solid electrolytes",
+      "Sodium ion batteries"
+    ],
+    "image": "/data/students/images/PXL_20210215_092311994.PORTRAIT - BASITTI HITESH.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Bhanu Pratap Singh",
+    "slug": "bhanu_pratap_singh",
+    "email": "bhanup_singh@mt.iitr.ac.in",
+    "enrollment_number": "22921006",
+    "supervisor_name": "Dr. Sumeet Mishra",
+    "thesis_title": "Experimental and theoretical investigation of work hardening, formability, and damage evolution of high nitrogen steels",
+    "research_keywords": [
+      "Work hardening",
+      "High nitrogen steels",
+      "Formability"
+    ],
+    "image": "/data/students/images/image (2) - BHANU PRATAP SINGH 22921006.png"
+  },
+  {
+    "id": 22,
+    "name": "Shivam Trivedi",
+    "slug": "shivam_trivedi",
+    "email": "shivam_t@mt.iitr.ac.in",
+    "enrollment_number": "22921016",
+    "supervisor_name": "Dr. Gautam Agarwal",
+    "thesis_title": "Wire Arc Additive Manufacturing of Al alloys",
+    "research_keywords": [
+      "Wire arc additive manufacturing",
+      "Aluminium alloys"
+    ],
+    "image": "/data/students/images/passportsizephoto - SHIVAM TRIVEDI.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Ganesh Shanker Bhandari",
+    "slug": "ganesh_bhandari",
+    "email": "gs_bhandari@mt.iitr.ac.in",
+    "enrollment_number": "21921022",
+    "supervisor_name": "Dr. Nikhil Dhawan",
+    "thesis_title": "Recycling of discarded Lithium-ion batteries for recovery of metallic values",
+    "research_keywords": [
+      "Lithium-ion batteries",
+      "Recycling"
+    ],
+    "image": "/data/students/images/Ganesh - GANESH SHANKER BHANDARI 21921022.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Gaurvi Mallan",
+    "slug": "gaurvi_mallan",
+    "email": "gaurvi_m@mt.iitr.ac.in",
+    "enrollment_number": "24921004",
+    "supervisor_name": "Piyush Vijay Jagtap",
+    "thesis_title": "Thermo-mechanical behavior of Cu thin films",
+    "research_keywords": [
+      "Thin films",
+      "Copper",
+      "Thermo-mechanical"
+    ],
+    "image": "/data/students/images/Profile - Gaurvi Mallan 24921004.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Md Sharique Ansari",
+    "slug": "sharique_ansari",
+    "email": "sharique_a@mt.iitr.ac.in",
+    "enrollment_number": "20921010",
+    "supervisor_name": "Prof. Gautam Agarwal",
+    "thesis_title": "Additive manufacturing of Co-based superalloy",
+    "research_keywords": [
+      "Additive manufacturing",
+      "Superalloy"
+    ],
+    "image": "/data/students/images/Photo_website - MD SHARIQUE ANSARI.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Shubhangini Yadav",
+    "slug": "shubhangini_yadav",
+    "email": "shubhangini_y@mt.iitr.ac.in",
+    "enrollment_number": "20921016",
+    "supervisor_name": "Prof. Varun A. Baheti",
+    "thesis_title": "Diffusion in solids; Phase Diagrams; Growth Kinetics; Microstructure; Properties",
+    "research_keywords": [
+      "Diffusion",
+      "Phase diagrams",
+      "Microstructure"
+    ],
+    "image": "/data/students/images/IMG_3729 - SHUBHANGINI YADAV.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "Lokesh Kumar Singh",
+    "slug": "lokesh_kumar_singh",
+    "email": "lokesh_ks@mt.iitr.ac.in",
+    "enrollment_number": "23921008",
+    "supervisor_name": "Dr. Rajeshwar Reddy Eleti",
+    "thesis_title": "Design and development of high strength β-titanium alloys using electronic parameters",
+    "research_keywords": [
+      "Titanium alloys",
+      "β-titanium"
+    ],
+    "image": "/data/students/images/IMG_3346 - LOKESH KUMAR SINGH.JPG"
+  },
+  {
+    "id": 28,
+    "name": "Ponnapu Reddy Subba Reddy",
+    "slug": "ponnapu_reddy",
+    "email": "ponnapu_r@mt.iitr.ac.in",
+    "enrollment_number": "20921013",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Fatigue properties of novel ultra-high-strength continuously cooled carbide-free bainitic steel",
+    "research_keywords": [
+      "Bainitic steel",
+      "Fatigue"
+    ],
+    "image": "/data/students/images/1441 - PONNAPU REDDY SUBBA REDDY.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Krishnakant Phand",
+    "slug": "krishnakant_phand",
+    "email": "krishnakant_p@mt.iitr.ac.in",
+    "enrollment_number": "21921007",
+    "supervisor_name": "Prof. Sai Ramudu Meka",
+    "thesis_title": "Development of Nitride Dispersion Strengthened Stainless Steels",
+    "research_keywords": [
+      "Nitride dispersion",
+      "Stainless steel"
+    ],
+    "image": "/data/students/images/photo website_01 - KRISHNAKANT CHANDRAKANT PHAND.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Neduri Jagadeesh",
+    "slug": "neduri_jagadeesh",
+    "email": "neduri_j@mt.iitr.ac.in",
+    "enrollment_number": "21921009",
+    "supervisor_name": "Prof. Sai Ramudu Meka",
+    "thesis_title": "Effect of plastic deformation and nitriding on the electrochemical characteristics of austenitic stainless steel",
+    "research_keywords": [
+      "Nitriding",
+      "Austenitic stainless steel",
+      "Electrochemical"
+    ],
+    "image": "/data/students/images/IMG_5522 - Neduri Jagadeesh.jpeg"
+  },
+  {
+    "id": 31,
+    "name": "Shruti Dhiman",
+    "slug": "shruti_dhiman",
+    "email": "shruti_d@mt.iitr.ac.in",
+    "enrollment_number": "24921007",
+    "supervisor_name": "Prof. Nikhil Dhawan",
+    "thesis_title": "Recycling of E-Waste",
+    "research_keywords": [
+      "E-Waste",
+      "Recycling"
+    ],
+    "image": "/data/students/images/Formal Photo - Shruti Dhiman 24921007.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Purnima Bharti",
+    "slug": "purnima_bharti",
+    "email": "purnima_b@mt.iitr.ac.in",
+    "enrollment_number": "20921014",
+    "supervisor_name": "Prof. Sumeet Mishra",
+    "thesis_title": "Microstructure sensitive strength modeling and precipitate engineering in an Al-Cu-Li alloy",
+    "research_keywords": [
+      "Al-Cu-Li",
+      "Precipitate engineering",
+      "Microstructure"
+    ],
+    "image": "/data/students/images/half pic purnima pic with white background - Copy - PURNIMA BHARTI.png"
+  },
+  {
+    "id": 33,
+    "name": "Shalini Bhardwaj",
+    "slug": "shalini_bhardwaj",
+    "email": "shalini_b@mt.iitr.ac.in",
+    "enrollment_number": "23921006",
+    "supervisor_name": "Prof. B.S.S Daniel",
+    "thesis_title": "Aluminium Recycling",
+    "research_keywords": [
+      "Aluminium",
+      "Recycling"
+    ],
+    "image": "/data/students/images/IMG_20260115_014900 - Shalini Bhardwaj.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Shubham Tiwari",
+    "slug": "shubham_tiwari",
+    "email": "shubham_t@mt.iitr.ac.in",
+    "enrollment_number": "24921018",
+    "supervisor_name": "Dr. Abhishek Tewari",
+    "thesis_title": "Materials Informatics and Atomistic Modelling",
+    "research_keywords": [
+      "Materials informatics",
+      "Atomistic modelling"
+    ],
+    "image": "/data/students/images/Shubham - SHUBHAM TIWARI 24921018.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Siddharth Yadav",
+    "slug": "siddharth_yadav",
+    "email": "s_yadav@mt.iitr.ac.in",
+    "enrollment_number": "21921020",
+    "supervisor_name": "Dr. Rajeshwar Reddy Eleti",
+    "thesis_title": "d-orbital energy level governs the physics of solid-solution strengthening mechanism",
+    "research_keywords": [
+      "Solid-solution strengthening",
+      "d-orbital"
+    ],
+    "image": "/data/students/images/sid - SIDDHARTH YADAV 21921020.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Vipin Kumar",
+    "slug": "vipin_kumar",
+    "email": "vipin_k@mt.iitr.ac.in",
+    "enrollment_number": "24921010",
+    "supervisor_name": "Dr. Gautam Agarwal",
+    "thesis_title": "Fabrication of hypereutectic Al-Si alloy using LPBF",
+    "research_keywords": [
+      "LPBF",
+      "Al-Si alloy",
+      "Hypereutectic"
+    ],
+    "image": "/data/students/images/20260115_182803 - Vipin Kumar 24921010.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Vasudev",
+    "slug": "vasudev",
+    "email": "vasudev@mt.iitr.ac.in",
+    "enrollment_number": "24921009",
+    "supervisor_name": "Prof. Ujjwal Prakash",
+    "thesis_title": "Superalloy",
+    "research_keywords": [
+      "Superalloy"
+    ],
+    "image": "/data/students/images/photo - VASUDEV 24921009.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Nishant Choudhary",
+    "slug": "nishant_choudhary",
+    "email": "n_choudhary1@mt.iitr.ac.in",
+    "enrollment_number": "21921018",
+    "supervisor_name": "Prof. Arka Lahiri",
+    "thesis_title": "Phase Field Modelling, Solidification, Fluid flow Problem, Lattice Boltzmann Method",
+    "research_keywords": [
+      "Phase field",
+      "Solidification",
+      "Lattice Boltzmann"
+    ],
+    "image": "/data/students/images/Nishant Choudhary.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Siddhi Surbhi",
+    "slug": "siddhi_surbhi",
+    "email": "siddhi_s@mt.iitr.ac.in",
+    "enrollment_number": "22921017",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Surface modification of AISI 4340 steel using TIG arcing",
+    "research_keywords": [
+      "Surface modification",
+      "TIG arcing",
+      "AISI 4340"
+    ],
+    "image": "/data/students/images/IMG_2714 - SIDDHI SURBHI 22921017.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "Navya Yadav",
+    "slug": "navya_yadav",
+    "email": "n_yadav@mt.iitr.ac.in",
+    "enrollment_number": "20921007",
+    "supervisor_name": "Abhishek Tewari",
+    "thesis_title": "Deciphering the role of dopants in nanostructuring of zinc oxide via atomistic modeling",
+    "research_keywords": [
+      "Zinc oxide",
+      "Atomistic modeling",
+      "Nanostructuring"
+    ],
+    "image": "/data/students/images/Navya-Yadav - NAVYA YADAV.png"
+  },
+  {
+    "id": 41,
+    "name": "Indeevar Singh",
+    "slug": "indeevar_singh",
+    "email": "indeevar_s@mt.iitr.ac.in",
+    "enrollment_number": "19921010",
+    "supervisor_name": "Dr. Vikram Dabhade",
+    "thesis_title": "Microstructural Analysis and Mechanical Properties of Liquid Phase Sintered Tungsten Heavy Alloys with Mo and Nb Additions",
+    "research_keywords": [
+      "Tungsten heavy alloys",
+      "Liquid phase sintering"
+    ],
+    "image": "/data/students/images/WhatsApp Image 2024-10-15 at 18.07.38_f0aa0119 - INDEEVAR SINGH.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Sandeep Kumar",
+    "slug": "sandeep_kumar",
+    "email": "sandeep_k@mt.iitr.ac.in",
+    "enrollment_number": "23921009",
+    "supervisor_name": "Supriyo Ghosh",
+    "thesis_title": "Phase-Field Modeling and Simulation of Spinodal Decomposition in Multi-component Mixtures",
+    "research_keywords": [
+      "Phase-field",
+      "Spinodal decomposition"
+    ],
+    "image": "/data/students/images/26-01-20_08-31-00-337 (1) - Sandeep kumar 23921009.png"
+  },
+  {
+    "id": 43,
+    "name": "Saurabh Tiwari",
+    "slug": "saurabh_tiwari",
+    "email": "saurabh_t@mt.iitr.ac.in",
+    "enrollment_number": "22921022",
+    "supervisor_name": "Supriyo Ghosh",
+    "thesis_title": "Phase field modelling, AI/ML, fatigue and failure, waste water treatment",
+    "research_keywords": [
+      "Phase field",
+      "AI/ML",
+      "Fatigue"
+    ],
+    "image": "/data/students/images/Snapchat-64092249 - SAURABH TIWARI 22921022.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Arpita Singh",
+    "slug": "arpita_singh",
+    "email": "arpita_s@mt.iitr.ac.in",
+    "enrollment_number": "24921002",
+    "supervisor_name": "Prof. B.S.S. Daniel",
+    "thesis_title": "Recycling of Steel",
+    "research_keywords": [
+      "Steel",
+      "Recycling"
+    ],
+    "image": "/data/students/images/IMG_20260121_120224 - Arpita Singh 24921002.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Karthi K",
+    "slug": "karthi_k",
+    "email": "karthi_k@mt.iitr.ac.in",
+    "enrollment_number": "24921006",
+    "supervisor_name": "Rajeshwar Reddy Eleti",
+    "thesis_title": "High entropy alloy for hydrogen embrittlement",
+    "research_keywords": [
+      "High entropy alloy",
+      "Hydrogen embrittlement"
+    ],
+    "image": "/data/students/images/karthi image1 - karthi k 24921006.png"
+  },
+  {
+    "id": 46,
+    "name": "Abinash Pradhan",
+    "slug": "abinash_pradhan",
+    "email": "a_pradhan@mt.iitr.ac.in",
+    "enrollment_number": "21921015",
+    "supervisor_name": "Prof. Ujjwal Prakash",
+    "thesis_title": "Development of 16-Cr ODS Steel through hot powder forging",
+    "research_keywords": [
+      "ODS steel",
+      "Powder forging"
+    ],
+    "image": "/data/students/images/Screenshot_2026-01-22-15-28-53-228_com.miui.gallery - ABINASH PRADHAN 21921015.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Sachin Balbande",
+    "slug": "sachin_balbande",
+    "email": "sachin_b@mt.iitr.ac.in",
+    "enrollment_number": "19921012",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Surface modification of low carbon AISI 8620 steel through tungsten inert gas arcing process",
+    "research_keywords": [
+      "Surface modification",
+      "TIG arcing",
+      "AISI 8620"
+    ],
+    "image": "/data/students/images/IMG_20240303_181516 - SACHIN BALBANDE.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Harsha Rajput",
+    "slug": "harsha_rajput",
+    "email": "harsha_r@mt.iitr.ac.in",
+    "enrollment_number": "21921006",
+    "supervisor_name": "Prof. Anjan Sil",
+    "thesis_title": "Synthesis and characterization of solid-state electrolytes for Li-ion battery cells: some issues on interface",
+    "research_keywords": [
+      "Solid-state electrolytes",
+      "Li-ion battery"
+    ],
+    "image": "/data/students/images/IMG_9082 - Harsha Rajput.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "Murugesh Kumar R",
+    "slug": "murugesh_kumar",
+    "email": "murugesh_kr@mt.iitr.ac.in",
+    "enrollment_number": "20921011",
+    "supervisor_name": "Sadhan Ghosh",
+    "thesis_title": "Effect of strain on martensite crystallography, texture and mechanical properties in Nb-V microalloyed steel",
+    "research_keywords": [
+      "Martensite",
+      "Microalloyed steel",
+      "Texture"
+    ],
+    "image": "/data/students/images/WhatsApp Image 2026-01-22 at 3.34.40 PM - MURUGESH KUMAR R.jpeg"
+  },
+  {
+    "id": 50,
+    "name": "Kishore Sakthivel",
+    "slug": "kishore_sakthivel",
+    "email": "skishorevelan@mt.iitr.ac.in",
+    "enrollment_number": "18921016",
+    "supervisor_name": "Dr. Sourav Das",
+    "thesis_title": "Tempering and tensile behavior of carbide free bainitic steels an in-situ and ex-situ study",
+    "research_keywords": [
+      "Bainitic steel",
+      "Tempering"
+    ],
+    "image": "/data/students/images/Passport size pic-06-09-24 - Kishore Velan S.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Anil Kumar",
+    "slug": "anil_kumar",
+    "email": "anil_k@mt.iitr.ac.in",
+    "enrollment_number": "22921001",
+    "supervisor_name": "Dr. Nikhil Dhawan",
+    "thesis_title": "Reduction of Low-grade Iron Ores for Iron Recovery",
+    "research_keywords": [
+      "Iron ore",
+      "Reduction"
+    ],
+    "image": "/data/students/images/P - Anil Kumar.png"
+  },
+  {
+    "id": 52,
+    "name": "Nitish Kumar",
+    "slug": "nitish_kumar",
+    "email": "nitish_k2@mt.iitr.ac.in",
+    "enrollment_number": "25921001",
+    "supervisor_name": "Sumeet Mishra",
+    "thesis_title": "Improvement of ballistic response of Al-Mg-Si alloys by tailoring the heat treatment schedules",
+    "research_keywords": [
+      "Al-Mg-Si",
+      "Ballistic",
+      "Heat treatment"
+    ],
+    "image": "/data/students/images/photo - Nitish Kumar 25921001.jpeg"
+  },
+  {
+    "id": 53,
+    "name": "Sanjay Kumar Sharma",
+    "slug": "sanjay_kumar_sharma",
+    "email": "sanjay_ks@mt.iitr.ac.in",
+    "enrollment_number": "24921015",
+    "supervisor_name": "Prof. Sadhan Ghosh",
+    "thesis_title": "Medium Mn steel & dynamic strain ageing",
+    "research_keywords": [
+      "Medium Mn steel",
+      "Dynamic strain ageing"
+    ],
+    "image": "/data/students/images/IMG_E0258 - SANJAY KUMAR SHARMA 24921015.JPG"
+  },
+  {
+    "id": 54,
+    "name": "Arun Pratap Singh Chauhan",
+    "slug": "arun_pratap_singh_chauhan",
+    "email": "arun_psc@mt.iitr.ac.in",
+    "enrollment_number": "24921012",
+    "supervisor_name": "Prof. Suhrit Mula",
+    "thesis_title": "Dissimilar Welding",
+    "research_keywords": [
+      "Dissimilar welding"
+    ],
+    "image": "/data/students/images/1000042691 - ARUN PRATAP SINGH CHAUHAN 24921012.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Prateek Chaubey",
+    "slug": "prateek_chaubey",
+    "email": "prateek_c1@mt.iitr.ac.in",
+    "enrollment_number": "25921003",
+    "supervisor_name": "Dr. Indranil Lahiri & Dr. Debrupa Lahiri",
+    "thesis_title": "Carbon Nanostructure reinforced polymeric fibers for strategic applications",
+    "research_keywords": [
+      "Carbon nanostructure",
+      "Polymeric fibers"
+    ],
+    "image": "/data/students/images/IMG_20250617_215841_061 - Prateek Chaubey.webp"
+  }
 ]
