@@ -168,7 +168,17 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 0,
             labHours: 2,
-            description: 'Thermodynamics, chemical equilibrium, and kinetics'
+            description: 'Thermodynamics, chemical equilibrium, and kinetics',
+            syllabus: {
+              topics: [
+                'Quantum Chemistry: Operators, commuting and non-commuting operators, postulates of quantum mechanics, Schrödinger equation, particle in a one-, two- and three dimensional box and their implications, harmonic oscillator and rigid rotor models, hydrogen-like systems – radial and angular wave functions, shapes of orbitals',
+                'Thermodynamics: Statistical concept of entropy, description of equilibrium, feasibility of chemical reaction, Gibbs-Helmholtz equation, phase transition in Clapeyron equation, Clapeyron-Clausius equation, free energy changes in reversible processes, chemical potential, partial molar quantities, activity coefficient and fugacity, basic concepts of statistical thermodynamics',
+                'Kinetics and Catalysis: Collision theory of bimolecular reactions and its drawbacks, potential energy surfaces, transition state theory using partition functions, thermodynamic formulation of transition state theory, homogeneous catalysis – kinetics of acid, base and enzyme catalyzed reactions with suitable examples; heterogeneous catalysis – surface phenomenon, porosity, derivation of Langmuir adsorption isotherm, Langmuir-Hinshelwood and Rideal-Eley mechanisms, comparison of rates of homogeneous and heterogeneous reactions based on activated complex theory',
+                'Electrochemistry: Electrochemistry of solutions, ion-solvent interactions, ion-ion interactions, ionic migration and diffusion, electrode interface – electrical double layer, equilibrium electrode potentials, IUPAC convention for electrode potentials, thermodynamics of electrochemical cells and applications',
+                'Photochemistry: Laws of photochemistry, photophysical and photochemical processes and their quantum efficiencies, spontaneous and stimulated processes, Franck-Condon principle, photosensitizers, photosynthesis and solar cells',
+                'Spectroscopy: Interaction of electromagnetic radiation with matter, basic principles of spectroscopy: UV-Vis, IR, and atomic spectroscopy (AAS, AES and OES); application of spectroscopic techniques to atomic and molecular systems',
+              ],
+            }
           },
           {
             code: 'MAI-102',
@@ -178,7 +188,19 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 1,
             labHours: 0,
-            description: 'Complex variables, Fourier series, and transforms'
+            description: 'Complex variables, Fourier series, and transforms',
+            syllabus: {
+              topics: [
+                'Vector Spaces: Vector spaces (over the field of real numbers), subspaces, spanning set, linear independence, basis and dimension; linear transformations, range and null space, rank-nullity theorem, matrix of a linear transformation',
+                'Inner Product Spaces: Inner-product spaces, Gram-Schmidt process, orthonormal basis; spectral theorem for real symmetric matrices, singular value decomposition, low-rank approximation',
+                'Probability and distributions: Concept of probability, random variables and their probability distributions, expectation, moments and moment generating functions, Chebyshev’s inequality',
+                'Special distributions: (Discrete) Binomial, Poisson, Negative binomial; (Continuous) Uniform, Exponential, Gamma, and Normal distributions',
+                'Bivariate random variables: Joint, marginal, and conditional distributions, statistical independence, distributions of functions of random variables, correlation and regression',
+                'Sampling Distributions: Random sampling and sampling distributions, law of large numbers, central limit theorem',
+                'Estimation: Point estimation, unbiased estimators, maximum likelihood estimation; interval estimation, interval estimation of mean, variance and proportion for normal populations',
+                'Testing of Hypothesis: Simple and composite hypothesis, Type I and Type II errors, power of a test; hypothesis testing for mean, variance and proportion for normal populations',
+              ],
+            }
           },
           {
             code: 'ESS-104',
@@ -188,7 +210,18 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 0,
             labHours: 0,
-            description: 'Environmental issues and sustainable development'
+            description: 'Environmental issues and sustainable development',
+            syllabus: {
+              topics: [
+                'Definition of Sustainability: IPAT equation, human consumption patterns and the “rebound” effect, challenges for sustainability, sustainability goals of UN',
+                'Sustainability Ethics: Human dimension of sustainability, anti-environmental discourse: behaviour and ideology, industrialization of nature, vulnerability of industrialized resource systems',
+                'Physical Resources, water pollution and minerals: Water cycle and freshwater supply, water pollution; mineral resources: formation, mining, environmental impact; global resource utilization',
+                'Sustainable Energy Systems: Environmental challenges in energy, carbon dioxide, air, water and land use; energy sources and carriers: electricity, fossil fuels (coal and gas), nuclear energy, renewable energy: solar, wind, hydro and biomass; liquid, geothermal heating and cooling; energy usage: electric and plug-in hybrids, combined heat and power; applications of phase change and thermo-electric materials for sustainable energy; energy conversion and energy audit; clean combustion',
+                'Sustainable Manufacturing: Introduction to important materials and their synthesis, production process, resources, material life cycle and materials eco-selection criteria, end-of-life issues, renewable materials, green practices in metal extraction, forming, removal and joining processes',
+                'Life Cycle Assessment: Sustainability metrics and rating system, foot printing: carbon, ecological and water, decarbonization, environmental performance indicators, sustainability and business',
+                'Modern Environmental Management: Systems of waste management, electronic waste and extended producer responsibility, government and laws on the environment, risk assessment methodology for conventional and alternative sustainability options',
+              ],
+            }
           },
           {
             code: 'CSE-101',
@@ -198,7 +231,19 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 1,
             labHours: 0,
-            description: 'Data structures, algorithms, and computational complexity'
+            description: 'Data structures, algorithms, and computational complexity',
+            syllabus: {
+              topics: [
+                'Introduction: Discrete numeric functions; asymptotic notation: O, Ω, Θ, o, ω; growth of functions',
+                'Divide-and-conquer algorithms: merge sort, Karatsuba algorithm, maximum-subarray problem, Strassen’s algorithm for matrix multiplication; solving recurrences: substitution method, recursion tree method, master method',
+                'Sorting algorithms: comparison between insertion sort and merge sort; heap sort: maintaining the heap property, building a heap, the heap sort algorithm; description of quick sort; randomized version of quick sort; analysis of quick sort',
+                'Elementary data structures: linear data structure, static data structure, array, dynamic data structure, stacks, queues, linked lists',
+                'Hash tables: hash functions, open addressing, perfect hashing, double hashing, load factor and rehashing',
+                'Heap, binary tree, binary search trees, graph, matrix',
+                'Dynamic programming: matrix-chain multiplication, longest common subsequence problem, edit distance',
+                'Greedy algorithms: an activity selection problem, elements of greedy strategy, greedy versus dynamic programming, Huffman codes',
+              ],
+            }
           },
           {
             code: 'MTC-102',
@@ -250,7 +295,20 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 1,
             labHours: 0,
-            description: 'Data analysis, statistics, and machine learning fundamentals'
+            description: 'Data analysis, statistics, and machine learning fundamentals',
+            syllabus: {
+              topics: [
+                'Reading data',
+                'Data exploration',
+                'Data visualization',
+                'Data cleaning and munging',
+                'Dimensionality reduction',
+                'Data resampling',
+                'Data and sampling distributions',
+                'Statistical experiments and significance testing',
+                'Introduction to Big Data, HDFS, MapReduce',
+              ],
+            }
           },
           {
             code: 'ECE-101',
@@ -280,7 +338,19 @@ const btechCourseStructure: YearStructure[] = [
             lectureHours: 3,
             tutorialHours: 0,
             labHours: 2,
-            description: 'Stress-strain relationships, deformation, and failure mechanisms'
+            description: 'Stress-strain relationships, deformation, and failure mechanisms',
+            syllabus: {
+              topics: [
+                'Stress-strain relations and elastic behavior',
+                'Tensile, hardness, and impact testing',
+                'Plastic behavior: yield criteria, dislocation slip and twinning, effect of temperature and strain rate, constitutive equation, strain hardening curve',
+                'Strengthening mechanisms, ductile fracture, brittle fracture and their transition',
+                'Introduction to fracture mechanics',
+                'Fatigue: S-N curve, low cycle and high cycle fatigue, effects of structural, environmental and metallurgical variables',
+                'Creep: creep curve, stress rupture test, deformation mechanisms, superplasticity',
+                'Mechanical response of non-metallic and non-crystalline materials',
+              ],
+            }
           },
           {
             code: 'MTC-205',
