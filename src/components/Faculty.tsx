@@ -69,38 +69,57 @@ const Faculty: React.FC = () => {
           <div className="section-accent"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
           {members.map((member) => (
-            <div key={member.id} className="group bg-white rounded-md overflow-hidden shadow-md border border-gray-100 hover:shadow-lg transition-all duration-300">
-              <Link to={`/people/faculty/${member.slug}`} className="block">
-                <div className="relative w-full aspect-[1] bg-gray-100 overflow-hidden">
+            <div
+              key={member.id}
+              className="group bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300"
+            >
+              <Link
+                to={`/people/faculty/${member.slug}`}
+                className="flex flex-col md:flex-row"
+              >
+                <div className="relative w-full md:w-2/5 h-64 md:h-80 bg-gray-100 overflow-hidden">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-contain object-center transition-transform duration-300 group-hover:scale-[1.02]"
+                    className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-[1.02]"
                     loading="lazy"
                     decoding="async"
-                    sizes="(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw"
+                    sizes="(min-width:1024px) 50vw, (min-width:768px) 50vw, 100vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-academic-gray mb-2 group-hover:text-academic-blue-800 transition-colors">{member.name}</h3>
-                  <p className="text-academic-blue-800 font-semibold mb-4">{member.designation}</p>
+                <div className="p-8 md:w-3/5 flex flex-col justify-center">
+                  <h3 className="text-xl md:text-2xl font-bold text-academic-gray mb-3 group-hover:text-academic-blue-800 transition-colors">
+                    {member.name}
+                  </h3>
+                  <p className="text-academic-blue-800 font-semibold mb-5">
+                    {member.designation}
+                  </p>
 
-                  <div className="mb-6">
-                    <h4 className="text-sm font-bold text-academic-gray mb-3 uppercase tracking-wide">Research Interests</h4>
+                  <div>
+                    <h4 className="text-xs font-bold text-academic-gray mb-2 uppercase tracking-wide">
+                      Research Interests
+                    </h4>
                     <div className="flex flex-wrap gap-2">
-                      {member.researchInterests.map((interest, idx) => (
-                        <span key={idx} className="badge-primary">{interest}</span>
+                      {member.researchInterests.slice(0, 3).map((interest, idx) => (
+                        <span key={idx} className="badge-primary">
+                          {interest}
+                        </span>
                       ))}
+                      {member.researchInterests.length > 3 && (
+                        <span className="text-xs text-gray-500">
+                          +{member.researchInterests.length - 3} more
+                        </span>
+                      )}
                     </div>
                   </div>
                 </div>
               </Link>
 
-              <div className="px-6 pb-6 flex gap-3">
+              <div className="px-7 pb-6 pt-3 flex gap-3">
                 <a 
                   href={`mailto:${member.email}`} 
                   onClick={(e) => e.stopPropagation()}
@@ -111,10 +130,10 @@ const Faculty: React.FC = () => {
                 </a>
                 <Link 
                   to={`/people/faculty/${member.slug}`}
-                  className="flex-1 flex items-center justify-center space-x-2 bg-gray-100 text-academic-gray font-semibold px-4 py-3 rounded-md hover:bg-gray-200 transition-colors"
+                  className="flex-1 flex items-center justify-center space-x-2 border border-academic-blue-200 text-academic-blue-800 font-semibold px-4 py-3 rounded-md hover:bg-academic-blue-50 transition-colors"
                 >
                   <ExternalLink size={18} />
-                  <span>View Profile</span>
+                  <span>View Full Profile</span>
                 </Link>
               </div>
             </div>

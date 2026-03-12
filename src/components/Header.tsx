@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
-type NavItem = { name: string; path: string };
-type NavItemWithChildren = { name: string; path: string; children: NavItem[] };
+type NavItemBase = { name: string; path: string };
+type NavItemWithChildren = NavItemBase & { children: NavItemBase[] };
+type NavigationItem = NavItemBase | NavItemWithChildren;
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
-  const navigationItems: (NavItem | NavItemWithChildren)[] = [
+  const navigationItems: NavigationItem[] = [
     { name: 'Home', path: '/' },
     {
       name: 'People',
@@ -28,7 +29,6 @@ const Header: React.FC = () => {
   ];
 
   const isPeopleActive = location.pathname.startsWith('/people');
-  const isNavItem = (item: NavItem | NavItemWithChildren): item is NavItem => !('children' in item && item.children);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,8 +82,8 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-1" aria-label="Main navigation">
-            {navigationItems.map((item) =>
-              isNavItem(item) ? (
+          {navigationItems.map((item) =>
+            !('children' in item) ? (
                 <Link
                   key={item.name}
                   to={item.path}
@@ -122,9 +122,9 @@ const Header: React.FC = () => {
                   <span
                     className={`absolute left-0 -bottom-1 w-full h-[2px] bg-academic-blue-800 transition-transform duration-300 origin-left ${isPeopleActive ? 'scale-x-100' : 'scale-x-0'}`}
                   ></span>
-                  {peopleOpen && (
+                  {peopleOpen && 'children' in item && (
                     <div className="absolute top-full left-0 mt-1 py-1 w-44 bg-white rounded-md shadow-lg border border-gray-200 z-50">
-                      {item.children.map((child) => (
+                      {item.children.map((child: NavItemBase) => (
                         <Link
                           key={child.path}
                           to={child.path}
@@ -160,7 +160,7 @@ const Header: React.FC = () => {
           <div className="lg:hidden" role="dialog" aria-label="Mobile menu">
             <nav className="px-4 py-6 bg-white border-t mt-2" aria-label="Mobile navigation">
               {navigationItems.map((item) =>
-                isNavItem(item) ? (
+                !('children' in item) ? (
                   <Link
                     key={item.name}
                     to={item.path}
@@ -187,7 +187,8 @@ const Header: React.FC = () => {
                       <ChevronDown className={`w-4 h-4 transition-transform ${peopleOpen ? 'rotate-180' : ''}`} />
                     </button>
                     {peopleOpen &&
-                      item.children.map((child) => (
+                      'children' in item &&
+                      item.children.map((child: NavItemBase) => (
                         <Link
                           key={child.path}
                           to={child.path}
