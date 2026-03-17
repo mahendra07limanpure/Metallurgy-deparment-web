@@ -1,6 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import { ChevronDown, Newspaper, ArrowRight } from 'lucide-react';
+
+type NewsCategory = 'News' | 'Event' | 'Achievement' | 'Seminar';
+
+const recentNews: { id: number; title: string; date: string; category: NewsCategory; description: string }[] = [
+  {
+    id: 1,
+    title: 'Department Receives Research Grant for Advanced Materials Study',
+    date: '15 Oct 2025',
+    category: 'News',
+    description: 'The department has been awarded a substantial research grant to investigate novel nanomaterials for energy storage applications.',
+  },
+  {
+    id: 2,
+    title: 'Three Faculty Members Win Best Paper Awards',
+    date: '10 Oct 2025',
+    category: 'Achievement',
+    description: 'Faculty members recognized at the International Conference on Materials Science for their groundbreaking research in additive manufacturing.',
+  },
+  {
+    id: 3,
+    title: 'New State-of-the-Art Characterization Lab Inaugurated',
+    date: '5 Oct 2025',
+    category: 'News',
+    description: 'A cutting-edge materials characterization laboratory equipped with advanced electron microscopy has been inaugurated.',
+  },
+];
+
+const categoryStyles: Record<NewsCategory, string> = {
+  News: 'bg-blue-100 text-blue-700',
+  Achievement: 'bg-yellow-100 text-yellow-700',
+  Event: 'bg-green-100 text-green-700',
+  Seminar: 'bg-purple-100 text-purple-700',
+};
 
 const Hero: React.FC = () => {
   const scrollToNext = () => {
@@ -30,58 +63,74 @@ const Hero: React.FC = () => {
   }, [images.length]);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-start justify-center text-white pb-24 md:pb-32">
-      <div className="absolute inset-0">
+    <section id="home" className="relative flex h-screen gap-6 bg-gray-100 px-6 pt-6 pb-14">
+      {/* Left: Image Carousel Card */}
+      <div className="relative w-[70%] h-full rounded-2xl overflow-hidden shadow-md bg-gray-200">
         {images.map((src, i) => (
           <img
             key={src}
             src={src}
             alt="Department highlight"
-            className={`absolute inset-0 w-full h-screen object-cover transition-opacity duration-700 ${i === index ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+              i === index ? 'opacity-100' : 'opacity-0'
+            }`}
           />
         ))}
-        <div className="absolute inset-0 bg-gradient-to-r from-academic-blue-900/80 via-academic-blue-800/70 to-academic-blue-700/70"></div>
       </div>
-      {/* Content */}
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
-        {/* Main Heading */}
-        <h1 className="inline-block px-4 py-2 rounded-md bg-black/60 drop-shadow-2xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Metallurgical & Materials Engineering
-        </h1>
 
-        {/* Subtitle */}
-        <p className="inline-block px-4 py-2 rounded-md bg-black/50 text-xl md:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Forging the Future of Sustainable Technologies
-        </p>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 mb-20">
-          <Link
-            to="/programs"
-            className="inline-flex items-center justify-center bg-white text-academic-blue-800 font-semibold px-8 py-4 rounded-md border border-white hover:bg-transparent hover:text-white transition-colors duration-300"
-          >
-            <span>Explore Department</span>
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Link>
-
-          <Link
-            to="/research"
-            className="inline-flex items-center justify-center bg-black/60 text-white font-semibold px-8 py-4 rounded-md border border-white hover:bg-white hover:text-academic-blue-800 transition-colors duration-300"
-          >
-            <span>Our Research</span>
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Link>
+      {/* Right: News Panel Card */}
+      <div className="w-[30%] h-full rounded-2xl bg-white shadow-md flex flex-col px-6 py-6 overflow-hidden">
+        {/* Panel Header */}
+        <div className="flex items-center gap-2 mb-4">
+          <Newspaper className="w-5 h-5 text-academic-blue-800" />
+          <h2 className="text-lg font-semibold text-academic-blue-800 tracking-wide">
+            Latest News
+          </h2>
         </div>
 
-        {/* Scroll Indicator */}
-        <button
-          onClick={scrollToNext}
-          className="inline-flex items-center justify-center w-10 h-10 bg-white/20 rounded-full hover:bg-white/30 transition-colors duration-300"
-          aria-label="Scroll to next section"
-        >
-          <ChevronDown className="w-5 h-5 text-white" />
-        </button>
+        {/* News Cards */}
+        <div className="flex-1 flex flex-col gap-3 overflow-y-auto pr-1">
+          {recentNews.map((item) => (
+            <div
+              key={item.id}
+              className="rounded-xl border border-gray-200 shadow-sm p-4 hover:shadow-md transition-shadow duration-200"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${categoryStyles[item.category]}`}>
+                  {item.category}
+                </span>
+                <time className="text-xs text-gray-400">{item.date}</time>
+              </div>
+              <h3 className="text-sm font-semibold text-gray-900 mb-1 line-clamp-2 leading-snug">
+                {item.title}
+              </h3>
+              <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">
+                {item.description}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* View All Link */}
+        <div className="pt-4 border-t border-gray-100 mt-3">
+          <Link
+            to="/news"
+            className="inline-flex items-center gap-1 text-sm font-medium text-academic-blue-700 hover:text-academic-blue-900 transition-colors"
+          >
+            View all news
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </div>
+
+      {/* Scroll Indicator */}
+      <button
+        onClick={scrollToNext}
+        className="absolute bottom-4 left-1/2 -translate-x-1/2 inline-flex items-center justify-center w-10 h-10 bg-white rounded-full shadow hover:shadow-md transition-shadow duration-300 z-10"
+        aria-label="Scroll to next section"
+      >
+        <ChevronDown className="w-5 h-5 text-academic-blue-800" />
+      </button>
     </section>
   );
 };
