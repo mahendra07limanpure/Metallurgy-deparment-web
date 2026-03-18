@@ -130,7 +130,7 @@ const NewsEventsPage = () => {
       <section className="bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">News & Events</h1>
+            <h1 className="text-5xl font-bold mb-6">News &amp; Events</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Stay updated with the latest happenings in our department
             </p>
@@ -141,57 +141,63 @@ const NewsEventsPage = () => {
       {/* Upcoming Events Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-12">
+          <div className="flex items-center gap-3 mb-10">
             <Calendar className="w-8 h-8 text-academic-blue-800" />
             <h2 className="text-3xl font-bold text-gray-900">Upcoming Events</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {upcomingEvents.map((event) => (
-              <div
+              <article
                 key={event.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border-l-4 border-academic-blue-600"
+                className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <div className="p-6">
-                  <div className="flex items-start justify-between mb-4">
-                    <h3 className="text-xl font-bold text-gray-900 flex-1">
-                      {event.title}
-                    </h3>
-                    <Calendar className="w-6 h-6 text-academic-blue-800 flex-shrink-0 ml-2" />
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-800">
+                      Event
+                    </span>
+                    <time className="text-sm text-gray-500">
+                      {event.date}
+                    </time>
                   </div>
 
-                  <div className="space-y-3 mb-4">
-                    <div className="flex items-center gap-2 text-gray-600">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+                    {event.title}
+                  </h3>
+
+                  <div className="space-y-1 text-sm text-gray-600 mb-3">
+                    <div className="flex items-center gap-2">
                       <Clock className="w-4 h-4" />
-                      <span className="text-sm">
-                        {event.date} • {event.time}
-                      </span>
+                      <span>{event.time}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-gray-600">
+                    <div className="flex items-center gap-2">
                       <MapPin className="w-4 h-4" />
-                      <span className="text-sm">{event.location}</span>
+                      <span>{event.location}</span>
                     </div>
                     {event.speaker && (
-                      <div className="flex items-center gap-2 text-gray-600">
+                      <div className="flex items-center gap-2">
                         <Users className="w-4 h-4" />
-                        <span className="text-sm">{event.speaker}</span>
+                        <span>{event.speaker}</span>
                       </div>
                     )}
                   </div>
 
-                  <p className="text-gray-600 mb-4">{event.description}</p>
+                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                    {event.description}
+                  </p>
 
                   {event.registrationLink && (
                     <a
                       href={event.registrationLink}
-                      className="inline-flex items-center gap-2 text-academic-blue-800 hover:text-academic-blue-700 font-medium"
+                      className="inline-flex items-center gap-2 text-academic-blue-800 hover:text-academic-blue-700 font-medium text-sm"
                     >
-                      Register Now
+                      Register now
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   )}
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>
@@ -200,7 +206,7 @@ const NewsEventsPage = () => {
       {/* Recent News Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-12">
+          <div className="flex items-center gap-3 mb-10">
             <TrendingUp className="w-8 h-8 text-academic-blue-800" />
             <h2 className="text-3xl font-bold text-gray-900">Recent News</h2>
           </div>
@@ -256,33 +262,7 @@ const NewsEventsPage = () => {
         </div>
       </section>
 
-      {/* Newsletter Subscription */}
-      <section className="py-16 bg-gradient-to-r from-academic-blue-600 to-academic-blue-800 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Connected</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Subscribe to our newsletter for latest updates and announcements
-          </p>
-          <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-6 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-academic-gold"
-              required
-              aria-label="Email address"
-            />
-            <button
-              type="submit"
-              className="btn-primary px-8 py-3"
-            >
-              Subscribe
-            </button>
-          </form>
-          <p className="text-sm text-blue-100 mt-4">
-            We respect your privacy. Unsubscribe at any time.
-          </p>
-        </div>
-      </section>
+      {/* (Newsletter section removed as requested) */}
     </div>
   );
 };
