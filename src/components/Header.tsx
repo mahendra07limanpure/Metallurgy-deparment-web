@@ -58,36 +58,36 @@ const Header: React.FC = () => {
 
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-12">
 
-        <div className="flex justify-between items-center h-16 lg:h-20">
+        <div className="flex justify-between items-center h-24 lg:h-48">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="relative">
               {/* Use site favicon/logo from public/ (iitr.ico) as the header mark */}
-              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center overflow-hidden border border-gray-200 shadow-sm">
+              <div className="w-16 h-16 lg:w-28 lg:h-28 bg-white rounded-2xl flex items-center justify-center overflow-hidden border border-gray-200 shadow-sm">
                 <img
                   src="/iitr.ico"
                   alt="MME Department logo"
-                  className="w-10 h-10 object-contain"
+                  className="w-12 h-12 lg:w-24 lg:h-24 object-contain"
                 />
               </div>
 
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-lg lg:text-xl font-bold text-academic-gray">
+              <h1 className="text-2xl lg:text-5xl font-extrabold text-academic-gray leading-tight">
                 Metallurgical & Materials Engineering
               </h1>
-              <p className="text-sm text-gray-600">IIT Roorkee</p>
+              <p className="text-base lg:text-xl text-gray-600">IIT Roorkee</p>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-1" aria-label="Main navigation">
+          <nav className="hidden lg:flex items-center space-x-2" aria-label="Main navigation">
           {navigationItems.map((item) =>
             !('children' in item) ? (
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`relative px-4 py-2 font-medium transition-all duration-200 rounded-md group ${location.pathname === item.path
+                  className={`relative px-4 py-2 font-semibold transition-all duration-200 rounded-md group ${location.pathname === item.path
                       ? 'text-academic-blue-800'
                       : 'text-academic-gray hover:text-academic-blue-800'
                     }`}
@@ -109,7 +109,7 @@ const Header: React.FC = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 px-4 py-2 font-medium transition-all duration-200 rounded-md ${isPeopleActive
+                    className={`flex items-center gap-1 px-4 py-2 font-semibold transition-all duration-200 rounded-md ${isPeopleActive
                         ? 'text-academic-blue-800'
                         : 'text-academic-gray hover:text-academic-blue-800'
                       }`}
