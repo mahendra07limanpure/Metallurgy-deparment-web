@@ -76,7 +76,7 @@ const Header: React.FC = () => {
               <h1 className="text-2xl lg:text-5xl font-extrabold text-academic-gray leading-tight">
                 Metallurgical & Materials Engineering
               </h1>
-              <p className="text-base lg:text-xl text-gray-600">IIT Roorkee</p>
+              <p className="text-base lg:text-xl text-gray-600">Indian Institute of Technology Roorkee</p>
             </div>
           </Link>
 

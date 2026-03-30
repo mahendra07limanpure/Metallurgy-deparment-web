@@ -1,32 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDown, Newspaper, ArrowRight } from 'lucide-react';
-
-type NewsCategory = 'News' | 'Event' | 'Achievement' | 'Seminar';
-
-const recentNews: { id: number; title: string; date: string; category: NewsCategory; description: string }[] = [
-  {
-    id: 1,
-    title: 'Department Receives Research Grant for Advanced Materials Study',
-    date: '15 Oct 2025',
-    category: 'News',
-    description: 'The department has been awarded a substantial research grant to investigate novel nanomaterials for energy storage applications.',
-  },
-  {
-    id: 2,
-    title: 'Three Faculty Members Win Best Paper Awards',
-    date: '10 Oct 2025',
-    category: 'Achievement',
-    description: 'Faculty members recognized at the International Conference on Materials Science for their groundbreaking research in additive manufacturing.',
-  },
-  {
-    id: 3,
-    title: 'New State-of-the-Art Characterization Lab Inaugurated',
-    date: '5 Oct 2025',
-    category: 'News',
-    description: 'A cutting-edge materials characterization laboratory equipped with advanced electron microscopy has been inaugurated.',
-  },
-];
+import { recentNews, type NewsCategory } from '../data/newsEvents';
 
 const categoryStyles: Record<NewsCategory, string> = {
   News: 'bg-blue-100 text-blue-700',
@@ -90,7 +65,7 @@ const Hero: React.FC = () => {
 
         {/* News Cards */}
         <div className="flex-1 flex flex-col gap-3 overflow-y-auto pr-1">
-          {recentNews.map((item) => (
+          {recentNews.slice(0, 4).map((item) => (
             <div
               key={item.id}
               className="rounded-xl border border-gray-200 shadow-sm p-4 hover:shadow-md transition-shadow duration-200"
