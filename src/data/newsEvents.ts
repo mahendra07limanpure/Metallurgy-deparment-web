@@ -39,56 +39,7 @@ export const recentNews: NewsItem[] = [
     category: 'News',
     description: 'Prof. Smiti Biswal joined the department. Welcome to MME, IIT Roorkee.',
   },
-  {
-    id: 1,
-    title: 'Department Receives Research Grant for Advanced Materials Study',
-    date: '15 October 2025',
-    category: 'News',
-    description:
-      'The department has been awarded a substantial research grant to investigate novel nanomaterials for energy storage applications.',
-    image: 'https://via.placeholder.com/400x250?text=Research+Grant',
-  },
-  {
-    id: 2,
-    title: 'Three Faculty Members Win Best Paper Awards',
-    date: '10 October 2025',
-    category: 'Achievement',
-    description:
-      'Faculty members recognized at the International Conference on Materials Science for their groundbreaking research in additive manufacturing.',
-  },
-  {
-    id: 3,
-    title: 'New State-of-the-Art Characterization Lab Inaugurated',
-    date: '5 October 2025',
-    category: 'News',
-    description:
-      'A cutting-edge materials characterization laboratory equipped with advanced electron microscopy has been inaugurated.',
-    image: 'https://via.placeholder.com/400x250?text=New+Lab',
-  },
-  {
-    id: 4,
-    title: 'Students Win National Design Competition',
-    date: '28 September 2025',
-    category: 'Achievement',
-    description:
-      'Our BTech students secured first place in the National Materials Design Competition with their innovative lightweight alloy design.',
-  },
-  {
-    id: 5,
-    title: 'International Collaboration Agreement Signed',
-    date: '20 September 2025',
-    category: 'News',
-    description:
-      'MoU signed with leading European research institute for collaborative research in sustainable materials.',
-  },
-  {
-    id: 6,
-    title: 'Annual Alumni Meet 2025',
-    date: '15 September 2025',
-    category: 'Event',
-    description:
-      'Successful annual alumni gathering with over 200 alumni attending and sharing their experiences.',
-  },
+  
 ];
 
 export const upcomingEvents: UpcomingEvent[] = [
