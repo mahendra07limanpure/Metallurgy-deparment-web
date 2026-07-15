@@ -1,0 +1,229 @@
+{
+  "name": "Dr. G. P. Chaudhari",
+  "designation": "Professor",
+  "email": "g.chaudhari@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=owRCTzUAAAAJ&hl=en",
+  "linkedin": "",
+  "research_interests": [
+    "Corrosion Engineering"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "The University of Alabama, USA",
+      "specialization": "Metallurgical and Materials Engineering",
+      "year": "2005"
+    },
+    {
+      "degree": "M. Tech.",
+      "institution": "IIT Bombay",
+      "specialization": "Process Metallurgy",
+      "year": "1994"
+    },
+    {
+      "degree": "B.E.",
+      "institution": "VNIT Nagpur",
+      "specialization": "Metallurgical Engineering",
+      "year": "1991"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Professor",
+      "organization": "IIT Roorkee",
+      "period": "22 Dec 2018 - Present"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Oct 2012 - 21 Dec 2018"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "05 Jul 2006 - 01 Oct 2012"
+    },
+    {
+      "position": "Lecturer in Metallurgy",
+      "organization": "Government College of Engineering, Aurangabad",
+      "period": "01 Jan 1995 - 03 Jul 2006"
+    },
+    {
+      "position": "Engineer",
+      "organization": "Foseco India Limited",
+      "period": "01 Jan 1994 - 01 Jan 1994"
+    },
+    {
+      "position": "Management Trainee - Technical",
+      "organization": "Bhilai Steel Plant, SAIL",
+      "period": "01 Jan 1991 - 01 Jan 1992"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Environment assisted cracking of naval grade aluminium alloys",
+      "funding_agency": "NRB, DRDO",
+      "amount_lakhs": 35,
+      "date": "16 Nov 2018"
+    },
+    {
+      "title": "Ultra refined plain carbon dual phase steels developed using innovative thermomechanical processing",
+      "funding_agency": "DST-BMWF",
+      "amount_lakhs": 7.5,
+      "date": "02 Jan 2011"
+    },
+    {
+      "title": "Thermo-mechanically processed erosion resistant stainless steel for use in hydropower plants",
+      "funding_agency": "DST",
+      "amount_lakhs": 27,
+      "date": "01 Jan 2011"
+    },
+    {
+      "title": "Ultrasonic Processing of Magnesium Alloy Melts",
+      "funding_agency": "SERC, DST",
+      "amount_lakhs": 2.35,
+      "date": "01 Jan 2009"
+    },
+    {
+      "title": "Multiaxial forging of low carbon steels",
+      "funding_agency": "IIT Roorkee",
+      "amount_lakhs": 1,
+      "date": "01 Jan 2008"
+    }
+  ],
+  "publications": [
+    {
+      "title": "SCC susceptibility of RRA treated high-zinc 7068 aluminum alloy",
+      "year": 2023,
+      "authors": ["Ankur Kumar", "G.P. Chaudhari", "S.K. Nath"],
+      "journal": "Corrosion Science",
+      "publisher": "Elsevier",
+      "volume": "220",
+      "pages": "111257"
+    },
+    {
+      "title": "Mechanical and stress corrosion cracking behavior of welded 5059H116 alloy",
+      "year": 2022,
+      "authors": ["R. Yadav", "A. Kumar", "G.P. Chaudhari", "A.G. Paradkar"],
+      "journal": "Corrosion Science",
+      "publisher": "Elsevier",
+      "volume": "206",
+      "pages": "110528"
+    },
+    {
+      "title": "Correlation of microstructure with corrosion performance in high zinc 7068 aluminium alloy aged using different T6 conditions",
+      "year": 2022,
+      "authors": ["Ankur Kumar", "G.P. Chaudhari", "S.K. Nath"],
+      "journal": "Materials Characterization",
+      "publisher": "Elsevier",
+      "volume": "191",
+      "pages": "112133"
+    },
+    {
+      "title": "Effect of pre-ageing temperature on microstructure evolution, mechanical and corrosion behavior of RRA treated high-zinc 7068 alloy",
+      "year": 2022,
+      "authors": ["Ankur Kumar", "G.P. Chaudhari", "S.K. Nath"],
+      "journal": "Materials and Corrosion",
+      "publisher": "Wiley",
+      "volume": "73",
+      "pages": "1586-1603"
+    },
+    {
+      "title": "Microstructural evolution and corrosion behaviour of friction stir processed QE22 magnesium alloy",
+      "year": 2021,
+      "authors": ["Ankur", "M. Khan", "S. Panigrahi", "G.P. Chaudhari"],
+      "journal": "Corrosion Reviews",
+      "publisher": "De Gruyter",
+      "volume": "39",
+      "pages": "351-360"
+    }
+  ],
+  "books": [
+    {
+      "title": "Advances in Materials and Processing: Challenges and Opportunities",
+      "editors": ["S.R. Meka", "G.P. Chaudhari"],
+      "publisher": "Elsevier",
+      "year": 2018
+    },
+    {
+      "title": "Advances in Materials and Processing: Challenges and Opportunities",
+      "editors": ["B.S.S. Daniel", "G.P. Chaudhari"],
+      "publisher": "Trans Tech Publications",
+      "year": 2012
+    },
+    {
+      "title": "Nanomaterials and Devices: Processing and Applications",
+      "editors": ["S. Ray", "S.K. Nath", "A. Kumar", "R.C. Agarwala", "V. Agarwala", "G.P. Chaudhari", "B.S.S. Daniel"],
+      "publisher": "Trans Tech Publications",
+      "year": 2009
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "TMS International",
+      "period": "01 Aug 2002 - Present"
+    },
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "01 Jan 2008 - Present"
+    },
+    {
+      "organization": "NACE International",
+      "period": "01 Jan 2018 - 01 Jan 2020"
+    }
+  ],
+  "teaching_engagements": [
+    {
+      "course": "Corrosion Science and Technology (MT-302)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Corrosion Testing (MT536)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Electron Microscopy (MTN-533)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Materials Characterization (MT507)",
+      "semester": "Autumn"
+    }
+  ],
+  "student_supervisions": [
+    {
+      "title": "Development of ultrafine grained steels by multiaxial forging and their characterization",
+      "period": "01 Dec 2006 - 30 Jun 2011",
+      "scholar": "Aditya Kumar Padap",
+      "other_supervisors": ["Dr. S.K. Nath"]
+    },
+    {
+      "title": "Severe Plastic Deformation of Magnesium Alloys by Accumulative Roll Bonding",
+      "period": "01 Jan 2007 - 01 May 2011",
+      "scholar": "H. Shivananda Nayaka",
+      "other_supervisors": ["B.S.S. Daniel"]
+    }
+  ],
+  "events": [
+    {
+      "title": "Hands-on Training on Thermomechanical Simulator",
+      "period": "01 Jan 2018 - Present",
+      "organizer": "TEQIP"
+    }
+  ],
+  "visits": [
+    {
+      "organization": "Lawrence Berkeley National Laboratory",
+      "year": "2020",
+      "purpose": "Professional interaction"
+    },
+    {
+      "organization": "Technical University Graz, Austria",
+      "year": "2012",
+      "purpose": "Collaborative research work"
+    }
+  ]
+}

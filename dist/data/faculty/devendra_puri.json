@@ -1,0 +1,47 @@
+{
+  "name": "Dr. Devendra Puri",
+  "designation": "Assistant Professor",
+  "email": "devendra.puri@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "",
+  "linkedin": "",
+
+  "research_interests": [
+    "Extractive Metallurgy",
+    "High Temperature Oxidation",
+    "High Temperature Corrosion"
+  ],
+
+  "education": [
+    {
+      "degree": "B.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "University of Roorkee",
+      "year": "1983"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "University of Roorkee",
+      "year": "1985"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical Engineering",
+      "institution": "University of Roorkee",
+      "year": "1993"
+    }
+  ],
+
+  "professional_background": [],
+
+  "research_projects": [],
+
+  "honors_and_awards": [],
+
+  "memberships": [],
+
+  "teaching_engagements": []
+}

@@ -1,0 +1,210 @@
+{
+  "name": "Dr. Anjan Sil",
+  "designation": "Professor",
+  "email": "anjan.sil@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.com/citations?user=Q90WtXIAAAAJ&hl=en",
+  "linkedin": "linkedin.com/in/anjan-sil-b7aa7721/?originalSubdomain=in",
+  "research_interests": [
+    "Energy Storage Materials",
+    "Functional Ceramics"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc.",
+      "institution": "Indian Institute of Technology Kharagpur",
+      "specialization": "Solid State Physics",
+      "year": "1984"
+    },
+    {
+      "degree": "M.Tech.",
+      "institution": "Banaras Hindu University",
+      "specialization": "Materials Technology",
+      "year": "1986"
+    },
+    {
+      "degree": "Ph.D.",
+      "institution": "Banaras Hindu University",
+      "specialization": "Materials Technology",
+      "year": "1991"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Professor (Higher Administrative Grade - HAG)",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2019 - Present"
+    },
+    {
+      "position": "Joint Faculty, Centre for Sustainable Energy",
+      "organization": "IIT Roorkee",
+      "period": "30 May 2023 - Present"
+    },
+    {
+      "position": "Professor",
+      "organization": "IIT Roorkee",
+      "period": "07 Oct 2009 - 31 Dec 2018"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "26 Jul 2001 - 07 Oct 2009"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Thapar University Patiala",
+      "period": "01 Sep 1997 - 25 Jul 2001"
+    },
+    {
+      "position": "Lecturer",
+      "organization": "Thapar University Patiala",
+      "period": "30 Oct 1992 - 01 Sep 1997"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Development of solid electrolytes for high voltage and high energy density Li and Na-ion batteries",
+      "funding_agency": "ISRO Bengaluru",
+      "amount_lakhs": 25.11,
+      "date": "07 Oct 2022",
+      "co_pi": "Smt. S. Sujatha, Vikram Sarabhai Space Centre"
+    },
+    {
+      "title": "Development of conducting polymer coated LiFePO4 nano-composites as cathode materials for next generation batteries",
+      "funding_agency": "Council of Scientific and Industrial Research, New Delhi",
+      "amount_lakhs": 9.12,
+      "date": "15 Jul 2015"
+    },
+    {
+      "title": "Development of thin film varistors for low voltage applications",
+      "funding_agency": "British Council (UKIERI)",
+      "amount_lakhs": 18.978,
+      "date": "01 Apr 2008",
+      "co_pi": "Dr K M Knowles, University of Cambridge, UK"
+    },
+    {
+      "title": "Studies on atomic arrangements and bonding (alloyed) and intercalated carbon nanotubes, graphite",
+      "funding_agency": "Department of Science and Technology (CP-STIO Programme)",
+      "amount_lakhs": 5.88,
+      "date": "07 Apr 2009",
+      "co_pi": "Prof. S. Ray"
+    },
+    {
+      "title": "Nano-composite materials for clean energy: energy generation, storage, savings and safety",
+      "funding_agency": "DST Indo-Australian Project",
+      "amount_lakhs": 40.85,
+      "date": "07 Apr 2009",
+      "co_pi": "Prof. S. Ray"
+    },
+    {
+      "title": "Development of high energy density lithium ion battery technology",
+      "funding_agency": "Ministry of Defence, New Delhi",
+      "amount_lakhs": 22.58,
+      "date": "04 Feb 2004",
+      "co_pi": "Prof. S. Ray"
+    },
+    {
+      "title": "Fundamental studies on lithium-graphite anode",
+      "funding_agency": "Ministry of Defence, New Delhi",
+      "amount_lakhs": 21.37,
+      "date": "10 Dec 2004",
+      "co_pi": "Prof. S. Ray"
+    },
+    {
+      "title": "Raising infrastructure for research and development in the area of high performance ceramics",
+      "funding_agency": "AICTE, New Delhi",
+      "amount_lakhs": 11,
+      "date": "06 Apr 1995",
+      "co_pi": "Dr O P Pandey, Dr (Late) H R Anand"
+    },
+    {
+      "title": "Study of ionic conductivity enhancement in Cu halide: NiO system and development of composite",
+      "funding_agency": "UGC, New Delhi",
+      "amount_lakhs": 5.9,
+      "date": "16 Oct 1996",
+      "co_pi": "Dr (Late) H R Anand"
+    }
+  ],
+  "honors_and_awards": [
+    {
+      "title": "Chairperson, DRDO Session I, Conference on Emergent Materials for Energy and Environment",
+      "year": 2023
+    },
+    {
+      "title": "DUO-India Professor Fellowship Award – Technical University of Denmark (DTU)",
+      "year": 2022
+    },
+    {
+      "title": "Felicitation of Eminent Academician – Jiwaji University, Gwalior",
+      "year": 2023
+    },
+    {
+      "title": "UKIERI Research Award (British Council)",
+      "period": "2008 - 2013"
+    },
+    {
+      "title": "Guest of Honour – National Science Day, CSIR-CBRI",
+      "year": 2018
+    },
+    {
+      "title": "Chairing session – World Congress on Materials Science and Engineering, Barcelona",
+      "year": 2017
+    },
+    {
+      "title": "Moderator – EU-India Climate and Energy Cooperation Panel",
+      "year": 2021
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "Materials Research Society of India",
+      "period": "30 Oct 1992 - Present"
+    },
+    {
+      "organization": "The Indian Ceramic Society",
+      "period": "30 Oct 1992 - Present"
+    },
+    {
+      "organization": "The Indian Society for Technical Education",
+      "period": "16 May 1995 - Present"
+    },
+    {
+      "organization": "Indian Thermal Analysis Society",
+      "period": "07 Aug 1996 - Present"
+    },
+    {
+      "organization": "Punjab Academy of Sciences",
+      "period": "01 May 1997 - Present"
+    },
+    {
+      "organization": "Indian Chapter of ICTP",
+      "period": "09 May 2000 - Present"
+    },
+    {
+      "organization": "Royal Society of Chemistry",
+      "period": "13 May 2014 - 12 May 2015"
+    }
+  ],
+  "teaching_engagements": [
+    { "course": "Electrical and Electronic Materials (MTN-207)", "semester": "Autumn" },
+    { "course": "Engineering Polymers and Composites (MTN-208)", "semester": "Spring" },
+    { "course": "Energy Storage Materials (MT-558)", "semester": "Spring" },
+    { "course": "Ceramics and Metal Powder Processing (MT-301)", "semester": "Autumn" },
+    { "course": "Microsensor, MEMS and Smart Devices (MTN-515)", "semester": "Autumn" },
+    { "course": "Materials for Renewable Energy (MTN-521)", "semester": "Spring" },
+    { "course": "Electro Ceramics (MTN-533)", "semester": "Autumn" },
+    { "course": "Electronic and Magnetic Materials (MT-410)", "semester": "Spring" },
+    { "course": "Composites and Polymers (MT-401)", "semester": "Autumn" },
+    { "course": "Polymers and Elastomers (MT-402)", "semester": "Spring" },
+    { "course": "Ceramic Materials (MT-301)", "semester": "Autumn" },
+    { "course": "Materials Characterization Lab II (MT-220)", "semester": "Spring" },
+    { "course": "Metallurgical and Instrumental Analysis Lab (MT-208)", "semester": "Spring" },
+    { "course": "Project (MT-492)", "semester": "Spring" },
+    { "course": "Seminar / Group Discussion (MT-392)", "semester": "Spring" },
+    { "course": "Communication Skills (MT-308)", "semester": "Spring" },
+    { "course": "Practical / Field Training (MT-490)", "semester": "Spring" },
+    { "course": "Technical Communication (MTN-391)", "semester": "Autumn" }
+  ]
+}

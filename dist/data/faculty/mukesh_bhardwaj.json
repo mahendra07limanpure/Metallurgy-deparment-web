@@ -1,0 +1,167 @@
+{
+  "name": "Dr. Mukesh Bhardwaj",
+  "designation": "Assistant Professor",
+  "email": "mukesh.bhardwaj@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "",
+
+  "research_interests": [
+    "Research methodologies",
+    "Automation tools and potentiostat programming",
+    "LaTeX and research planning tools",
+    "Nano-grain sized metallic materials",
+    "Nano nickel coatings",
+    "Nano copper coatings",
+    "Nanocomposites",
+    "Nano ceramic metal matrix coatings",
+    "Weldments",
+    "Corrosion protection of weldments",
+    "Energy materials",
+    "Microporous nickel coatings for hydrogen evolution",
+    "Electrocatalysis",
+    "Electrocatalyst synthesis and characterization for hydrogen evolution reaction",
+    "Modeling and simulation",
+    "Simulation of iron and steel making processes"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgy",
+      "institution": "IIT Kanpur",
+      "year": "2008"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Metallurgy",
+      "institution": "IISc Bangalore",
+      "year": "1996"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy",
+      "institution": "REC Durgapur",
+      "year": "1994"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Manager",
+      "organization": "Tata Steel, Jamshedpur",
+      "period": "01 Jan 1996 - 01 Jan 2000"
+    },
+    {
+      "position": "Senior Software Engineer",
+      "organization": "Informix Software, Mumbai",
+      "period": "01 Jan 2000 - 01 Jan 2000"
+    },
+    {
+      "position": "Team Leader",
+      "organization": "Network Programs India, Noida",
+      "period": "01 Jan 2000 - 01 Jan 2003"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "NIT Durgapur",
+      "period": "01 Jan 2007 - 01 Jan 2009"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2009 - Present"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Porous copper electrodeposits as a substrate for electrocatalytic materials",
+      "funding_agency": "SERB, DST",
+      "amount": "Rs 40,57,493",
+      "start_date": "01 Jan 2012"
+    },
+    {
+      "title": "Pulsed current electrodeposition of porous copper as substrate material for electrochemical applications",
+      "funding_agency": "IIT Roorkee",
+      "amount": "Rs 4,00,000",
+      "start_date": "01 Jan 2010"
+    }
+  ],
+
+  "publications": [
+    {
+      "authors": "Singh H., Dheeraj P.B., Singh Y.P., Rathore G., Bhardwaj M.",
+      "title": "Electrodeposition of porous copper as a substrate for electrocatalytic material",
+      "year": "2017",
+      "journal": "Journal of Electroanalytical Chemistry",
+      "volume": "785",
+      "pages": "1-7",
+      "doi": "10.1016/j.jelechem.2016.12.013"
+    },
+    {
+      "authors": "Singh A.K., Nath S.K., Bhardwaj M., Pancholi V., Chaudhari G.P.",
+      "title": "Microstructural studies on thermomechanically processed plain carbon dual phase",
+      "year": "2012",
+      "volume": "2",
+      "pages": "659-665"
+    },
+    {
+      "authors": "Bhardwaj M., Balani K., Balasubramaniam R., Pandey S., Agarwal A.",
+      "title": "Effect of current density and grain refining agents on pulsed electrodeposition of nanocrystalline nickel",
+      "year": "2011",
+      "volume": "27",
+      "issue": "9",
+      "pages": "642-648",
+      "doi": "10.1179/026708410X12683118611185"
+    },
+    {
+      "authors": "Bhardwaj M.",
+      "title": "Enhancement of uncoupled nonlinear equations method for determining kinetic parameters in hydrogen evolution reaction",
+      "year": "2009",
+      "volume": "34",
+      "issue": "4",
+      "pages": "1655-1663",
+      "doi": "10.1016/j.ijhydene.2008.12.017"
+    }
+  ],
+
+  "teaching_engagements": [
+    { "course": "Computer Systems and Applications", "code": "EC101A", "semester": "Autumn" },
+    { "course": "Corrosion Protection Methods", "code": "MTN-532", "semester": "Spring" },
+    { "course": "Steel Making", "code": "MT403", "semester": "Autumn" },
+    { "course": "Corrosion Lab", "code": "MTN-302", "semester": "Spring" },
+    { "course": "Iron Making", "code": "MT304", "semester": "Spring" },
+    { "course": "Materials Science", "code": "MT201B", "semester": "Spring" },
+    { "course": "Metallurgical and Instrumental Analysis", "code": "MT208", "semester": "Spring" }
+  ],
+
+  "administrative_roles": [
+    {
+      "role": "Officer in charge MTech Classes",
+      "period": "01 Jan 2010 - 01 Jan 2013"
+    },
+    {
+      "role": "Associated NCC Officer",
+      "period": "01 Jan 2014 - Present"
+    },
+    {
+      "role": "Officer in Charge B.Tech Project",
+      "period": "01 Jan 2014 - 01 Jan 2016"
+    },
+    {
+      "role": "Officer in charge PG and PhD Attendance",
+      "period": "01 Jan 2016 - Present"
+    }
+  ],
+
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals",
+      "type": "Life Member",
+      "since": "07 Jul 2020"
+    }
+  ]
+}

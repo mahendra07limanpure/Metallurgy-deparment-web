@@ -1,0 +1,61 @@
+{
+  "name": "Dr. Varun Baheti",
+  "designation": "Assistant Professor",
+  "email": "varun@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "https://scholar.google.com/citations?user=4-Qiic4AAAAJ&hl=en",
+
+  "research_interests": [
+    "Electronic packaging",
+    "Galvanised coatings",
+    "Thermoelectrics",
+    "Diffusion in solids",
+    "Phase diagrams",
+    "Growth kinetics",
+    "Microstructure",
+    "Material properties"
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Metallurgical and Materials Engineering",
+      "institution": "Malaviya National Institute of Technology, Jaipur",
+      "year": "2010"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Materials Engineering",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2012"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Engineering",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2017"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "DST Inspire Faculty",
+      "organization": "IIT Kharagpur",
+      "period": "04 May 2018 - 06 Dec 2019"
+    },
+    {
+      "position": "Research Associate",
+      "organization": "Indian Institute of Science, Bangalore",
+      "period": "13 Jul 2017 - 30 Apr 2018"
+    }
+  ],
+
+  "teaching_engagements": [
+    {
+      "note": "Teaching details were not provided in the source data"
+    }
+  ]
+}

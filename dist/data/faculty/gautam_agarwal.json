@@ -1,0 +1,152 @@
+{
+  "name": "Dr. Gautam Agarwal",
+  "designation": "Assistant Professor",
+  "email": "gautam.agarwal@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "linkedin.com/in/ga02/?originalSubdomain=nl",
+  "google_scholar": "",
+
+  "research_interests": [
+    "Welding metallurgy",
+    "Laser welding"
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech.",
+      "field": "Metallurgical Engineering",
+      "institution": "IIT (BHU), Varanasi, India",
+      "year": "2011"
+    },
+    {
+      "degree": "M.Sc.",
+      "field": "Metallurgical Engineering",
+      "institution": "RWTH Aachen, Germany",
+      "year": "2014"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "TU Delft, The Netherlands",
+      "year": "2019"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Postdoctoral Researcher",
+      "organization": "TU Delft, The Netherlands",
+      "period": "01 Dec 2018 - 30 Mar 2021"
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Evaluation of solidification cracking susceptibility during laser welding in advanced high strength automotive steels",
+      "year": 2019,
+      "authors": ["G. Agarwal", "A. Kumar", "I. M. Richardson", "M. J. M. Hermans"],
+      "journal": "Materials & Design",
+      "publisher": "Elsevier",
+      "volume": "183",
+      "pages": "108104"
+    },
+    {
+      "title": "Microstructural evolution of white and brown etching layers in pearlitic rail steels",
+      "year": 2019,
+      "authors": ["A. Kumar", "G. Agarwal", "R. Petrov", "S. Goto", "J. Sietsma", "M. Herbig"],
+      "journal": "Acta Materialia",
+      "publisher": "Elsevier",
+      "volume": "171",
+      "pages": "48-64"
+    },
+    {
+      "title": "Experimental evidence of liquid feeding during solidification of a steel",
+      "year": 2018,
+      "authors": ["G. Agarwal", "M. Amirthalingam", "S. C. Moon", "R. J. Dippenaar", "I. M. Richardson", "M. J. M. Hermans"],
+      "journal": "Scripta Materialia",
+      "publisher": "Elsevier",
+      "volume": "146",
+      "pages": "105-109"
+    },
+    {
+      "title": "Study of solidification cracking in a transformation-induced plasticity-aided steel",
+      "year": 2018,
+      "authors": [
+        "G. Agarwal",
+        "A. Kumar",
+        "H. Gao",
+        "M. Amirthalingam",
+        "S. C. Moon",
+        "R. J. Dippenaar",
+        "I. M. Richardson",
+        "M. J. M. Hermans"
+      ],
+      "journal": "Metallurgical and Materials Transactions A",
+      "publisher": "Springer",
+      "volume": "49(4)",
+      "pages": "1015-1020"
+    },
+    {
+      "title": "In-situ strain investigation during laser welding using digital image correlation and finite element based numerical simulation",
+      "year": 2018,
+      "authors": ["G. Agarwal", "H. Gao", "M. Amirthalingam", "M. J. M. Hermans"],
+      "journal": "Science and Technology of Welding and Joining",
+      "publisher": "Taylor & Francis",
+      "volume": "23(2)",
+      "pages": "134-139"
+    },
+    {
+      "title": "Study of solidification cracking susceptibility during laser welding in an advanced high strength automotive steel",
+      "year": 2018,
+      "authors": ["G. Agarwal", "H. Gao", "M. Amirthalingam", "M. J. M. Hermans"],
+      "journal": "Metals",
+      "publisher": "MDPI",
+      "volume": "8(9)",
+      "pages": "673"
+    },
+    {
+      "title": "Hot cracking investigation during laser welding of high-strength steels with multi-scale modelling approach",
+      "year": 2018,
+      "authors": ["H. Gao", "G. Agarwal", "M. Amirthalingam", "M. J. M. Hermans"],
+      "journal": "Science and Technology of Welding and Joining",
+      "publisher": "Taylor & Francis",
+      "volume": "23(4)",
+      "pages": "287-294"
+    },
+    {
+      "title": "Investigation on hot cracking during laser welding by means of experimental and numerical methods",
+      "year": 2018,
+      "authors": ["H. Gao", "G. Agarwal", "M. Amirthalingam", "M. J. M. Hermans", "I. M. Richardson"],
+      "journal": "Welding in the World",
+      "publisher": "Springer",
+      "volume": "62(1)",
+      "pages": "71-78"
+    },
+    {
+      "title": "Role of aluminium addition on structure of Fe substituted Fe73.5-xSi13.5B9Nb3Cu1Alx alloy ribbons",
+      "year": 2013,
+      "authors": ["G. Agarwal", "H. Agrawal", "M. Srinivas", "B. Majumdar", "N. Mukhopadhyay"],
+      "journal": "Bulletin of Materials Science",
+      "publisher": "Springer",
+      "volume": "36(4)",
+      "pages": "613-618"
+    },
+    {
+      "title": "Improved magnetoimpedance and mechanical properties on nanocrystallization of amorphous Fe68.5Si18.5Cu1Nb3B9 ribbons",
+      "year": 2013,
+      "authors": ["T. Sahoo", "B. Majumdar", "V. Srinivas", "M. Srinivas", "T. Nath", "G. Agarwal"],
+      "journal": "Journal of Magnetism and Magnetic Materials",
+      "publisher": "Elsevier",
+      "volume": "343",
+      "pages": "13-20"
+    }
+  ],
+
+  "teaching_engagements": [
+    {
+      "note": "Teaching data not provided in source content"
+    }
+  ]
+}
