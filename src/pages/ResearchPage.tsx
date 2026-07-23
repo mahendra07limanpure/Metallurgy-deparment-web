@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { labs } from '../data/labs';
+import { withBase } from '../lib/paths';
 
 const ResearchPage: React.FC = () => {
   // Split labs by category
@@ -14,10 +16,10 @@ const ResearchPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {serviceLabs.map(lab => (
             <div key={lab.slug} className="bg-white rounded-md shadow p-4 border border-gray-200">
-              <img src={lab.image} alt={lab.name} className="w-full h-40 object-cover rounded mb-3" />
+              <img src={withBase(lab.image)} alt={lab.name} className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-lg font-bold mb-1">{lab.name}</h3>
               <p className="text-gray-700 mb-2">{lab.description}</p>
-              <a href={`/labs/${lab.slug}`} className="text-academic-blue-600 hover:underline text-sm font-medium">View Details</a>
+              <Link to={`/labs/${lab.slug}`} className="text-academic-blue-600 hover:underline text-sm font-medium">View Details</Link>
             </div>
           ))}
         </div>
@@ -27,10 +29,10 @@ const ResearchPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {thematicLabs.map(lab => (
             <div key={lab.slug} className="bg-white rounded-md shadow p-4 border border-gray-200">
-              <img src={lab.image} alt={lab.name} className="w-full h-40 object-cover rounded mb-3" />
+              <img src={withBase(lab.image)} alt={lab.name} className="w-full h-40 object-cover rounded mb-3" />
               <h3 className="text-lg font-bold mb-1">{lab.name}</h3>
               <p className="text-gray-700 mb-2">{lab.description}</p>
-              <a href={`/labs/${lab.slug}`} className="text-academic-blue-600 hover:underline text-sm font-medium">View Details</a>
+              <Link to={`/labs/${lab.slug}`} className="text-academic-blue-600 hover:underline text-sm font-medium">View Details</Link>
             </div>
           ))}
         </div>

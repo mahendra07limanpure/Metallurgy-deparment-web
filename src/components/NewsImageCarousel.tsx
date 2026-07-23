@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { withBase } from '../lib/paths';
 
 type Props = {
   images: string[];
@@ -10,11 +11,6 @@ type Props = {
 const NewsImageCarousel: React.FC<Props> = ({ images, alt, className, intervalMs = 3500 }) => {
   const safeImages = images.filter(Boolean);
   const [index, setIndex] = useState(0);
-
-  const resolveSrc = (src: string) => {
-    if (/^https?:\/\//i.test(src)) return src;
-    return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
-  };
 
   useEffect(() => {
     if (safeImages.length <= 1) return;
@@ -32,7 +28,7 @@ const NewsImageCarousel: React.FC<Props> = ({ images, alt, className, intervalMs
         {safeImages.map((src, i) => (
           <img
             key={`${src}-${i}`}
-            src={resolveSrc(src)}
+            src={withBase(src)}
             alt={alt}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
               i === index ? 'opacity-100' : 'opacity-0'

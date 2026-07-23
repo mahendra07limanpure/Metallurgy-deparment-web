@@ -2,6 +2,7 @@ import React from 'react';
 import { Microscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { labs } from '../data/labs';
+import { withBase } from '../lib/paths';
 
 const Research: React.FC = () => {
 
@@ -70,7 +71,7 @@ const Research: React.FC = () => {
                 aria-label={`Open ${lab.name}`}
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img src={lab.image} alt={lab.name} className="w-full h-full object-cover" />
+                  <img src={withBase(lab.image)} alt={lab.name} className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors"></div>
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 text-xs font-semibold rounded-md bg-academic-blue/15 text-academic-blue-800">

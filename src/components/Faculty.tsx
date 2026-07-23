@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, ExternalLink, BookOpen } from 'lucide-react';
 import { FacultyCardSkeleton } from './Skeleton';
+import { withBase } from '../lib/paths';
 
 interface FacultyMember {
   id: number;
@@ -23,7 +24,7 @@ const Faculty: React.FC = () => {
   useEffect(() => {
     const load = async () => {
       try {
-        const res = await fetch('/data/faculty.json');
+        const res = await fetch(withBase('/data/faculty.json'));
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = (await res.json()) as FacultyMember[];
         setMembers(data);
@@ -81,7 +82,7 @@ const Faculty: React.FC = () => {
               >
                 <div className="relative w-full md:w-2/5 h-64 md:h-80 bg-gray-100 overflow-hidden">
                   <img
-                    src={member.image}
+                    src={withBase(member.image)}
                     alt={member.name}
                     className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-[1.02]"
                     loading="lazy"

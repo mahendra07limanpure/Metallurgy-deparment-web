@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Users, Clock, ExternalLink, TrendingUp } from 'lucide-react';
 import { recentNews, upcomingEvents, type NewsItem } from '../data/newsEvents';
+import { withBase } from '../lib/paths';
 
 const NewsEventsPage = () => {
   const getCategoryColor = (category: NewsItem['category']) => {
@@ -113,7 +114,7 @@ const NewsEventsPage = () => {
                 {news.image && (
                   <div className="h-48 overflow-hidden">
                     <img
-                      src={news.image}
+                      src={withBase(news.image)}
                       alt={news.title}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     />

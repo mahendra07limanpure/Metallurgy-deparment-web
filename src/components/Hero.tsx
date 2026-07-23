@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDown, Newspaper, ArrowRight } from 'lucide-react';
 import { recentNews, type NewsCategory } from '../data/newsEvents';
+import { withBase } from '../lib/paths';
 
 const categoryStyles: Record<NewsCategory, string> = {
   News: 'bg-blue-100 text-blue-700',
@@ -44,7 +45,7 @@ const Hero: React.FC = () => {
         {images.map((src, i) => (
           <img
             key={src}
-            src={src}
+            src={withBase(src)}
             alt="Department highlight"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
               i === index ? 'opacity-100' : 'opacity-0'

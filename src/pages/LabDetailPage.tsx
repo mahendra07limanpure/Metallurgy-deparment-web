@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { labs, Equipment } from '../data/labs';
+import { withBase } from '../lib/paths';
 
 const LabDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -23,7 +24,7 @@ const LabDetailPage: React.FC = () => {
 
         <div className="bg-white rounded-md shadow-md border border-gray-200 overflow-hidden">
           <div className="relative h-64">
-            <img src={lab.image} alt={lab.name} className="w-full h-full aspect-video object-cover" />
+            <img src={withBase(lab.image)} alt={lab.name} className="w-full h-full aspect-video object-cover" />
             <div className="absolute top-4 left-4 px-3 py-1 text-xs font-semibold rounded-md bg-academic-blue/15 text-academic-blue-800">
               {lab.category === 'service' ? 'Service Laboratory' : 'Thematic Research Laboratory'}
             </div>
@@ -113,7 +114,7 @@ const LabDetailPage: React.FC = () => {
                   <div ref={sliderRef} className="flex gap-4 overflow-x-auto scroll-smooth pb-2">
                     {lab.gallery.map((g) => (
                       <figure key={g.caption} className="min-w-[220px] max-w-[240px] bg-white border border-gray-200 rounded-md shadow-sm">
-                        <img src={g.src} alt={g.alt} className="w-full h-32 object-cover rounded-t-md" />
+                        <img src={withBase(g.src)} alt={g.alt} className="w-full h-32 object-cover rounded-t-md" />
                         <figcaption className="p-2 text-sm text-academic-gray font-medium">{g.caption}</figcaption>
                       </figure>
                     ))}

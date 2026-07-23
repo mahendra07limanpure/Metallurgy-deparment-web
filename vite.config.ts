@@ -24,5 +24,5 @@ export default defineConfig({
   server: {
     port: 3000, // Specify the port you want to use
   },
-  base: '/', // Set the base path for your app when deployed
+  base: '/test/', // Set the base path for your app when deployed
 });

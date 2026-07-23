@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import { withBase } from '../lib/paths';
 
 type NavItemBase = { name: string; path: string };
 type NavItemWithChildren = NavItemBase & { children: NavItemBase[] };
@@ -65,7 +66,7 @@ const Header: React.FC = () => {
               {/* Use site favicon/logo from public/ (iitr.ico) as the header mark */}
               <div className="w-16 h-16 lg:w-28 lg:h-28 bg-white rounded-2xl flex items-center justify-center overflow-hidden border border-gray-200 shadow-sm">
                 <img
-                  src="/iitr.ico"
+                  src={withBase('/iitr.ico')}
                   alt="MME Department logo"
                   className="w-12 h-12 lg:w-24 lg:h-24 object-contain"
                 />

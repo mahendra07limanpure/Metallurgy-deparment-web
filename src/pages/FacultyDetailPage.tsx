@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Mail, ExternalLink, BookOpen, Award, Briefcase, GraduationCap, FileText, Users, ChevronLeft } from 'lucide-react';
+import { withBase } from '../lib/paths';
 
 interface Education {
   degree: string;
@@ -83,12 +84,12 @@ const FacultyDetailPage: React.FC = () => {
     if (!slug) return;
     const loadFacultyDetail = async () => {
       try {
-        const res = await fetch(`/data/faculty/${slug}.json`);
+        const res = await fetch(withBase(`/data/faculty/${slug}.json`));
         if (!res.ok) throw new Error(`Faculty data not found`);
         const data = (await res.json()) as FacultyDetail;
         setFaculty(data);
 
-        const listRes = await fetch('/data/faculty.json');
+        const listRes = await fetch(withBase('/data/faculty.json'));
         if (listRes.ok) {
           const list = (await listRes.json()) as Array<{ slug: string; image?: string }>;
           const matched = list.find((m) => m.slug === slug);
@@ -124,7 +125,7 @@ const FacultyDetailPage: React.FC = () => {
               <div className="w-40 h-40 rounded-md overflow-hidden bg-gray-100">
                 {imageUrl ? (
                   <img
-                    src={imageUrl}
+                    src={withBase(imageUrl)}
                     alt={faculty.name}
                     className="w-full h-full object-cover object-center"
                     loading="lazy"
