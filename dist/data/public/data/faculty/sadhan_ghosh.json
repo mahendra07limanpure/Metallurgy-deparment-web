@@ -1,0 +1,152 @@
+{
+  "name": "Dr. Sadhan Ghosh",
+  "designation": "Associate Professor",
+  "email": "sadhan.ghosh@iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=FDM60QkAAAAJ&hl=en",
+
+  "research_interests": [
+    "Phase Transformations",
+    "Mechanical behavior of materials",
+    "Steel microstructure–property correlations",
+    "Thermo-Calc and DICTRA simulations"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Natural Science and Technology",
+      "institution": "Karlsruhe Institute of Technology & Saarland University, Germany",
+      "year": "2008"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "Indian Institute of Science (IISc), Bangalore",
+      "year": "2002"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "IIEST, Shibpur, West Bengal",
+      "year": "2000"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Postdoctoral Fellow",
+      "organization": "Graduate Institute of Ferrous Technology (GIFT), POSTECH, South Korea",
+      "period": "01 Jan 2008 - 01 Jan 2010"
+    },
+    {
+      "position": "Visiting Scientist",
+      "organization": "Indira Gandhi Centre for Atomic Research (IGCAR), Kalpakkam",
+      "period": "01 Jan 2010 - 01 Jan 2012"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "Indian Institute of Technology Roorkee",
+      "period": "11 Dec 2021 - Present"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Intermetallic in low density steel",
+      "funding_agency": "SERB-DST",
+      "amount": "27.2 Lakh",
+      "start_date": "01 Jan 2019",
+      "co_pi": "Dr. Sourav Das"
+    },
+    {
+      "title": "Stability of retained austenite in steel",
+      "funding_agency": "SERB-DST",
+      "amount": "44 Lakh",
+      "start_date": "01 Jan 2018",
+      "co_pi": "Dr. Sourav Das"
+    },
+    {
+      "title": "Nanostructured bainitic steel",
+      "funding_agency": "IMPRINT",
+      "amount": "48.72 Lakh",
+      "start_date": "01 Jan 2018",
+      "co_pi": "Dr. Sourav Das"
+    },
+    {
+      "title": "Intermetallics in steels",
+      "funding_agency": "MHRD-FIG",
+      "amount": "10 Lakh",
+      "start_date": "01 Jan 2013"
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Origins of strength, strain hardening, and fracture in B2 tailored Fe-0.8C-15Mn-10Al-5Ni steel",
+      "authors": "Sumit Bhan, Pankaj Rawat, Sourav Das, Sadhan Ghosh",
+      "journal": "Metallurgical and Materials Transactions A",
+      "year": 2023
+    },
+    {
+      "title": "Strengthening behaviour and failure analysis of Nb+V microalloyed steel",
+      "authors": "P. P. Singh, S. Ghosh, S. Mula",
+      "journal": "Materials Science and Engineering A",
+      "year": 2022
+    },
+    {
+      "title": "Genesis of plasticity induced serrated metal flow in medium-Mn steel",
+      "authors": "N. Bhowmik, S. Ghosh",
+      "journal": "Calphad",
+      "year": 2022
+    },
+    {
+      "title": "Equilibrium vs paraequilibrium precipitation of cementite",
+      "authors": "S. Ghosh",
+      "journal": "Transactions of the Indian Institute of Metals",
+      "year": 2018
+    }
+  ],
+
+  "honors_and_awards": [
+    "Best Poster Award, International Conference AMPCO, Roorkee (2017)",
+    "Visiting Scientist, IGCAR, Kalpakkam (2012)",
+    "Post Doctoral Fellow, POSCO, South Korea (2010)",
+    "Magna cum laude, PhD thesis (2008)",
+    "Doctoral Fellow, Center for Functional Nanostructures, Germany (2008)",
+    "Doctoral Fellow, Karlsruhe Institute of Technology (2006)",
+    "MHRD GATE Scholarship (AIR 23)",
+    "National Scholarship, MHRD (State Rank 153)"
+  ],
+
+  "teaching_engagements": [
+    {
+      "course_name": "Materials Science",
+      "course_code": "MT106",
+      "semester": "Autumn"
+    },
+    {
+      "course_name": "Structural Metallurgy",
+      "course_code": "MT104",
+      "semester": "Spring"
+    },
+    {
+      "course_name": "Phase Transformations and Heat Treatment",
+      "course_code": "MTN203",
+      "semester": "Autumn"
+    },
+    {
+      "course_name": "Modeling, Simulation and Computer Applications",
+      "course_code": "MT503",
+      "semester": "Spring"
+    },
+    {
+      "course_name": "Metallurgical Thermodynamics and Kinetics",
+      "course_code": "MT506",
+      "semester": "Autumn"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Dr. Aparna Tripathy",
+  "designation": "Assistant Professor",
+  "email": "aparna.tripathi@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.uk/citations?user=7i0ZnioAAAAJ&hl=en",
+  "linkedin": "",
+
+  "research_interests": [
+    "Diffusion in multicomponent alloys",
+    "High entropy alloys",
+    "Precipitation kinetics",
+    "Thermo-Calc",
+    "DICTRA"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science and Engineering",
+      "institution": "IIT Kanpur",
+      "year": "2020"
+    },
+    {
+      "degree": "B.Tech",
+      "field": "Metallurgical Engineering",
+      "institution": "IIT (BHU) Varanasi",
+      "year": "2012"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT (ISM) Dhanbad",
+      "period": "28 Jul 2020 - 15 Dec 2022"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "15 Dec 2022 - Present"
+    }
+  ],
+
+  "research_projects": [],
+
+  "honors_and_awards": [
+    "Gordon E. Pike Prize for JMR paper of the year – Materials Research Society (2020)"
+  ],
+
+  "memberships": [],
+
+  "teaching_engagements": [
+    "Transport Phenomena (FMC-502) – Autumn",
+    "Phase Transformations and Heat Treatment (FMC-205) – Spring"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Dr. Abhishek Tewari",
+  "designation": "Assistant Professor",
+  "email": "abhishek.tewari@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.com/citations?user=wEaLj2EAAAAJ&hl=en",
+  "linkedin": "linkedin.com/in/abhishek-tewari-ba06315b/?originalSubdomain=in",
+
+  "research_interests": [
+    "Computational Materials Science",
+    "Materials Informatics",
+    "Oxide Thermoelectrics",
+    "Halide Perovskites"
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Materials Science & Engineering",
+      "institution": "IIT Kanpur, India",
+      "year": "2007"
+    },
+    {
+      "degree": "M.Tech",
+      "field": "Materials Science & Engineering",
+      "institution": "IIT Kanpur, India",
+      "year": "2009"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Science & Engineering",
+      "institution": "EPFL, Switzerland",
+      "year": "2013"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "10 Dec 2019 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Shiv Nadar University",
+      "period": "01 Apr 2019 - 09 Dec 2019"
+    },
+    {
+      "position": "Technical Sales Head",
+      "organization": "COMSOL Multiphysics",
+      "period": "01 Mar 2017 - 01 Aug 2018"
+    },
+    {
+      "position": "Principal Engineer",
+      "organization": "GLOBALFOUNDRIES",
+      "period": "01 Mar 2015 - 01 Mar 2017"
+    },
+    {
+      "position": "Postdoctoral Researcher",
+      "organization": "EPFL, Switzerland",
+      "period": "01 Dec 2013 - 01 Dec 2014"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Functionally Graded Oxide Thermoelectric Materials",
+      "start_date": "15 Feb 2023",
+      "funding_agency": "SERB",
+      "amount": "42 Lakh"
+    },
+    {
+      "title": "DST – Materials Acceleration Platform (MAP)",
+      "start_date": "01 Mar 2022",
+      "funding_agency": "DST",
+      "amount": "75 Lakh"
+    },
+    {
+      "title": "Computational study of ionic transport in battery electrodes",
+      "start_date": "23 Mar 2021",
+      "funding_agency": "IIT Roorkee",
+      "amount": "19.5 Lakh"
+    },
+    {
+      "title": "Nanostructured Thermoelectric Oxides",
+      "start_date": "04 Jan 2020",
+      "funding_agency": "SERB, DST, India",
+      "amount": "22 Lakh"
+    },
+    {
+      "title": "Grant for AMPCO-2022",
+      "start_date": "01 May 2022",
+      "funding_agency": "SERB",
+      "amount": "3 Lakh"
+    }
+  ],
+
+  "honors_and_awards": [
+    "Felix Scholarship (Not Availed), University of Oxford (2009)",
+    "Short Term Research Trip Grant – Institut français India (IFI) / French Embassy in India (2023)"
+  ],
+
+  "memberships": [
+    "Indian Institute of Metals (from 01 Jun 2022)",
+    "American Ceramic Society (from 01 Sep 2022)"
+  ],
+
+   "teaching_engagements": [
+    { "course": "Materials Informatics (MTN-316)", "semester": "Autumn" },
+    { "course": "Engineering Ceramics (MTN-513)", "semester": "Autumn" },
+    { "course": "Electrical and Electronic Materials (MTN-105)", "semester": "Spring" },
+    { "course": "Electrical and Electronic Materials (MTN-105)", "semester": "Autumn" },
+    { "course": "Electrical and Electronic Materials (MTN-105)", "semester": "Spring" }
+  ]
+}

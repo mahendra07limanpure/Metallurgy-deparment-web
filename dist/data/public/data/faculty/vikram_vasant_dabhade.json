@@ -1,0 +1,127 @@
+{
+  "name": "Dr. Vikram Dabhade",
+  "designation": "Associate Professor",
+  "email": "g.chaudhari@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "",
+  "linkedin": "",
+
+  "research_interests": [
+    "Metal Matrix Composites",
+    "Nanocomposites",
+    "Machinability",
+    "Intermetallics",
+    "Sintering Kinetics",
+    "Mechanical Alloying",
+    "Powder Metallurgy"
+  ],
+
+  "education": [
+    {
+      "degree": "B.E.",
+      "field": "Metallurgy",
+      "institution": "University of Pune",
+      "year": "1995"
+    },
+    {
+      "degree": "M.E.",
+      "field": "Physical Metallurgy",
+      "institution": "University of Pune",
+      "year": "1998"
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "Metallurgical and Materials Science",
+      "institution": "IIT Bombay",
+      "year": "2005"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Lecturer",
+      "organization": "University of Pune",
+      "period": "01 Jan 1996 - 01 Jan 1999"
+    },
+    {
+      "position": "Research Associate",
+      "organization": "IIT Bombay",
+      "period": "01 Jan 2005 - 01 Jan 2006"
+    },
+    {
+      "position": "Post Doctoral Research Associate",
+      "organization": "KICET, South Korea",
+      "period": "01 Jan 2006 - 01 Jan 2007"
+    },
+    {
+      "position": "Visiting Lecturer",
+      "organization": "Lehigh University, USA",
+      "period": "01 Jan 2007 - 01 Jan 2008"
+    },
+    {
+      "position": "Research Manager",
+      "organization": "Sandvik Asia Ltd",
+      "period": "01 Jan 2008 - 01 Jan 2009"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2009 - 01 Jan 2010"
+    }
+  ],
+
+  "research_projects": [],
+
+  "publications": [
+    {
+      "title": "Effect of Phosphorus on Microstructure and Mechanical Properties of Iron-Based Alloys Processed Through Powder Forging",
+      "authors": "Chaurasia S.K., Prakash U., Dabhade V.",
+      "year": 2017,
+      "doi": "10.1007/s13632-017-0406-1"
+    },
+    {
+      "title": "High yttria ferritic ODS steels through powder forging",
+      "authors": "Kumar D., Prakash U., Dabhade V.V.",
+      "year": 2017,
+      "doi": "10.1016/j.jnucmat.2016.12.043"
+    },
+    {
+      "title": "Development of ODS Ferritic Steel Through Powder Forging",
+      "authors": "Kumar D., Prakash U., Dabhade V.V.",
+      "year": 2017,
+      "doi": "10.1007/s11665-017-2573-2"
+    },
+    {
+      "title": "Effect of Ti Particle Size on Reaction Kinetics of TiAl",
+      "authors": "Mishra D.D., Dabhade V.V.",
+      "year": 2017,
+      "doi": "10.1007/s12666-016-0871-2"
+    }
+   
+  ],
+
+  "honors_and_awards": [],
+
+  "memberships": [
+    {
+      "organization": "Powder Metallurgy Association of India (PMAI)",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Institute of Engineers (AMIE)",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Indian Institute of Non-Destructive Testing (ISNT)",
+      "period": "31 Aug 2020 - Present"
+    },
+    {
+      "organization": "Indian Institute of Metals (IIM)",
+      "period": "31 Aug 2020 - Present"
+    }
+  ],
+
+  "teaching_engagements": []
+}

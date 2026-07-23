@@ -1,0 +1,152 @@
+{
+  "name": "Dr. B. V. Manoj. Kumar",
+  "designation": "Professor",
+  "email": "manoj.kumar@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?hl=en&user=5UXTiBEAAAAJ&view_op=list_works&sortby=pubdate",
+  "linkedin": "https://www.linkedin.com/in/b-venkata-manoj-kumar-5a2289267/?originalSubdomain=in&original_referer=https%3A%2F%2Fwww.google.com%2F",
+  "research_interests": [
+    "Tribology of advanced materials",
+    "Processing of ceramics and composites",
+    "Structure-property correlations in advanced materials"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "IIT Kanpur",
+      "specialization": "Materials and Metallurgical Engineering",
+      "year": "2007"
+    },
+    {
+      "degree": "M.Tech.",
+      "institution": "NIT Warangal",
+      "specialization": "Industrial Metallurgy",
+      "year": "2001"
+    },
+    {
+      "degree": "B.Tech.",
+      "institution": "JNTU Hyderabad",
+      "specialization": "Metallurgical Engineering",
+      "year": "1998"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Professor",
+      "organization": "IIT Roorkee",
+      "period": "March 2021 - Present"
+    },
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "April 2016 - March 2021"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "March 2011 - April 2016"
+    },
+    {
+      "position": "Research Assistant Professor",
+      "organization": "University of Seoul, South Korea",
+      "period": "Jan 2009 - Feb 2011"
+    },
+    {
+      "position": "Post Doctoral Researcher",
+      "organization": "Seoul National University",
+      "period": "Jan 2008 - Jan 2009"
+    },
+    {
+      "position": "Project Associate",
+      "organization": "IIT Kanpur",
+      "period": "Aug 2007 - Dec 2007"
+    }
+  ],
+
+  "visiting_appointments": [
+    {
+      "position": "Guest Researcher",
+      "organization": "University of Ljubljana, Slovenia",
+      "period": "Oct 2005 - Feb 2006"
+    },
+    {
+      "position": "Guest Researcher",
+      "organization": "University of Seoul",
+      "period": "Dec 2011"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Mn-Cr-Cu based White Cast Iron development",
+      "funding_agency": "Vedanta Limited, Goa",
+      "date": "Jul 2020"
+    },
+    {
+      "title": "Strong and wear resistant SiC nano-composites",
+      "funding_agency": "DST (Indo-Korea)",
+      "date": "Jul 2017"
+    },
+    {
+      "title": "Erosion behaviour of ZrB2-SiC composites",
+      "funding_agency": "ISRO",
+      "date": "Jul 2015"
+    },
+    {
+      "title": "Novel TiCN cermets for cutting tools",
+      "funding_agency": "DST (Indo-Slovenia)",
+      "date": "Jul 2015"
+    },
+    {
+      "title": "Wear resistant SiC-WC composites",
+      "funding_agency": "CSIR",
+      "date": "Oct 2014"
+    },
+    {
+      "title": "Advanced structural ceramics",
+      "funding_agency": "IIT Roorkee (FIG-A)",
+      "date": "Nov 2011"
+    }
+  ],
+
+  "consultancy_projects": [
+    "Investigation of martensite phase transformation – Rimjhim Stainless Ltd.",
+    "Bronze coating on steel – HAL Lucknow",
+    "Microstructural defect analysis – Rimjhim Stainless Ltd.",
+    "Brake pad composition optimization – TVS Motors"
+  ],
+
+  "publications": {
+    "review_articles": [
+      "Tribological Behavior of Silicon Carbide Ceramics – Review (2016)",
+      "Surface Composites by Friction Stir Processing – Review (2015)",
+      "Processing of Polysiloxane-Derived Porous Ceramics – Review (2010)"
+    ],
+    "research_articles_count": 62
+  },
+
+  "book_chapters": [
+    {
+      "title": "Sliding wear of Boron Carbide Ceramics",
+      "year": 2020
+    },
+    {
+      "title": "Milling and heat treatment of SiC powders",
+      "year": 2019
+    },
+    {
+      "title": "Ti(CN)-WC-Ni/Co Cermets",
+      "year": 2017
+    },
+    {
+      "title": "Surface composites by friction stir processing",
+      "year": 2015
+    }
+  ],
+
+  "teaching_engagements": []
+}

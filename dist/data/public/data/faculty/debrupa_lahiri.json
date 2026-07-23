@@ -1,0 +1,220 @@
+{
+  "name": "Dr. Debrupa Lahiri",
+  "designation": "Professor",
+  "email": "debrupa.lahiri@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "google_scholar": "https://scholar.google.co.in/citations?user=3dz-GbMAAAAJ&hl=en",
+  "linkedin": "linkedin.com/in/debrupa-lahiri-208a2210/?originalSubdomain=in",
+  "research_interests": [
+    "Biomaterials and implant materials",
+    "Tissue engineering and degradable scaffolds",
+    "Multiscale mechanics and tribology",
+    "Nanomechanics of biological and 1D/2D nanomaterials",
+    "Composite material systems with nanofillers"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "institution": "Florida International University, Miami, USA",
+      "specialization": "Materials Science and Engineering",
+      "year": "2011"
+    },
+    {
+      "degree": "M.Tech.",
+      "institution": "IIT Kanpur",
+      "specialization": "Metallurgical and Materials Engineering",
+      "year": "2000"
+    },
+    {
+      "degree": "B.E.",
+      "institution": "Bengal Engineering College, Shibpur",
+      "specialization": "Metallurgy",
+      "year": "1998"
+    }
+  ],
+  "professional_background": [
+    {
+      "position": "Associate Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2018 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2012 - 01 Jan 2018"
+    },
+    {
+      "position": "Visiting Assistant Professor",
+      "organization": "Florida International University, USA",
+      "period": "01 Jan 2012 - 01 Jan 2012"
+    },
+    {
+      "position": "Scientific Officer - D",
+      "organization": "Nuclear Fuel Complex, DAE, Hyderabad",
+      "period": "01 Jan 2003 - 01 Jan 2007"
+    },
+    {
+      "position": "Metallurgist, R&D",
+      "organization": "Indian Aluminum Company (INDAL), Belur",
+      "period": "01 Jan 1999 - 01 Jan 2001"
+    }
+  ],
+  "research_projects": [
+    {
+      "title": "Polymer Based Orthopedic Implant",
+      "funding_agency": "FIG-IIT Roorkee",
+      "amount_lakhs": 10,
+      "date": "01 May 2013"
+    },
+    {
+      "title": "Developing Polymer Based Surface Modified Composite for Drug Eluting Orthopedic Implants",
+      "funding_agency": "DST",
+      "amount_lakhs": 24.67,
+      "date": "01 Jul 2014"
+    },
+    {
+      "title": "Magnesium Based Functionally Gradient Material System for Orthopedic Application",
+      "funding_agency": "DST - Health Science",
+      "amount_lakhs": 53.91,
+      "date": "01 Jan 2015",
+      "co_pi": ["Dr. Partha Roy", "Dr. R. Jayaganthan"]
+    },
+    {
+      "title": "Surface Modified Metallic Orthopedic Implant for Sustained Drug Release",
+      "funding_agency": "DST-TSDP",
+      "amount_lakhs": 92.49,
+      "date": "01 Jan 2016",
+      "co_pi": ["Prof. P. Roy", "Dr. A.K. Kashri"]
+    },
+    {
+      "title": "Developing Hybrid Multiscale Carbon Filler Reinforced Epoxy Composite for Structural Application",
+      "funding_agency": "BRNS, DAE",
+      "amount_lakhs": 35.42,
+      "date": "01 Jan 2016",
+      "co_pi": ["Dr. P.K. Ghosh"]
+    },
+    {
+      "title": "Developing Polymer Based Scaffold with Electrical and Topographical Cue for Neural Tissue Engineering",
+      "funding_agency": "ICMR",
+      "amount_lakhs": 52.69,
+      "date": "01 Jan 2017",
+      "co_pi": ["Dr. Partha Roy"]
+    },
+    {
+      "title": "Development of functional scaffolds for soft tissue engineering using 3D bioprinter",
+      "funding_agency": "IIT Roorkee",
+      "amount_lakhs": 100,
+      "date": "01 May 2018",
+      "co_pi": ["P. Gopinath", "I.D. Singh", "S. Satapathy", "N. Mishra"]
+    },
+    {
+      "title": "A multilayered regenerative scaffold engineered to heal deep wound",
+      "funding_agency": "LSRB, DRDO",
+      "amount_lakhs": 29.85,
+      "date": "31 Jan 2020",
+      "co_pi": ["Prof. Partha Roy"]
+    },
+    {
+      "title": "Bilayer functionalized scaffold for peripheral nerve regeneration",
+      "funding_agency": "DST-SERB",
+      "amount_lakhs": 48.62,
+      "date": "31 Mar 2020",
+      "co_pi": ["Prof. Partha Roy", "Prof. Summer Gupta"]
+    },
+    {
+      "title": "3D Bio-Stereolithography for Engineering Functional Tissues",
+      "funding_agency": "DST-SERB-IRPHA",
+      "amount_lakhs": 46.68,
+      "date": "01 Jul 2020",
+      "co_pi": ["Prof. Partha Roy", "Prof. K. Chatterjee"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Analysis of Neural Cell Behavior on Anisotropic Polymeric biodegradable Scaffolds Reinforced with Carbon Nanotubes",
+      "year": 2020,
+      "authors": ["S. Ghosh", "A. Shrivastavaa", "P. Jha", "P. Roy", "D. Lahiri"],
+      "journal": "Medical Devices and Sensors",
+      "doi": "10.1002/mds3.10152"
+    },
+    {
+      "title": "Electrophoretically deposited graphene oxide with modified substrate–suspension interface",
+      "year": 2020,
+      "authors": ["K.N. Sasidhar", "P.C. Maity", "L. Chakravarty", "S. Jaiswal", "D. Lahiri", "I. Lahiri"],
+      "journal": "Journal of Applied Electrochemistry",
+      "doi": "10.1007/s10800-020-01495-0"
+    },
+    {
+      "title": "Biocompatibility and biodegradability evaluation of magnesium‐based implants",
+      "year": 2020,
+      "authors": ["Abhishek MS", "S. Jaiswal", "A. Dubey", "D. Lahiri", "A.K. Das"],
+      "journal": "J. Biomedical Materials Research A",
+      "doi": "10.1002/jbm.a.37138"
+    }
+  ],
+  "books": [
+    {
+      "title": "Carbon Nanotubes Reinforced Metal Matrix Composites",
+      "authors": ["A. Agarwal", "S.R. Bakshi", "D. Lahiri"],
+      "publisher": "Taylor and Francis",
+      "isbn": "978-1-4398114-9-8"
+    }
+  ],
+  "book_chapters": [
+    {
+      "title": "Graphene Reinforced Ceramic and Metal Matrix Composites",
+      "authors": ["D. Lahiri", "A. Agarwal"],
+      "publisher": "Taylor and Francis"
+    },
+    {
+      "title": "Medical Applications of Hierarchical Composites",
+      "authors": ["Manoj Kumar R", "K. Agrawal", "D. Lahiri"],
+      "publisher": "Springer"
+    }
+  ],
+  "honors_and_awards": [
+    {
+      "title": "Best paper award, IIM-ATM",
+      "year": 2015
+    },
+    {
+      "title": "Zwick Science Award",
+      "year": 2014
+    },
+    {
+      "title": "World’s Ahead Graduate, FIU",
+      "year": 2020
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "Indian Institute of Metals",
+      "period": "01 Jan 2013 - Present"
+    },
+    {
+      "organization": "Materials Research Society of India",
+      "period": "01 Jan 2014 - Present"
+    },
+    {
+      "organization": "Society for Tissue Engineering & Regenerative Medicine",
+      "period": "01 Jan 2017 - Present"
+    },
+    {
+      "organization": "Society for Biomaterials and Artificial Organs India",
+      "period": "01 Jan 2017 - Present"
+    }
+  ],
+ "teaching_engagements": [
+  { "course": "Materials Science (MT 201B)", "semester": "Spring" },
+  { "course": "Nanomaterials and Applications (MT-411)", "semester": "Autumn" },
+  { "course": "Structural Analysis of Nanomaterials (NT-502)", "semester": "Spring" },
+  { "course": "Nanoscale Materials (NT-501)", "semester": "Autumn" },
+  { "course": "Materials Science (MT-106)", "semester": "Spring" },
+  { "course": "Communication Skills (MT 308)", "semester": "Spring" },
+  { "course": "Structure of Materials (MTN 501)", "semester": "Autumn" },
+  { "course": "Biomaterials (MTN 542)", "semester": "Spring" }
+]
+
+}

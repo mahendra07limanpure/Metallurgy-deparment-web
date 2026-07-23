@@ -1,0 +1,118 @@
+{
+  "name": "Dr. K. S. Suresh",
+  "designation": "Associate Professor",
+  "email": "ks.suresh@mt.iitr.ac.in",
+  "room_no": "",
+  "telephone_no": "",
+  "profile_url": "",
+  "linkedin": "https://www.linkedin.com/in/suresh-k-s-aab48120/?originalSubdomain=in&original_referer=https%3A%2F%2Fwww.google.com%2F",
+  "google_scholar": "https://scholar.google.co.in/citations?user=oNkgPIYAAAAJ&hl=en",
+
+  "research_interests": [
+    "Structure–property correlations",
+    "Electron microscopy",
+    "Crystallographic texture",
+    "Thermo-mechanical processing",
+    "Plasticity and annealing",
+    "Advanced manufacturing methods",
+    "Additive manufacturing",
+    "Smart materials",
+    "Shape memory alloys",
+    "Structural materials",
+    "Metallic multilayers",
+    "Titanium alloys",
+    "Ni-based superalloys",
+    "Aluminium alloys"
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Materials Engineering",
+      "institution": "Indian Institute of Science, Bangalore",
+      "year": "2012"
+    },
+    {
+      "degree": "M.Tech",
+      "field": "Materials and Metallurgical Engineering",
+      "institution": "IIT Kanpur",
+      "year": "2005"
+    },
+    {
+      "degree": "B.E.",
+      "field": "Metallurgical Engineering",
+      "institution": "Periyar University",
+      "year": "2002"
+    }
+  ],
+
+  "professional_background": [
+    {
+      "position": "Assistant Professor",
+      "organization": "IIT Roorkee",
+      "period": "01 Jan 2015 - Present"
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "University of Hyderabad",
+      "period": "01 Jan 2014 - 01 Jan 2015"
+    },
+    {
+      "position": "Post Doctoral Researcher",
+      "organization": "National Institute for Materials",
+      "period": "01 Jan 2012 - 01 Jan 2014"
+    },
+    {
+      "position": "Scientist",
+      "organization": "Advanced Materials and Processes Research Institute, Bhopal",
+      "period": "01 Jan 2006 - 01 Jan 2007"
+    }
+  ],
+
+  "research_projects": [
+    {
+      "title": "Deformation behavior of rare earth containing magnesium alloys and crystal plasticity simulations",
+      "funding_agency": "IIT Roorkee",
+      "amount_lakhs": 10,
+      "date": "01 Jan 2017"
+    },
+    {
+      "title": "Strain evolution during thermo-mechanical loading of a crack in a microstructure engineered NiTi SMA",
+      "funding_agency": "SERB, DST",
+      "amount_lakhs": 50,
+      "date": "01 Jan 2017"
+    },
+    {
+      "title": "Effect of alloying on the kinetics of globularization in a two phase titanium alloy",
+      "funding_agency": "DST",
+      "amount_lakhs": 22,
+      "date": "01 Jan 2017"
+    }
+  ],
+
+  "memberships": [
+    {
+      "organization": "Electron Microscopy Society of India",
+      "period": "31 Aug 2020 - Present"
+    }
+  ],
+
+  "teaching_engagements": [
+    {
+      "course": "Micro-Fabrication Technology (MT-562)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Materials Characterization (MTN-307)",
+      "semester": "Autumn"
+    },
+    {
+      "course": "Crystallographic Texture (MTN-554)",
+      "semester": "Spring"
+    },
+    {
+      "course": "Characterization of Materials (MTN-503)",
+      "semester": "Autumn"
+    }
+  ]
+}
